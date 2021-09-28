@@ -91,6 +91,9 @@
       margin: 20px 0 30px;
       @include serif-font;
     }
+    ul {
+      text-align: left;
+    }
     ul.list-inline {
       margin-top: 0;
       margin-bottom: 30px;
@@ -98,8 +101,26 @@
     img {
       margin-bottom: 30px;
     }
+    .logo img {
+      margin-bottom: 0px;
+    }
     button {
       cursor: pointer;
+    }
+    .visit-website a {
+      color: $white;
+    }
+    table.hub-summary {
+      background: $primary;
+      text-align: left;
+      margin: 0 25px 25px 25px;
+      width: 100%;
+      td,
+      th {
+        padding: 15px;
+        border: 4px $white solid;
+        vertical-align: top;
+      }
     }
   }
   .close-modal {

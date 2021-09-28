@@ -10,7 +10,16 @@ caption:
   thumbnail: assets/img/hubs/01-thumbnail.jpg
 ---
 
+{:.list-inline .hub-summary}
+| Location: | Rhino Camp, Uganda |
+| --------- | ------------------ |
+| Mission:  | Stabilizing refugee communities, through training and peace-building engagement to empower and inspire. |
+
+{:.logo}
 ![Platform Africa](../assets/img/hubs/01-logo.png)
+
+{:.btn .btn-primary .visit-website}
+[Visit Website](https://www.platformafrica.ngo/)
 
 Initiated by South Sudanese refugees to empower displaced people in Uganda, they provide (ToT) capacity building workshops for refugee communities to emphasise media skills and promote a peaceful coexistence between refugees and the host community of Arua through peacebuilding, radio and pyschological support programs.
 
@@ -23,8 +32,4 @@ Training / edit-a-thons on Wikipedia as a medium to create a representation of r
 - Create educational videos on purposeful and crucial topics of misinformation, stereotypes, and hate speech to act as tools for training for local initiatives and beyond.
 - Mobile information center on COVID19 and other community issues using the lab mobile (During the pandemic period).
 - Support + connect platform Africa tribes with/through training and mentorship. So far, we have people sign up to three tribes namely, entrepreneurship, peacebuilding (to be integrated with the community of practice), and open tech and innovation.
-
-{:.list-inline}
-- Mission: Stabilizing refugee communities, through training and peace-building engagement to empower and inspire.
-- Location: Rhino Camp, Uganda
 

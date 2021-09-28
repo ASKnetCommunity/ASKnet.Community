@@ -10,7 +10,17 @@ caption:
   thumbnail: assets/img/hubs/05-thumbnail.jpg
 ---
 
+{:.list-inline .hub-summary}
+| Location: | Adjumani, Uganda |
+| --------- | ------------------ |
+| Mission:  | The Youth Empowerment Foundation Organization is commissioned to invest in innovative ideas, convenes interested communities, shares its learning, and advocates for change in support of young people being healthy, creative, and fully engaged in self-economic empowerment. |
+| Vision: |  The Youth Empowerment Foundation Organization is envisioned to Strengthen communities that are well informed, peaceful, healthy (GBV), socially, innovative, active, youth in refugee and host communities to be empowered towards the development. |
+
+{:.logo}
 ![Youth Empowerment Foundation](../assets/img/hubs/05-logo.png)
+
+{:.btn .btn-primary .visit-website}
+[Visit Website](http://www.yefadjumani.org/)
 
 YEF works together with the community of Adjumani and displaced populations in the Pagirinya refugee settlement, to addresses local issues of unemployment and gender based violence by training youth in open technologies, entrepreneurship, peacebuilding and attitude change.
 
@@ -30,8 +40,3 @@ And creates opportunities for the host and refugee communities to earn leaving t
 The Youth Empowerment Foundation uses interventions that are holistic, people-centered, community oriented and sustainable, utilizing principally home-grown solutions to approach vulnerable communities’ needs and challenges.
 The organization also works to advance the sustainable development goals (SDGs – 2030) by adapting / harnessing the potential of technology and ICT as mediums to accelerate collaborative development, bridge digital divide and ending all forms of information poverty.
 The Youth Empowerment Foundation Organization seeks work with both local and international stakeholders to highlight, and integrate realistic solutions, information and to identify successful and innovative approaches of empowering communities and supporting the replication of such actions and programs. We strongly believe in capitalizing on synergies and partnerships to promote programs capabilities to impact societies and most importantly to have issues facing refugees and people surviving post-conflict situations put on the agendas of international, national agencies and other relevant stakeholders at all levels.
-
-{:.list-inline}
-- Mission: The Youth Empowerment Foundation Organization is commissioned to invest in innovative ideas, convenes interested communities, shares its learning, and advocates for change in support of young people being healthy, creative, and fully engaged in self-economic empowerment.
-- Vision: The Youth Empowerment Foundation Organization is envisioned to Strengthen communities that are well informed, peaceful, healthy (GBV), socially, innovative, active, youth in refugee and host communities to be empowered towards the development
-- Location: Adjumani, Uganda

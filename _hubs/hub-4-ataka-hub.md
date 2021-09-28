@@ -10,6 +10,13 @@ caption:
   thumbnail: assets/img/hubs/04-thumbnail.jpg
 ---
 
+{:.list-inline .hub-summary}
+| Location: | Bor, South Sudan |
+| --------- | ------------------ |
+| Mission:  | To build and empower our communities on technology, activism, and sustainable programs that can bring development and change. |
+| Overview of Activities & Trainings: |  Peacebuilding, #defyhatenow, Gender Based Violence Awareness, Entrepreneurship, Open Tech Skills using #ASKotec, Entrepreneurial Skills for women and youth, Poverty Mitigation, #eatBCH food donations to orphans, widows and the elder |
+
+{:.logo}
 ![Ataka Hub](../assets/img/hubs/04-logo.png)
 
 ATAKA-HUB fosters peacebuilding using social media skills training, comedy theatre and gender equality awareness, and youth self-employment through open tech and repairing skills. ATAKA uses cryptocurrency #eatBCH to provide food to orphans in Bor.
@@ -52,16 +59,4 @@ GIG? AFRILABS? AFRICAOSH?
 
 ### PROGRAMS & COMMUNITY IMPACT
 
-Bior: “There are people in the community who are capable of doing something but they just need the support of someone who has passes through that struggle. Because now we understand what life is about, you understand how you can tackle life. It is not that because you have lost your parents, like I did, that this is the end of me, the end of life, or because who has maltreated you. That is not the end, you can choose another way. We are going to focus so much on bringing the youth together and giving them training on skills, so that someone is able to raise himself, instead of causing problems in the community. If you look at the community, most of people doing crime are youth, because they don’t have jobs. They think no one will employ them, but they can actually create their own jobs and employ other youth around them. That is our mission, to make sure the people the community think are wrong, are meant to be the right people.”Michael Garang:
-
-{:.list-inline}
-- Mission: To build and empower our communities on technology, activism, and sustainable programs that can bring development and change.
-- OVERVIEW OF ACTIVITIES & TRAININGS: Peacebuilding
-#defyhatenow
-Gender Based Violence Awareness
-Entrepreneurship
-Open Tech Skills using #ASKotec
-Entrepreneurial Skills for women and youth
-Poverty Mitigation
-#eatBCH food donations to orphans, widows and the elder
-- Location: Bor, South Sudan
+Bior: “There are people in the community who are capable of doing something but they just need the support of someone who has passes through that struggle. Because now we understand what life is about, you understand how you can tackle life. It is not that because you have lost your parents, like I did, that this is the end of me, the end of life, or because who has maltreated you. That is not the end, you can choose another way. We are going to focus so much on bringing the youth together and giving them training on skills, so that someone is able to raise himself, instead of causing problems in the community. If you look at the community, most of people doing crime are youth, because they don’t have jobs. They think no one will employ them, but they can actually create their own jobs and employ other youth around them. That is our mission, to make sure the people the community think are wrong, are meant to be the right people.” Michael Garang.

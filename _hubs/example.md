@@ -1,5 +1,5 @@
 ---
-caption: #what displays in the hub grid:
+caption: #what displays in the hubs grid:
   title: Example
   subtitle: subtitle
   thumbnail: https://place-hold.it/400x300
@@ -7,7 +7,7 @@ caption: #what displays in the hub grid:
 #what displays when the item is clicked:
 title: Title
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/hub
+image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/hubs
 alt: image alt text
 
 ---

@@ -6,5 +6,5 @@
 #Image Customization
 header-image: "../img/header-bg.jpg"
 contact-image: "../img/contact.png"
-#Font Awesome icon for hub grid when an item is hovered over
-#hub-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
+#Font Awesome icon for hubs grid when an item is hovered over
+#hubs-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x

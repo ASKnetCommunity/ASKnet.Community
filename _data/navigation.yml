@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     - title: "Overview"
       section: services
     - title: "Hubs"
-      section: hub
+      section: hubs
     - title: "LEAD"
       section: team
     - title: "#ASKotec"

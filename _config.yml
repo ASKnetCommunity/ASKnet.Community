@@ -30,7 +30,7 @@ analytics:
   google: #Google Analytics tracking code here
 
 collections:
-  hub:
+  hubs:
 
 markdown: kramdown
 

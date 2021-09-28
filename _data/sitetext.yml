@@ -31,10 +31,10 @@ en: &DEFAULT_EN
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-osi
 
-  hub:
+  hubs:
     title: "Youth Led Hubs"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: hub
+    section: hubs
     closebutton: "Close Project"
 
   timeline:
@@ -190,7 +190,7 @@ es: &DEFAULT_ES
         desc: "Su descripción aquí, soporte completo de **Markdown**"
         icon: fab fa-markdown
 
-  hub:
+  hubs:
     title: "Portafolio"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portafolio

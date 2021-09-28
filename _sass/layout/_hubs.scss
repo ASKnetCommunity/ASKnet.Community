@@ -1,15 +1,15 @@
-// Styling for the hub section
-#hub {
-  .hub-item {
+// Styling for the hubs section
+#hubs {
+  .hubs-item {
     right: 0;
     margin: 0 0 15px;
-    .hub-link {
+    .hubs-link {
       position: relative;
       display: block;
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
-      .hub-hover {
+      .hubs-hover {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -21,7 +21,7 @@
         &:hover {
           opacity: 1;
         }
-        .hub-hover-content {
+        .hubs-hover-content {
           font-size: 20px;
           position: absolute;
           top: 50%;
@@ -40,7 +40,7 @@
         }
       }
     }
-    .hub-caption {
+    .hubs-caption {
       max-width: 400px;
       margin: 0 auto;
       padding: 25px;
@@ -63,14 +63,14 @@
   }
 }
 @media (min-width: 767px) {
-  #hub {
-    .hub-item {
+  #hubs {
+    .hubs-item {
       margin: 0 0 30px;
     }
   }
 }
 
-.hub-modal {
+.hubs-modal {
   .modal-dialog {
     margin: 1rem;
     max-width: 100vw;

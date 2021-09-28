@@ -25,6 +25,8 @@ en: &DEFAULT_EN
       section: timeline
     - title: "Contact"
       section: contact
+    - title: "Github"
+      url: https://github.com/ASKnet-Community/ASKnet.Community
 en-US:
   <<: *DEFAULT_EN
 en-CA:

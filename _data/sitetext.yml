@@ -33,9 +33,9 @@ en: &DEFAULT_EN
 
   hubs:
     title: "Youth Led Hubs"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "#ASKnet is a capacity building and hub development program linking five community based youth-led innovation hubs in South Sudan and Uganda."
     section: hubs
-    closebutton: "Close Project"
+    closebutton: "back to Hub Overview"
 
   timeline:
     title: "Timeline"

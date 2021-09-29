@@ -21,7 +21,7 @@ caption:
 
 ATAKA-HUB fosters peacebuilding using social media skills training, comedy theatre and gender equality awareness, and youth self-employment through open tech and repairing skills. ATAKA uses cryptocurrency #eatBCH to provide food to orphans in Bor.
 
-![Ataka Hub](/assets/img/hubs/04-content-1.jpg)
+![ATAKA Hub](/assets/img/hubs/04-content-1.jpg)
 
 ### Upcoming planning
 

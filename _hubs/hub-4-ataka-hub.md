@@ -33,7 +33,7 @@ physical space, moving from rental to own space (build?)
 presence of ATAKAHUB in other Jonglei state counties for applying programmes such as eatBCH_SS (better networking, knowledge sharing)
 Foundation
 
-![Ataka Hub](/assets/img/hubs/04-content-2.jpg)
+![ATAKA Hub](/assets/img/hubs/04-content-2.jpg)
 
 For the founder of ATAKA-Hub (Access Tech Advocacy Knowledge for All), Bior Ajang, it all started with a phone call. His good friend and co-founder of Platform Africa, Jaiksana Soro, invited him to take part in the #peacehackcamp in Juba back in 2015. “After the #peacehackcamp, I went back to Bor and once I was there, I thought: So now I have the skills, am I going just to stay like that? What if people could need my help? That is how I came up with the idea of creating a community based organization that could actually help others just like I was helped. That is how I came with the idea of ATAKA-Hub.”
 Bior is very clear about his mission in life: “I am going to make sure I will help the community, just like I was helped by my aunty. And that is why ATAKA Hub is going to focus mostly on the youth who dropped out of school and those who are interested to do something for the community. There are people down there who can do something but they don’t know it. Someone has to tell them. Look at me, if my aunt wouldn’t have taken me out of all this stuff, I wouldn’t know that I can make it this far and do something for the community.”

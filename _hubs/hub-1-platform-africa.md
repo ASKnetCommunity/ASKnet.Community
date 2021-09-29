@@ -25,7 +25,7 @@ Initiated by South Sudanese refugees to empower displaced people in Uganda, they
 
 ![Content1](/assets/img/hubs/01-content.jpg)
 
-- Community of practice (collaborative network with identified local peacebuilding organizations) capitalizing on documentation, knowledge sharing skills i.e. wikifab, Githubs, etc (pick up on Adjumani, need for more practice)
+- Community of practice (collaborative network with identified local peacebuilding organizations) capitalizing on documentation, knowledge sharing skills i.e. wikifab, Github, etc (pick up on Adjumani, need for more practice)
 - COVID-19 and peacebuilding … how to overcome this challenge strengthen storytelling skills, blogging, photography, podcasting (possibly in collaboration with Ochan’s organization, project on “mobile journalism”) collaborate with other local organizations, pass on new knowledge to them through ChangemakersSkillls)
 Training / edit-a-thons on Wikipedia as a medium to create a representation of refugee voices online.
 - Broaden an open knowledge base in Rhino Camp through Platform Africa’s #KendaTogether library project and exploring the creation of content for mobile offline servers to increase access to digital resources.

@@ -1,5 +1,5 @@
 ---
-title: Ataka Hub
+title: ATAKA Hub
 subtitle: ATAKA-HUB was born in 2017 in Bor, South Sudan. A community based innovation centre ATAKA-HUB focus primarily on youth who dropped out of school and interested to do something for the community.
 image: assets/img/hubs/04-full.jpg
 alt: Ataka Hub

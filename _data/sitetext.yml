@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: "Welcome to #ASKnet"
-    text: Access to skill<br />& Knowledge
+    text: Access to skills<br />& Knowledge
     button: Learn more
     buttonlink: "#services"
 

@@ -55,7 +55,7 @@ SCHOOLS: Local primary and secondary schools that ATAKA Hub are already working 
 INTERNATIONAL
 GIG? AFRILABS? AFRICAOSH?
 
-![Ataka Hub](/assets/img/hubs/04-content-4.jpg)
+![ATAKA Hub](/assets/img/hubs/04-content-4.jpg)
 
 ### PROGRAMS & COMMUNITY IMPACT
 

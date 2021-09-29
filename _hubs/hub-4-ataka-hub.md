@@ -17,7 +17,7 @@ caption:
 | Overview of Activities & Trainings: |  Peacebuilding, #defyhatenow, Gender Based Violence Awareness, Entrepreneurship, Open Tech Skills using #ASKotec, Entrepreneurial Skills for women and youth, Poverty Mitigation, #eatBCH food donations to orphans, widows and the elder |
 
 {:.logo}
-![Ataka Hub](../assets/img/hubs/04-logo.png)
+![ATAKA Hub](../assets/img/hubs/04-logo.png)
 
 ATAKA-HUB fosters peacebuilding using social media skills training, comedy theatre and gender equality awareness, and youth self-employment through open tech and repairing skills. ATAKA uses cryptocurrency #eatBCH to provide food to orphans in Bor.
 

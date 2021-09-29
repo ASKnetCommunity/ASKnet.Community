@@ -1,7 +1,7 @@
-<!-- hub Modals -->
-{% for project in site.hub %}
+<!-- hubs Modals -->
+{% for project in site.hubs %}
 <div
-  class="hub-modal modal fade"
+  class="hubs-modal modal fade"
   id="p{{ forloop.index }}"
   tabindex="-1"
   role="dialog"
@@ -32,9 +32,9 @@
                 data-dismiss="modal"
                 type="button"
               >
-                <i class="fas fa-times"></i>
-                {{ site.data.sitetext[site.locale].hub.closebutton |
-                default: "Close Project" }}
+                <i class="fas fa-th-large"></i>
+                {{ site.data.sitetext[site.locale].hubs.closebutton |
+                default: "Back to Hub Overview" }}
               </button>
             </div>
           </div>
@@ -44,4 +44,4 @@
   </div>
 </div>
 {% endfor %}
-<!-- End hub Modals -->
+<!-- End hubs Modals -->

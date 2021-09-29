@@ -31,11 +31,11 @@ en: &DEFAULT_EN
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-osi
 
-  hub:
+  hubs:
     title: "Youth Led Hubs"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: hub
-    closebutton: "Close Project"
+    text: "#ASKnet is a capacity building and hub development program linking five community based youth-led innovation hubs in South Sudan and Uganda."
+    section: hubs
+    closebutton: "back to Hub Overview"
 
   timeline:
     title: "Timeline"
@@ -190,7 +190,7 @@ es: &DEFAULT_ES
         desc: "Su descripción aquí, soporte completo de **Markdown**"
         icon: fab fa-markdown
 
-  hub:
+  hubs:
     title: "Portafolio"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portafolio

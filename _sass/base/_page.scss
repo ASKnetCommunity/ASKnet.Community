@@ -129,6 +129,20 @@ img::-moz-selection {
   padding: 55px 80px;
   margin: 10px 20px;
 }
+.sc .sc-overlay a.how-to {
+  display: inline-block;
+  text-decoration: none;
+  color: #212121;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+  transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+  font-weight: normal;
+}
 .sc:hover .sc-overlay {
   background-color: rgba(254,211,54,0.7);
 }
@@ -139,7 +153,8 @@ img::-moz-selection {
   transform: translateY(5px);
   background: rgba(0,0,0,0.9);
 }
-.sc:hover .sc-overlay a.info {
+.sc:hover .sc-overlay a.info,
+.sc:hover .sc-overlay a.how-to {
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transform: scale(1);
@@ -148,4 +163,7 @@ img::-moz-selection {
 }
 .sc:hover .sc-overlay a.info:hover {
   box-shadow: 0 0 5px #212121;
+}
+.sc:hover .sc-overlay a.how-to:hover {
+  text-decoration: underline;
 }

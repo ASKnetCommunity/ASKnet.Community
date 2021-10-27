@@ -159,6 +159,8 @@ en: &DEFAULT_EN
         icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"
+  submit-content:
+    url: https://github.com/ASKnetCommunity/ASKnet.Community/wiki
 en-US:
   <<: *DEFAULT_EN
 en-CA:

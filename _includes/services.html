@@ -13,13 +13,19 @@
 	  
       <div class="row text-center">
 	  {% for service in site.data.sitetext[site.locale].services.list %}
-        <div class="col-md-4">
+        <div class="col-md-4{% if service.submit %} sc{% endif %}">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+          {% if service.desc %}<div class="text-muted desc">{{ service.desc | markdownify }}</div>{% endif %}
+          {% if service.submit %}
+          <div class="sc-overlay">
+            <h2>We need content here!</h2>
+            <a class="info" href="{{ service.submit }}">Submit Content</a>
+          </div>
+          {% endif %}
         </div>
 	  {% endfor %}
       </div>

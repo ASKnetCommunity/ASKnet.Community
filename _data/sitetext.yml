@@ -24,9 +24,11 @@ en: &DEFAULT_EN
       - title: "Community"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-users #find more at https://fontawesome.com/icons
+        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/new
       - title: "Media Literacy"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-laptop
+        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/new
       - title: "Open Access"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-osi

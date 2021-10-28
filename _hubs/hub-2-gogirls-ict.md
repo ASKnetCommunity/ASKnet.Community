@@ -16,14 +16,14 @@ caption:
 | Mission:  | To engage, to educate and to empower. |
 
 {:.logo}
-![GoGirls ICT](../assets/img/hubs/02-logo.png)
+![GoGirls ICT](assets/img/hubs/02-logo.png)
 
 {:.btn .btn-primary .visit-website}
 [Visit Website](https://gogirlsict.org/)
 
 GoGirls ICT founded in 2015 that engages, educates, and empowers girls and women in the fields of Science, Technology, Engineering, Art, and Mathematics (STEAM).
 
-![GoGirls ICT](/assets/img/hubs/02-content.jpg)
+![GoGirls ICT](assets/img/hubs/02-content.jpg)
 
 ### FOUNDATION
 

@@ -44,20 +44,26 @@ en: &DEFAULT_EN
   
   askotec:
     title: "#ASKotec<br />Open Tech Emergency Case"
-    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    text: "#ASKotec; the Access to Skills and Knowledge Open Tech Emergency Case is a resource kit for community trainers, created for mobile field-use where there is neither easy power nor internet connectivity such as refugee camps, low-infrastructure regions or rural areas. Intended as Open Tech for Good, #ASKotec was created through a series of hub development workshops by a community of young innovators intent on bringing skills training and peace-building together in the effort to end the South Sudan conflict."
     section: askotec
+    image: assets/img/projects/askotec-website.png
+    website: https://askotec.openculture.agency
+    github: https://github.com/opencultureagency/ASKotec
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/27
   
   asktools:
-    title: "#ASKtools<br />Open Tech Emergency Case"
+    title: "#ASKtools<br />a lot of (online-)tools"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
     section: asktools
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/28
 
   asktraining:
-    title: "#ASKtraining<br />Open Tech Emergency Case"
+    title: "#ASKtraining<br />Create your own workshop plan"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
     section: asktraining
+    image: assets/img/projects/asktraining-website.png
+    website: https://asktraining.github.io/Training/
+    github: https://github.com/ASKtraining/Training
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
 
   lead:
@@ -67,7 +73,7 @@ en: &DEFAULT_EN
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
   
   projects-trainings:
-    title: "Projects and Trainings<br />Open Tech Emergency Case"
+    title: "Projects and Trainings"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
     section: asktraining
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23

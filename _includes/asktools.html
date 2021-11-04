@@ -1,11 +1,11 @@
 <!-- #ASKtools -->
-<section class="page-section" id="{{ site.data.sitetext[site.locale].asktools.section | default: "asktools" }}">
+<section class="page-section bg-primary" id="{{ site.data.sitetext[site.locale].asktools.section | default: "asktools" }}">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center{% if site.data.sitetext[site.locale].asktools.submit %} sc{% endif %}">
+      <div class="col-lg-6 col-sm-12 text-center text-light{% if site.data.sitetext[site.locale].asktools.submit %} sc{% endif %}">
         <h2 class="section-heading">{{ site.data.sitetext[site.locale].asktools.title | default: "#asktools" }}</h2>
         {% if site.data.sitetext[site.locale].asktools.text %}
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].asktools.text }}</h3>
+        <p class="text-light">{{ site.data.sitetext[site.locale].asktools.text }}</p>
         {% endif %}
         {% if site.data.sitetext[site.locale].asktools.submit %}
         <div class="sc-overlay">
@@ -14,6 +14,9 @@
           <a class="how-to" href="{{ site.data.sitetext[site.locale].submit-content.url }}">How it works?</a>
         </div>
         {% endif %}
+      </div>
+      <div class="col-lg-6 col-sm-12 text-center text-light" >
+        <img class="w-100 rounded" src="{{site.data.sitetext[site.locale].asktools.image }}" />
       </div>
     </div>
   </div>

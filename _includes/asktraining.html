@@ -4,9 +4,19 @@
     <div class="row">
       <div class="col-lg-12 text-center{% if site.data.sitetext[site.locale].asktraining.submit %} sc{% endif %}">
         <h2 class="section-heading">{{ site.data.sitetext[site.locale].asktraining.title | default: "#asktraining" }}</h2>
+      </div>
+    </div>
+    <div class="row mt-5 mb-5">
+      <div class="col-4 pt-4 -pb-4 pr-4{% if site.data.sitetext[site.locale].asktraining.submit %} sc{% endif %}">
         {% if site.data.sitetext[site.locale].asktraining.text %}
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].asktraining.text }}</h3>
+        <p class="section-subheading text-muted">{{ site.data.sitetext[site.locale].asktraining.text }}</p>
         {% endif %}
+        {% if site.data.sitetext[site.locale].asktraining.website %}
+          <a class="btn btn-secondary m-4" href="{{ site.data.sitetext[site.locale].asktraining.website }}" target="_blank">Website</a>
+          {% endif %}
+          {% if site.data.sitetext[site.locale].asktraining.github %}
+          <a class="btn btn-secondary m-4" href="{{ site.data.sitetext[site.locale].asktraining.github }}" target="_blank"><i class="fab fa-github"></i> Github</a>
+          {% endif %}
         {% if site.data.sitetext[site.locale].asktraining.submit %}
         <div class="sc-overlay">
           <h2>We need content here!</h2>
@@ -14,6 +24,9 @@
           <a class="how-to" href="{{ site.data.sitetext[site.locale].submit-content.url }}">How it works?</a>
         </div>
         {% endif %}
+      </div>
+      <div class="col-8">
+        <a href="{{ site.data.sitetext[site.locale].asktraining.website }}"><img class="w-100 rounded" src="{{site.data.sitetext[site.locale].asktraining.image }}" /></a>
       </div>
     </div>
   </div>

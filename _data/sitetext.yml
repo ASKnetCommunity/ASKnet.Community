@@ -39,6 +39,7 @@ en: &DEFAULT_EN
     title: "Youth Led Hubs"
     text: "#ASKnet is a capacity building and hub development program linking five community based youth-led innovation hubs in South Sudan and Uganda."
     section: hubs
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
     closebutton: "back to Hub Overview"
   
   askotec:

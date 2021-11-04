@@ -38,6 +38,49 @@ en: &DEFAULT_EN
     text: "#ASKnet is a capacity building and hub development program linking five community based youth-led innovation hubs in South Sudan and Uganda."
     section: hubs
     closebutton: "back to Hub Overview"
+  
+  askotec:
+    title: "#ASKotec<br />Open Tech Emergency Case"
+    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    section: askotec
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
+  
+  asktools:
+    title: "#ASKtools<br />Open Tech Emergency Case"
+    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    section: asktools
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
+
+  asktraining:
+    title: "#ASKtraining<br />Open Tech Emergency Case"
+    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    section: asktraining
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
+
+  lead:
+    title: "LEAD<br />Open Tech Emergency Case"
+    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    section: lead
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
+  
+  projects-trainings:
+    title: "Projects and Trainings<br />Open Tech Emergency Case"
+    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    section: asktraining
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
+    list:
+      - title: "2009"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-users #find more at https://fontawesome.com/icons
+        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
+      - title: "2010"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-users #find more at https://fontawesome.com/icons
+        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
+      - title: "2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-users #find more at https://fontawesome.com/icons
+        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
 
   timeline:
     title: "Timeline"
@@ -75,6 +118,7 @@ en: &DEFAULT_EN
     text: "our story"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/new
 
   clients:
     section: clients

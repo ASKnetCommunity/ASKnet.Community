@@ -1,0 +1,21 @@
+<!-- #ASKotec -->
+  <section class="page-section" id="{{ site.data.sitetext[site.locale].askotec.section | default: "askotec" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center{% if site.data.sitetext[site.locale].askotec.submit %} sc{% endif %}">
+          <h2 class="section-heading">{{ site.data.sitetext[site.locale].askotec.title | default: "#ASKotec" }}</h2>
+          {% if site.data.sitetext[site.locale].askotec.text %}
+		      <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].askotec.text }}</h3>
+		      {% endif %}
+          {% if site.data.sitetext[site.locale].askotec.submit %}
+          <div class="sc-overlay">
+            <h2>We need content here!</h2>
+            <a class="btn btn-primary btn-lg mx-auto p-3" href="{{ site.data.sitetext[site.locale].askotec.submit }}">Submit Content</a>
+            <a class="how-to" href="{{ site.data.sitetext[site.locale].submit-content.url }}">How it works?</a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End #ASKotec -->

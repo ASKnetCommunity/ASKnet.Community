@@ -31,6 +31,13 @@ analytics:
 
 collections:
   hubs:
+    output: true
+    output_ext: .html
+    permalink: /hubs/:path/
+  projects:
+    output: true
+    output_ext: .html
+    permalink: /projects/:path/
 
 markdown: kramdown
 

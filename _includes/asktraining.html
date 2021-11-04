@@ -1,0 +1,21 @@
+<!-- #ASKtraining -->
+<section class="page-section" id="{{ site.data.sitetext[site.locale].asktraining.section | default: "asktraining" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center{% if site.data.sitetext[site.locale].asktraining.submit %} sc{% endif %}">
+        <h2 class="section-heading">{{ site.data.sitetext[site.locale].asktraining.title | default: "#asktraining" }}</h2>
+        {% if site.data.sitetext[site.locale].asktraining.text %}
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].asktraining.text }}</h3>
+        {% endif %}
+        {% if site.data.sitetext[site.locale].asktraining.submit %}
+        <div class="sc-overlay">
+          <h2>We need content here!</h2>
+          <a class="btn btn-primary btn-lg mx-auto p-3" href="{{ site.data.sitetext[site.locale].asktraining.submit }}">Submit Content</a>
+          <a class="how-to" href="{{ site.data.sitetext[site.locale].submit-content.url }}">How it works?</a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End #ASKtraining -->

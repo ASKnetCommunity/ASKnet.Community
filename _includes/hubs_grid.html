@@ -2,9 +2,16 @@
 <section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].hubs.section | default: "hubs" }}">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
+      <div class="col-lg-12 text-center{% if site.data.sitetext[site.locale].hubs.submit %} sc{% endif %}">
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].hubs.title | markdownify | default: "hubs" }}</h2>
         <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].hubs.text | markdownify }}</h3>
+        {% if site.data.sitetext[site.locale].hubs.submit %}
+          <div class="sc-overlay">
+            <h2>We need content here!</h2>
+            <a class="btn btn-primary btn-lg mx-auto p-3" target="_blank" href="{{ site.data.sitetext[site.locale].hubs.submit }}">Submit Content</a>
+            <a class="how-to" href="{{ site.data.sitetext[site.locale].submit-content.url }}">How it works?</a>
+          </div>
+          {% endif %}
       </div>
     </div>
     <div class="row">

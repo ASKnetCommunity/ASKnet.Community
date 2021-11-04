@@ -1,12 +1,21 @@
 <!-- #ASKotec -->
-  <section class="page-section" id="{{ site.data.sitetext[site.locale].askotec.section | default: "askotec" }}">
+  <section class="page-section bg-primary" id="{{ site.data.sitetext[site.locale].askotec.section | default: 'askotec' }}">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center{% if site.data.sitetext[site.locale].askotec.submit %} sc{% endif %}">
-          <h2 class="section-heading">{{ site.data.sitetext[site.locale].askotec.title | default: "#ASKotec" }}</h2>
+        <div class="col-6">
+          <a href="{{ site.data.sitetext[site.locale].askotec.website }}"><img class="w-100 rounded" src="{{site.data.sitetext[site.locale].askotec.image }}" /></a>
+        </div>
+        <div class="col-6 text-center{% if site.data.sitetext[site.locale].askotec.submit %} sc{% endif %}">
+          <h2 class="section-heading text-light">{{ site.data.sitetext[site.locale].askotec.title | default: "#ASKotec" }}</h2>
           {% if site.data.sitetext[site.locale].askotec.text %}
-		      <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].askotec.text }}</h3>
+		      <p class="text-light">{{ site.data.sitetext[site.locale].askotec.text }}</p>
 		      {% endif %}
+          {% if site.data.sitetext[site.locale].askotec.website %}
+          <a class="btn btn-secondary m-4" href="{{ site.data.sitetext[site.locale].askotec.website }}" target="_blank">Website</a>
+          {% endif %}
+          {% if site.data.sitetext[site.locale].askotec.github %}
+          <a class="btn btn-secondary m-4" href="{{ site.data.sitetext[site.locale].askotec.github }}" target="_blank"><i class="fab fa-github"></i> Github</a>
+          {% endif %}
           {% if site.data.sitetext[site.locale].askotec.submit %}
           <div class="sc-overlay">
             <h2>We need content here!</h2>

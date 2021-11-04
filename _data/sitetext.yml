@@ -19,6 +19,7 @@ en: &DEFAULT_EN
   services:
     title: "#ASKnet<br />Access to Skills & Knowledge Network"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/30
     section: services
     list:
       - title: "Community"
@@ -32,13 +33,14 @@ en: &DEFAULT_EN
       - title: "Open Access"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-osi
-        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
+        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/29
 
   hubs:
     title: "Youth Led Hubs"
     text: "#ASKnet is a capacity building and hub development program linking five community based youth-led innovation hubs in South Sudan and Uganda."
     section: hubs
     closebutton: "back to Hub Overview"
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/31
   
   askotec:
     title: "#ASKotec<br />Open Tech Emergency Case"
@@ -56,13 +58,13 @@ en: &DEFAULT_EN
     title: "#ASKtraining<br />Open Tech Emergency Case"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
     section: asktraining
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/33
 
   lead:
     title: "LEAD<br />Open Tech Emergency Case"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
     section: lead
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/32
   
   projects-trainings:
     title: "Projects and Trainings<br />Open Tech Emergency Case"

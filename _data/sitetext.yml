@@ -32,6 +32,7 @@ en: &DEFAULT_EN
       - title: "Open Access"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-osi
+        submit: https://bmen.cc
 
   hubs:
     title: "Youth Led Hubs"

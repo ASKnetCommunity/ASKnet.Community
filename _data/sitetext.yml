@@ -32,6 +32,7 @@ en: &DEFAULT_EN
       - title: "Open Access"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-osi
+        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
 
   hubs:
     title: "Youth Led Hubs"

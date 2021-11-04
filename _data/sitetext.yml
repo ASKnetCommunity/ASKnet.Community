@@ -49,7 +49,7 @@ en: &DEFAULT_EN
     title: "#ASKtools<br />Open Tech Emergency Case"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
     section: asktools
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/28
 
   asktraining:
     title: "#ASKtraining<br />Open Tech Emergency Case"

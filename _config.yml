@@ -23,6 +23,7 @@ author     : ASKnet
 logo:     #optional, defaults to site title
   path: assets\img\clients\asknet-logo.png
   height: 60 #height in px, defaults to 52px
+screenshot: https://raw.githubusercontent.com/ASKnetCommunity/ASKnet.Community/51b8d4f7a3a772eb2a55968b721b98bb657db161/screenshot.png
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 

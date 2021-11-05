@@ -13,8 +13,8 @@
 
 theme: jekyll-agency
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/ASKnet.Community/" # the subpath of your site, e.g. /blog
+url    : "https://asknetcommunity.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ASKnet.Community" # the subpath of your site, e.g. /blog
 
 title      : "#ASKnet"
 email      : your-email@example.com #this is also the email contact forms will go to

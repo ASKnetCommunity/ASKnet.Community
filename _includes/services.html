@@ -30,7 +30,13 @@
         </div>
 	  {% endfor %}
       </div>
-	  
+      {%- if site.data.sitetext[site.locale].services.button -%}
+      <div class="row text-center mt-5">
+        <div class="col-md-12">
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].services.buttonlink }}">{{ site.data.sitetext[site.locale].services.button }}</a>
+        </div>
+      </div>
+      {%- endif -%}
     </div>
   </section>
 <!-- End Services -->

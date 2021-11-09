@@ -20,6 +20,8 @@ en: &DEFAULT_EN
     title: "#ASKnet<br />Access to Skills & Knowledge Network"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
     section: services
+    button: See all hubs
+    buttonlink: "#hubs"
     list:
       - title: "Community"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."

@@ -19,6 +19,7 @@ en: &DEFAULT_EN
   services:
     title: "#ASKnet<br />Access to Skills & Knowledge Network"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/30
     section: services
     button: See all hubs
     buttonlink: "#hubs"
@@ -34,17 +35,70 @@ en: &DEFAULT_EN
       - title: "Open Access"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-osi
+        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/29
 
   hubs:
     title: "Youth Led Hubs"
     text: "#ASKnet is a capacity building and hub development program linking five community based youth-led innovation hubs in South Sudan and Uganda."
     section: hubs
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
     closebutton: "back to Hub Overview"
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/31
+  
+  askotec:
+    title: "#ASKotec<br />Open Tech Emergency Case"
+    text: "#ASKotec; the Access to Skills and Knowledge Open Tech Emergency Case is a resource kit for community trainers, created for mobile field-use where there is neither easy power nor internet connectivity such as refugee camps, low-infrastructure regions or rural areas. Intended as Open Tech for Good, #ASKotec was created through a series of hub development workshops by a community of young innovators intent on bringing skills training and peace-building together in the effort to end the South Sudan conflict."
+    section: askotec
+    image: assets/img/projects/askotec-website.png
+    website: https://askotec.openculture.agency
+    github: https://github.com/opencultureagency/ASKotec
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/27
+  
+  asktools:
+    title: "#ASKtools<br />a lot of (online-)tools"
+    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    section: asktools
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/28
+
+  asktraining:
+    title: "#ASKtraining<br />Create your own workshop plan"
+    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    section: asktraining
+    image: assets/img/projects/asktraining-website.png
+    website: https://asktraining.github.io/Training/
+    github: https://github.com/ASKtraining/Training
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/33
+
+  lead:
+    title: "LEAD<br />Open Tech Emergency Case"
+    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    section: lead
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/32
+  
+  projects-trainings:
+    title: "Projects and Trainings"
+    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    section: asktraining
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
+    list:
+      - title: "2009"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-users #find more at https://fontawesome.com/icons
+        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
+      - title: "2010"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-users #find more at https://fontawesome.com/icons
+        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
+      - title: "2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-users #find more at https://fontawesome.com/icons
+        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
 
   timeline:
     title: "Timeline"
-    text: "How at all began"
+    text: "Projects, Trainings and events"
     section: timeline
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
     # left is the default
     #start_align: "left"
     events:
@@ -70,13 +124,14 @@ en: &DEFAULT_EN
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Add new<br><i class='fas fa-plus'></i><br>training, event or project!"
 
   about:
     title: "About Us"
     text: "our story"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/39
 
   clients:
     section: clients
@@ -97,10 +152,11 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "Local Expert Action Directory"
+    title: "#ASKnet Team"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/new
     people:
       - name: "Kay Garland"
         role: "Lead Designer"

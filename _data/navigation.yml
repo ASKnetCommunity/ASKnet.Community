@@ -11,18 +11,18 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Overview"
+    - title: "#ASKnet"
       section: services
     - title: "Hubs"
       section: hubs
     - title: "LEAD"
-      section: team
+      section: lead
     - title: "#ASKotec"
-      url: https://askotec.openculture.agency/
-    - title: "About"
-      section: about
-    - title: "Timeline"
-      section: timeline
+      section: askotec
+    - title: "#ASKtraining"
+      section: asktraining
+    - title: "#ASKtools"
+      section: asktools
     - title: "Contact"
       section: contact
     - title: "Github"

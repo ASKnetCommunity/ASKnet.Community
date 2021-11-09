@@ -32,9 +32,16 @@ analytics:
 
 collections:
   hubs:
+    output: true
+    output_ext: .html
+    permalink: /hubs/:path/
+  projects:
+    output: true
+    output_ext: .html
+    permalink: /projects/:path/
 
 markdown: kramdown
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-# formspree_form_path: "f/a_form_id"
+formspree_form_path: "f/myylarkr"

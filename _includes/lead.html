@@ -1,0 +1,21 @@
+<!-- LEAD -->
+<section class="page-section" id="{{ site.data.sitetext[site.locale].lead.section | default: "lead" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center{% if site.data.sitetext[site.locale].lead.submit %} sc{% endif %}">
+        <h2 class="section-heading">{{ site.data.sitetext[site.locale].lead.title | default: "#lead" }}</h2>
+        {% if site.data.sitetext[site.locale].lead.text %}
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].lead.text }}</h3>
+        {% endif %}
+        {% if site.data.sitetext[site.locale].lead.submit %}
+        <div class="sc-overlay">
+          <h2>We need content here!</h2>
+          <a class="btn btn-primary btn-lg mx-auto p-3" target="_blank" href="{{ site.data.sitetext[site.locale].lead.submit }}">Submit Content</a>
+          <a class="how-to" href="{{ site.data.sitetext[site.locale].submit-content.url }}">How it works?</a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End LEAD -->

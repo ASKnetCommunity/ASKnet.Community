@@ -95,8 +95,9 @@ en: &DEFAULT_EN
 
   timeline:
     title: "Timeline"
-    text: "How at all began"
+    text: "Projects, Trainings and events"
     section: timeline
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
     # left is the default
     #start_align: "left"
     events:
@@ -122,7 +123,7 @@ en: &DEFAULT_EN
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Add new<br><i class='fas fa-plus'></i><br>training, event or project!"
 
   about:
     title: "About Us"
@@ -150,10 +151,11 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "Local Expert Action Directory"
+    title: "#ASKnet Team"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/new
     people:
       - name: "Kay Garland"
         role: "Lead Designer"

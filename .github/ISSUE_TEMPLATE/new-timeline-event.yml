@@ -1,0 +1,41 @@
+name: Add Timeline Event
+description: You can propose a new entry into the timeline
+title: "Add Timeline Event: "
+labels: [content-submit, new-timeline-event]
+body:
+  - type: markdown
+    attributes:
+      value: Here you can submit your proposal for a new entry into the ASKnet timeline
+                
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: "Date of the event"
+      placeholder: "e.g. '2019' or '2017-2019' or 'June 2020' or '1st of August 2018'"
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: "A short headline, should not be more than ca. 3-5 words (so that it fits into the layout)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: text
+    attributes:
+      label: Text
+      description: Please provide a short text for the event (ca. 100-220 characters)
+    validations:
+      required: true
+              
+  - type: textarea
+    id: image
+    attributes:
+      label: Image
+      description: Please upload an image by dragging & dropping into this textarea or clicking on the bottom of this textarea and selecting your image.
+    validations:
+      required: true

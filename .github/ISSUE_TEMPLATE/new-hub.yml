@@ -1,0 +1,81 @@
+name: Add New Hub
+description: Create a page for a new Hub
+title: "Add Hub: "
+labels: [content-submit, new-hub]
+body:
+  - type: markdown
+    attributes:
+      value: Here you can fill in all information about the new hub, which will shortly be published on the ASKnet website. 
+                
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: "Name of the Hub"
+    validations:
+      required: true
+
+  - type: input
+    id: subtitle
+    attributes:
+      label: Subtitle
+      description: "one or two short sentences that describe the Hub"
+    validations:
+      required: true
+              
+  - type: textarea
+    id: image
+    attributes:
+      label: Image
+      description: You can upload an image for the hub by dragging & dropping into this textarea or clicking on the bottom of this textarea and selecting your image. The image will be shown in the overview of all hubs, as well as at the top of the hub profile page. 
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: "Please tell us where the Hub is located"
+      placeholder: "e.g. Rhino-Camp, Uganda"
+    validations:
+      required: true
+
+  - type: input
+    id: mission
+    attributes:
+      label: Mission Statement
+      description: "If your Hub has a mission statement, you can enter it here."
+    validations:
+      required: false
+      
+  - type: input
+    id: vision
+    attributes:
+      label: Vision Statement
+      description: "If your Hub has a vision statement, you can enter it here."
+    validations:
+      required: false
+
+  - type: textarea
+    id: logo
+    attributes:
+      label: Logo
+      description: If your Hub has a logo, you can upload the logo file by dragging & dropping into this textarea or clicking on the bottom of this textarea and selecting your file.
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: "Here you can enter the URL of the Hub's website"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please provide ca. 2-3 paragraphs of text, describing the hub (What do you do? What are your values? What are you especially proud of?). You can also enrich the text with pictures. 
+    validations:
+      required: true

@@ -21,7 +21,6 @@ en: &DEFAULT_EN
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/30
     section: services
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
     list:
       - title: "Community"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
@@ -129,7 +128,7 @@ en: &DEFAULT_EN
     text: "our story"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/new
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/39
 
   clients:
     section: clients

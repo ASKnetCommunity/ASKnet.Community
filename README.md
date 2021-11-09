@@ -1,184 +1,130 @@
-# Agency Jekyll Theme
-
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue)](/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip_me-green?logo=paypal)](https://www.paypal.me/raviriley)
-[![template button](https://img.shields.io/badge/Generate_theme_from_template-2ea44f)][generate]
-[![Featured on Jekyll-Themes.com](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/agency-jekyll-theme/)
+# #ASKnet Community Website
 
 ## Preview - click for live demo
 
 [![screenshot](/screenshot.PNG)][demo-page]
 
-## Warning
-
-> :warning: **Notice for those using legacy Formspree contact forms:** :warning:
->
-> Email-based forms are being [phased out](https://help.formspree.io/hc/en-us/articles/360056076314) by Formspree. [#11](https://github.com/raviriley/agency-jekyll-theme/pull/11) updated this theme to use the [new Formspree structure](https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam). Click [here](https://help.formspree.io/hc/en-us/articles/360056076314) for instructions on updating your site's form.
-
 ## About
 
-This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/), converted to a gem-based Jekyll theme with GitHub Pages support.
+This is the [official website][demo-page] of the #ASKnet community. Here you can find all information and projects of #ASKnet. ASK stands for Access Skills & Knowledge. The net for the network. 
 
-While this has been done before, [here](https://github.com/y7kim/agency-jekyll-theme), [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency), and [here](https://github.com/laklau/agency-jekyll-theme/), these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source.
+The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality.
 
-I also added a lot of new features that go beyond the original theme's capabilities:
+## Participate
 
-- GitHub Pages support
-- [template repo][template] to get up and running in minutes
-- contact form functionality powered by [Formspree.io](https://formspree.io)
-- custom pages
-- 404 page
-- legal/Privacy Policy page
-- Google Analytics support
-- Markdown support
-- custom images
-- logo support (instead of just title text)
-- automatically updating copyright years
-- custom navigation bar, even without the header image(s)
-- customizable footer
-- custom accent color and dark/light colors
-- horizontal scrolling support for client section
-<!--
-- custom colors with automatic gradient generation (coming soon)
-- site title logo text font customization (coming soon)
-- horizontal scrolling support for hub section (coming soon)
-- about section (different from the timeline) -->
+The website is based on the technology: Jekyll and is fully hosted on Github.
 
-The Jekyll structure of this theme includes:
+Jekyll compiles all markdown, HTML, CSS, Javascript files and more into a static website that can be run anywhere without any special requirements (database, PHP, Ruby or other). A simple web server is quite sufficient, or just Github with its offer: Github Pages ([more info about Github Pages](https://pages.github.com/))
 
-- `_hub` files - what generate the hub grid. YAML front matter handles all the details
-- the `page` layout allows custom pages, as seen in the legal and 404 pages
-- `sitetext.yml` enables complete customization of all site text
-- `navigation.yml` enables fully customizable navigation
-- `style.yml` enables fully customizable colors, background images, and other style-related things
+The official website is generated here from this repository. I.e. if content/files are changed here, they are automatically published on the website. The content is written in Markdown .md ([more info about Markdown](https://www.markdownguide.org/)) or YAML .yml ([more info about YAML](https://en.wikipedia.org/wiki/YAML)).
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
+### Most important directories and files
 
-<div align="center">
+To change content (text or images) on the website, only the following directories are important at first:
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+![readme-most-important-folders-overview](assets/img/readme-most-important-files-and-folders-overview.png)
 
-</div>
+- **_data:** there are .yml files, where in YAML format ([more info about YAML](https://en.wikipedia.org/wiki/YAML)) all text content, design styles and navigation are contained
+- **_includes:** this directory contains all images, PDF, styles or script files
 
-## Installation
+#### _data Folder
 
-There are three ways to install this theme:
+The website may contain multilingual content. All languages are in one file. E.g. in navigation.yml you can create multilingual navigation and in sitetext.yml multilingual content. The sections for each language always start with the name of the language and end with some parameters. Example:
 
-1. As a gem-based theme
-2. Use the [starter template][template] (best for GitHub Pages)
-3. As a remote theme
+```
+# English (default)
+# -----------------
+en: &DEFAULT_EN
 
-#### 1. Gem-based Theme Installation
+   [...]
 
-Replace the contents of your `_config.yml` file with the sample [\_config.yml](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/_config.yml).
-
-Install the gem with:
-
-```sh
-$ bundle add jekyll-agency
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
 ```
 
-Or manually.
+![readme-most-important-files-and-folders-data](assets/img/readme-most-important-files-and-folders-data.png)
 
-1. Add this line to your Jekyll site's `Gemfile`:
-   ```ruby
-   gem "jekyll-agency"
-   ```
-2. Then execute:
-   ```sh
-   $ bundle install
-   ```
+- **[navgation.yml](_data/navigation.yml):** 
+- **[sitetext.yml](_data/sitetext.yml):** 
 
-#### 2. Using the [Starter Template][template]
+#### assets Folder
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
+![readme-most-important-files-and-folders-assets](assets/img/readme-most-important-files-and-folders-assets.png)
 
-Simply generate your own repository by clicking the button below. Then replace the sample content with your own and configure for your needs.
+In the assets directory, only the `img` folder is important for the content. All images are stored there.
 
-<div align="center">
+**Important:** Please use images only in the appropriate web format, i.e. not too large resolutions (max. 1920x1280 Px) and the appropriate image format. PNG is flexible, because transparent backgrounds also work, but JPG are better for photos, because they are much smaller.
 
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)][generate]
+The images can then be embedded in the corresponding Markdown file.
 
-</div>
-    
-#### 3. Remote Theme Installation
+Example:
 
-Replace your `_config.yml` file with the starter [\_config.yml](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/_config.yml).
-
-Replace your `Gemfile` with the starter [Gemfile](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/Gemfile).
-
-Then install gems.
-
-```sh
-$ bundle install
+```
+![Alternative image text](assets/img/hubs/01-content.jpg)
 ```
 
-<!--
-## Documentation and Usage
+Or in a YAML file simply specify the path.
 
-**TODO:** Write usage instructions here. Describe available layouts, includes, or assets.
+Example:
 
-navheader is used only for the home page. nav is used everywhere else.
-
-Layouts:
-
-Includes:
-
--->
+```
+image: assets/img/projects/askotec-website.png
+```
 
 ## Contributing
 
-This project is intended to be a welcoming space for collaboration. If you have an idea, suggestion, feature request, etc., feel free to open an issue or pull request.
+This project is intended to be a welcoming space for collaboration. If you have an idea, suggestion, feature request, etc., feel free to [open an issue](https://github.com/ASKnetCommunity/ASKnet.Community/issues) or [pull request](https://github.com/ASKnetCommunity/ASKnet.Community/pulls).
 
 For bug reports, follow the provided template.
 
-#### Improvements - Up for Grabs
-
-- [ ] multiple language support (~~Spanish~~, Chinese, Arabic, etc.)
-- [ ] customizable background coloring for each section
-- [x] ~~custom background images~~
-
 ## Development
 
-To set up your environment to develop this theme, clone this repo or your fork.
+Requirements:
+
+- git ([how to install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
+- docker ([how to install docker](https://docs.docker.com/get-docker/))
+- docker-compose ([how to install docker-compose](https://docs.docker.com/compose/install/))
+
+To set up your environment to develop this website, clone this repo or your fork.
 
 ```sh
-$ git clone https://github.com/raviriley/agency-jekyll-theme.git
-$ cd agency-jekyll-theme
+$ git clone https://github.com/ASKnetCommunity/ASKnet.Community.git
+$ cd ASKnet.Community
 ```
 
 Then run:
 
 ```sh
-$ bundle install
+$ docker-compose up -d
 ```
 
-To test the theme, run this. (Using the `--trace` flag for verbose errors.)
+To check the logs, run this. (Using the `--follow` flag for tail the output.)
 
 ```sh
-$ bundle exec jekyll serve --trace
+$ docker-compose logs --follow
 ```
 
 Then open your browser at:
 
 - http://localhost:4000
 
-Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
+Add pages, documents, data, etc. like normal to test the website's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
+
+To stop the website:
+
+```sh
+$ docker-compose down
+```
 
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-<!--
 
-## Example Implementations
-
-- [CV Enterprises](https://cventerprises.org)
-- [Mortazavi Lab at UC Irvine](https://mortazavilab.github.io/)
-
--->
-
-[demo-page]: https://raviriley.github.io/agency-jekyll-theme-starter/
-[template]: https://github.com/raviriley/agency-jekyll-theme-starter
-[generate]: https://github.com/raviriley/agency-jekyll-theme-starter/generate
+[demo-page]: https://asknetcommunity.github.io/ASKnet.Community/

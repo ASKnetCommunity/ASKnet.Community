@@ -18,10 +18,10 @@ baseurl: "/ASKnet.Community/" # the subpath of your site, e.g. /blog
 
 title      : "#ASKnet"
 email      : your-email@example.com #this is also the email contact forms will go to
-description: "Access to skill & Knowledge"
+description: "Access to Skills & Knowledge"
 author     : ASKnet
 logo:     #optional, defaults to site title
-  path: assets\img\clients\asknet-logo.png
+  path: assets/img/asknet-logo.png
   height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml

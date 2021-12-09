@@ -136,19 +136,13 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
+      - title: "r0g_agency"
+        url: https://openculture.agency/
+        logo: assets/img/clients/r0g_logo.png
+      - title: "BMZ"
+        url: https://www.bmz.de/en
+        logo: assets/img/clients/founder_BMZ.jpg
+        
   team:
     title: "#ASKnet Team"
     text: "Lorem ipsum dolor sit amet consectetur."
@@ -298,18 +292,12 @@ es: &DEFAULT_ES
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "r0g_agency"
+        url: https://openculture.agency/
+        logo: assets/img/clients/r0g_logo.png
+      - title: "BMZ"
+        url: https://www.bmz.de/en
+        logo: assets/img/clients/founder_BMZ.jpg
 
   team:
     title: "NUESTRO INCREÍBLE EQUIPO"

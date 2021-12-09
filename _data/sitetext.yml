@@ -39,7 +39,6 @@ en: &DEFAULT_EN
     title: "Youth Led Hubs"
     text: "#ASKnet is a capacity building and hub development program linking five community based youth-led innovation hubs in South Sudan and Uganda."
     section: hubs
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
     closebutton: "back to Hub Overview"
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/31
   
@@ -66,6 +65,19 @@ en: &DEFAULT_EN
     website: https://asktraining.github.io/Training/
     github: https://github.com/ASKtraining/Training
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/33
+
+  tools:
+    title: "#ASKtools"
+    text: "---here is the asktools text---"
+    section: hubs
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/
+
+  resources:
+    title: "Resources"
+    text: "open educational training resources"
+    section: hubs
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/
+  
 
   lead:
     title: "LEAD<br />Open Tech Emergency Case"

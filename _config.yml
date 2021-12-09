@@ -38,6 +38,14 @@ collections:
     output: true
     output_ext: .html
     permalink: /projects/:path/
+  tools:
+    output: true
+    output_ext: .html
+    permalink: /tools/:path/
+  resources:
+    output: true
+    output_ext: .html
+    permalink: /resources/:path/
 
 markdown: kramdown
 

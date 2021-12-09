@@ -1,0 +1,50 @@
+<!-- resources Grid -->
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].resources.section | default: "resources" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center{% if site.data.sitetext[site.locale].resources.submit %} sc{% endif %}">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].resources.title | markdownify | default: "Resources" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].resources.text | markdownify }}</h3>
+        {% if site.data.sitetext[site.locale].resources.submit %}
+          <div class="sc-overlay">
+            <h2>We need content here!</h2>
+            <a class="btn btn-primary btn-lg mx-auto p-3" target="_blank" href="{{ site.data.sitetext[site.locale].resources.submit }}">Submit Content</a>
+            <a class="how-to" href="{{ site.data.sitetext[site.locale].submit-content.url }}">How it works?</a>
+          </div>
+          {% endif %}
+      </div>
+    </div>
+    <div class="row">
+	{% for project in site.resources %}
+      <div class="col-md-4 col-sm-6 hubs-item">
+        <a class="hubs-link" href="{{ project.link }}" target="_blank">
+          <div class="hubs-hover">
+            <div class="hubs-hover-content">
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="{{ project.thumbnail }}" alt="">
+        </a>
+        <div class="hubs-caption">
+          <h4>{{ project.title }}</h4>
+          <p class="text-muted">{{ project.subtitle }}</p>
+        </div>
+      </div>
+	{% endfor %}
+      <div class="col-md-4 col-sm-6 hubs-item">
+        <a class="hubs-link" target="_blank" href="https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-resource&template=add-resource.yml&title=Add+Resource%3A+">
+          <div class="hubs-hover">
+            <div class="hubs-hover-content">
+              <i class="{{ site.data.style.hubs-icon | default: "fas fa-plus fa-3x" }}"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/img/hubs/00-new-hub.gif" alt="">
+        </a>
+        <div class="hubs-caption">
+          <h4>Add new resource</h4>
+          <p class="text-muted">you can propose a resource here</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

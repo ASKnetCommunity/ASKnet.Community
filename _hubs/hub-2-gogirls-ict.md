@@ -18,8 +18,7 @@ caption:
 {:.logo}
 ![GoGirls ICT](assets/img/hubs/02-logo.png)
 
-{:.btn .btn-primary .visit-website}
-[Visit Website](https://gogirlsict.org/)
+<a href="https://gogirlsict.org/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>
 
 GoGirls ICT founded in 2015 that engages, educates, and empowers girls and women in the fields of Science, Technology, Engineering, Art, and Mathematics (STEAM).
 

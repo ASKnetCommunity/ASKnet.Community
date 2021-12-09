@@ -19,8 +19,7 @@ caption:
 {:.logo}
 ![Youth Empowerment Foundation](assets/img/hubs/05-logo.png)
 
-{:.btn .btn-primary .visit-website}
-[Visit Website](http://www.yefadjumani.org/)
+<a href="http://www.yefadjumani.org/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>
 
 YEF works together with the community of Adjumani and displaced populations in the Pagirinya refugee settlement, to addresses local issues of unemployment and gender based violence by training youth in open technologies, entrepreneurship, peacebuilding and attitude change.
 

@@ -19,8 +19,7 @@ caption:
 {:.logo}
 ![Junub Open Space](assets/img/hubs/03-logo.png)
 
-{:.btn .btn-primary .visit-website}
-[Visit Website](https://junubos.org/)
+<a href="https://junubos.org/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>
 
 JunubOS aims to avail platform for exploring talents and creativity makership knowledge for a resilient and self-reliant youth and children in Africa.
 

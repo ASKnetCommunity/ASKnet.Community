@@ -1,5 +1,5 @@
 <!-- LEAD -->
-<section class="page-section" id="{{ site.data.sitetext[site.locale].lead.section | default: "lead" }}">
+<section class="page-section bg-primary" id="{{ site.data.sitetext[site.locale].lead.section | default: "lead" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center{% if site.data.sitetext[site.locale].lead.submit %} sc{% endif %}">
@@ -14,7 +14,7 @@
           <a class="how-to" href="{{ site.data.sitetext[site.locale].submit-content.url }}">How it works?</a>
         </div>
         {% endif %}
-        <a href="https://lead.asknet.community/" class="btn btn-primary" target="_blank">Go to LEAD</a>
+        <a href="https://lead.asknet.community/" class="btn btn-secondary" target="_blank">Go to LEAD &nbsp; <i class="fas fa-external-link-alt"></i></a>
       </div>
     </div>
   </div>

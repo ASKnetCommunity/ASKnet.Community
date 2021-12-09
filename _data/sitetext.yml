@@ -14,13 +14,13 @@ en: &DEFAULT_EN
     title: "Welcome to #ASKnet"
     text: Access to skills<br />& Knowledge
     button: Learn more
-    buttonlink: "#services"
+    buttonlink: "#about"
 
   services:
     title: "#ASKnet<br />Access to Skills & Knowledge Network"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/30
-    section: services
+    section: about
     list:
       - title: "Community"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
@@ -54,7 +54,7 @@ en: &DEFAULT_EN
   asktools:
     title: "#ASKtools<br />a lot of (online-)tools"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
-    section: asktools
+    section: oldasktools
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/28
 
   asktraining:
@@ -69,18 +69,18 @@ en: &DEFAULT_EN
   tools:
     title: "#ASKtools"
     text: "---here is the asktools text---"
-    section: hubs
+    section: asktools
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/
 
   resources:
     title: "Resources"
     text: "open educational training resources"
-    section: hubs
+    section: resources
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/
   
 
   lead:
-    title: "LEAD<br />Open Tech Emergency Case"
+    title: "LEAD<br />Local Experts Action Directory"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
     section: lead
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/32
@@ -106,9 +106,9 @@ en: &DEFAULT_EN
 
   timeline:
     title: "Timeline"
-    text: "Projects, Trainings and events"
+    text: "Projects, Trainings and Activities"
     section: timeline
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/47
     # left is the default
     #start_align: "left"
     events:
@@ -134,7 +134,9 @@ en: &DEFAULT_EN
         alt:
         # you can enforce the alignment
         align: right
-    end: "Add new<br><i class='fas fa-plus'></i><br>training, event or project!"
+    end: 
+      title: "Add new training, event or project!"
+      link: "https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-timeline-event&template=new-timeline-event.yml&title=Add+Timeline+Event%3A+"
 
   about:
     title: "About Us"
@@ -195,7 +197,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: ""
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."

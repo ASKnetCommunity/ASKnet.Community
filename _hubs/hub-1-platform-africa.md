@@ -18,8 +18,7 @@ caption:
 {:.logo}
 ![Platform Africa](assets/img/hubs/01-logo.png)
 
-{:.btn .btn-primary .visit-website}
-[Visit Website](https://www.platformafrica.ngo/)
+<a href="https://www.platformafrica.ngo/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>
 
 Initiated by South Sudanese refugees to empower displaced people in Uganda, they provide (ToT) capacity building workshops for refugee communities to emphasise media skills and promote a peaceful coexistence between refugees and the host community of Arua through peacebuilding, radio and pyschological support programs.
 

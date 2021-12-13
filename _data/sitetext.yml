@@ -70,13 +70,13 @@ en: &DEFAULT_EN
     title: "#ASKtools"
     text: "---here is the asktools text---"
     section: asktools
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/55
 
   resources:
     title: "Resources"
     text: "open educational training resources"
     section: resources
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/56
   
 
   lead:
@@ -117,23 +117,8 @@ en: &DEFAULT_EN
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
+        # you can enforce the alignment: 
+        # align: right
     end: 
       title: "Add new training, event or project!"
       link: "https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-timeline-event&template=new-timeline-event.yml&title=Add+Timeline+Event%3A+"

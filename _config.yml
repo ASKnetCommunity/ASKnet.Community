@@ -18,10 +18,10 @@ baseurl: "/ASKnet.Community" # the subpath of your site, e.g. /blog
 
 title      : "#ASKnet"
 email      : your-email@example.com #this is also the email contact forms will go to
-description: "Access to skills & Knowledge"
+description: "Access to Skills & Knowledge"
 author     : ASKnet
 logo:     #optional, defaults to site title
-  path: assets\img\clients\asknet-logo.png
+  path: assets/img/asknet-logo.png
   height: 60 #height in px, defaults to 52px
 screenshot: https://raw.githubusercontent.com/ASKnetCommunity/ASKnet.Community/51b8d4f7a3a772eb2a55968b721b98bb657db161/screenshot.png
 
@@ -39,6 +39,14 @@ collections:
     output: true
     output_ext: .html
     permalink: /projects/:path/
+  tools:
+    output: true
+    output_ext: .html
+    permalink: /tools/:path/
+  resources:
+    output: true
+    output_ext: .html
+    permalink: /resources/:path/
 
 markdown: kramdown
 

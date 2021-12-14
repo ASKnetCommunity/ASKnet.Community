@@ -14,15 +14,13 @@ en: &DEFAULT_EN
     title: "Welcome to #ASKnet"
     text: Access to skills<br />& Knowledge
     button: Learn more
-    buttonlink: "#services"
+    buttonlink: "#about"
 
   services:
     title: "#ASKnet<br />Access to Skills & Knowledge Network"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/30
-    section: services
-    button: See all hubs
-    buttonlink: "#hubs"
+    section: about
     list:
       - title: "Community"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
@@ -41,7 +39,6 @@ en: &DEFAULT_EN
     title: "Youth Led Hubs"
     text: "#ASKnet is a capacity building and hub development program linking five community based youth-led innovation hubs in South Sudan and Uganda."
     section: hubs
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
     closebutton: "back to Hub Overview"
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/31
   
@@ -57,7 +54,7 @@ en: &DEFAULT_EN
   asktools:
     title: "#ASKtools<br />a lot of (online-)tools"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
-    section: asktools
+    section: oldasktools
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/28
 
   asktraining:
@@ -69,8 +66,21 @@ en: &DEFAULT_EN
     github: https://github.com/ASKtraining/Training
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/33
 
+  tools:
+    title: "#ASKtools"
+    text: "---here is the asktools text---"
+    section: asktools
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/55
+
+  resources:
+    title: "Resources"
+    text: "open educational training resources"
+    section: resources
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/56
+  
+
   lead:
-    title: "LEAD<br />Open Tech Emergency Case"
+    title: "LEAD<br />Local Experts Action Directory"
     text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
     section: lead
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/32
@@ -96,9 +106,9 @@ en: &DEFAULT_EN
 
   timeline:
     title: "Timeline"
-    text: "Projects, Trainings and events"
+    text: "Projects, Trainings and Activities"
     section: timeline
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
+    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/47
     # left is the default
     #start_align: "left"
     events:
@@ -106,25 +116,13 @@ en: &DEFAULT_EN
         year: "2009-2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Add new<br><i class='fas fa-plus'></i><br>training, event or project!"
+        alt: 
+        url: 
+        # you can enforce the alignment: 
+        # align: right
+    end: 
+      title: "Add new training, event or project!"
+      link: "https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-timeline-event&template=new-timeline-event.yml&title=Add+Timeline+Event%3A+"
 
   about:
     title: "About Us"
@@ -138,18 +136,12 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "r0g_agency"
+        url: https://openculture.agency/
+        logo: assets/img/clients/r0g_logo.png
+      - title: "BMZ"
+        url: https://www.bmz.de/en
+        logo: assets/img/clients/founder_BMZ.jpg
 
   team:
     title: "#ASKnet Team"
@@ -191,7 +183,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: ""
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -207,16 +199,16 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
+      - url: https://twitter.com/search?q=%23%23ASKnet&f=live
         icon: "fab fa-twitter"
-      - url: https://facebook.com
+      - url: https://www.facebook.com/hashtag/asknet
         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
+      - url: https://www.instagram.com/explore/tags/asknet/
         icon: "fab fa-instagram"
+      - url: https://www.linkedin.com/search/results/content/?keywords=%23asknet&origin=SWITCH_SEARCH_VERTICAL&sid=GQE
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/ASKnetCommunity
+        icon: "fab fa-github"
   submit-content:
     url: https://github.com/ASKnetCommunity/ASKnet.Community/wiki
 en-US:
@@ -300,18 +292,12 @@ es: &DEFAULT_ES
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "r0g_agency"
+        url: https://openculture.agency/
+        logo: assets/img/clients/r0g_logo.png
+      - title: "BMZ"
+        url: https://www.bmz.de/en
+        logo: assets/img/clients/founder_BMZ.jpg
 
   team:
     title: "NUESTRO INCREÍBLE EQUIPO"

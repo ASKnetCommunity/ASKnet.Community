@@ -19,8 +19,8 @@ caption:
 {:.logo}
 ![Junub Open Space](assets/img/hubs/03-logo.png)
 
-{:.btn .btn-primary .visit-website}
-[Visit Website](https://junubos.org/)
+<a href="https://junubos.org/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>   <a href="https://twitter.com/junubos" class="btn btn-primary visit-website"><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/Junubopenspace/" class="btn btn-primary visit-website"><i class="fab fa-facebook-f"></i></a>  <a href="https://www.linkedin.com/company/junubopenspace/" class="btn btn-primary visit-website"><i class="fab fa-linkedin"></i></a>  
+
 
 JunubOS aims to avail platform for exploring talents and creativity makership knowledge for a resilient and self-reliant youth and children in Africa.
 
@@ -28,4 +28,5 @@ We are innovation based development community. We are all the power of innovatio
 
 ![Junub Open Space](assets/img/hubs/03-content.jpg)
 
-Formed in 2016 and March 2017 legally registered as National Non-profit organization supporting youth empowerment and innovation culture in South Sudan, JunubOS operates on an open learning and peer learning approach. With support of partners, JunubOS runs activities that nurture youth collaboration, spreading awareness and capacity building workshops on using open educational material resources including the Open Learning guide, open hardware guide and #ASKotec Access to skills knowledge open tech emergency case . To enable environment of productive interactions, local material repurposing, knowledge acquisition or building a network /collaboration base.
+Formed in 2016 and March 2017 legally registered as National Non-profit organization supporting youth empowerment and innovation culture in South Sudan, JunubOS operates on an open learning and peer learning approach. With support of partners, JunubOS runs activities that nurture youth collaboration, spreading awareness and capacity building workshops on using open educational material resources including the Open Learning guide, open hardware guide and #ASKotec Access to skill knowledge open tech emergency case . To enable environment of productive interactions, local material repurposing, knowledge acquisition or building a network /collaboration base.
+

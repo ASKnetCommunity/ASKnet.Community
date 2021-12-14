@@ -11,22 +11,20 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "#ASKnet"
-      section: services
+    - title: "About"
+      section: about
     - title: "Hubs"
       section: hubs
-    - title: "LEAD"
+    - title: "Experts"
       section: lead
-    - title: "#ASKotec"
-      section: askotec
-    - title: "#ASKtraining"
-      section: asktraining
     - title: "#ASKtools"
       section: asktools
+    - title: "Resources"
+      section: resources
+    - title: "Timeline"
+      section: timeline
     - title: "Contact"
       section: contact
-    - title: "Github"
-      url: https://github.com/ASKnet-Community/ASKnet.Community
 en-US:
   <<: *DEFAULT_EN
 en-CA:

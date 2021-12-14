@@ -53,10 +53,20 @@
             
 		  {% if site.data.sitetext[site.locale].timeline.end %}	
 			<li class="timeline-inverted">
+        <a href="{{ site.data.sitetext[site.locale].timeline.end.link }}" target="_blank">
               <div class="timeline-image">
-                <h4>{{ site.data.sitetext[site.locale].timeline.end }}</h4>
+                <img class="rounded-circle img-fluid" src="assets/img/timeline/add.png" alt="add timeline event">
               </div>
-            </li>
+        </a>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <a href="{{ site.data.sitetext[site.locale].timeline.end.link }}" target="_blank">
+                    <h4>{{ site.data.sitetext[site.locale].timeline.end.title }}</h4>
+                  </a>
+                </div>
+              </div>
+      </li>
+
 		  {% endif %}
 
           </ul>

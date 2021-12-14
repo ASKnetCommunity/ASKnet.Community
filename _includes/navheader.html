@@ -3,7 +3,7 @@
     <div class="container">
 	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
           {%- if site.logo -%}
-            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}" class="btn btn-primary"/>
           {%- else -%}
             {{ site.title }}
           {%- endif -%}
@@ -17,7 +17,7 @@
         {% for link in site.data.navigation[site.locale].nav %}
           <li class="nav-item">
             {%- if link.url -%}
-              <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+              <a class="nav-link js-scroll-trigger" href="{{ link.url }}" target="_blank">{{ link.title }}</a>
             {%- else if link.section -%}
               <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
             {%- else -%}

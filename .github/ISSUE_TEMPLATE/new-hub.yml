@@ -79,3 +79,11 @@ body:
       description: Please provide ca. 2-3 paragraphs of text, describing the hub (What do you do? What are your values? What are you especially proud of?). You can also enrich the text with pictures. 
     validations:
       required: true
+
+  - type: textarea
+    id: social-media
+    attributes:
+      label: Social Media
+      description: Please provide all links to social media platforms like facebook, twitter, youtube, etc.
+    validations:
+      required: false

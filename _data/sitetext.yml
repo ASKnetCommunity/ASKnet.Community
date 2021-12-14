@@ -202,12 +202,12 @@ en: &DEFAULT_EN
         icon: "fab fa-twitter"
       - url: https://www.facebook.com/hashtag/asknet
         icon: "fab fa-facebook-f"
+      - url: https://www.instagram.com/explore/tags/asknet/
+        icon: "fab fa-instagram"
       - url: https://www.linkedin.com/search/results/content/?keywords=%23asknet&origin=SWITCH_SEARCH_VERTICAL&sid=GQE
         icon: "fab fa-linkedin-in"
       - url: https://github.com/ASKnetCommunity
         icon: "fab fa-github"
-      - url: https://www.instagram.com/explore/tags/asknet/
-        icon: "fab fa-instagram"
   submit-content:
     url: https://github.com/ASKnetCommunity/ASKnet.Community/wiki
 en-US:

@@ -1,10 +1,10 @@
 <!-- tools Grid -->
-<section class="bg-light page-section" id="asktools">
+<section class="bg-dark page-section" id="asktools">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center{% if site.data.sitetext[site.locale].tools.submit %} sc{% endif %}">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].tools.title | markdownify | default: "Tools" }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].tools.text | markdownify }}</h3>
+        <h2 class="section-heading text-uppercase text-light">{{ site.data.sitetext[site.locale].tools.title | markdownify | default: "Tools" }}</h2>
+        <h3 class="section-subheading text-light">{{ site.data.sitetext[site.locale].tools.text | markdownify }}</h3>
         {% if site.data.sitetext[site.locale].tools.submit %}
           <div class="sc-overlay">
             <h2>We need content here!</h2>
@@ -15,19 +15,19 @@
       </div>
     </div>
     <div class="row">
-	{% for project in site.tools %}
+	{% for tool in site.tools %}
       <div class="col-md-4 col-sm-6 hubs-item">
-        <a class="hubs-link" href="{{ project.link }}" target="_blank">
+        <a class="hubs-link" href="{{ tool.link }}" target="_blank">
           <div class="hubs-hover">
             <div class="hubs-hover-content">
               <i class="fas fa-external-link-alt"></i>
             </div>
           </div>
-          <img class="img-fluid" src="{{ project.thumbnail }}" alt="">
+          <img class="img-fluid" src="{{ tool.thumbnail }}" alt="">
         </a>
         <div class="hubs-caption">
-          <h4>{{ project.title }}</h4>
-          <p class="text-muted">{{ project.subtitle }}</p>
+          <h4>{{ tool.title }}</h4>
+          <p class="text-muted">{{ tool.subtitle }}</p>
         </div>
       </div>
 	{% endfor %}

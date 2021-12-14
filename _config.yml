@@ -13,8 +13,8 @@
 
 theme: jekyll-agency
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/ASKnet.Community/" # the subpath of your site, e.g. /blog
+url    : "https://asknetcommunity.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ASKnet.Community" # the subpath of your site, e.g. /blog
 
 title      : "#ASKnet"
 email      : your-email@example.com #this is also the email contact forms will go to
@@ -23,6 +23,7 @@ author     : ASKnet
 logo:     #optional, defaults to site title
   path: assets/img/asknet-logo.png
   height: 60 #height in px, defaults to 52px
+screenshot: https://raw.githubusercontent.com/ASKnetCommunity/ASKnet.Community/51b8d4f7a3a772eb2a55968b721b98bb657db161/screenshot.png
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 

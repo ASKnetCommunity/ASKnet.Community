@@ -138,12 +138,7 @@ en: &DEFAULT_EN
         url: 
       - title: "Online Trainings"
         year: "2019"
-        desc: "Trainings in Adjumnani on collaborative (online) Documentation and beyond in the past three years, 25 trainings had been conducted with an average of 15 participants per training in the following regions:
-                South Sudan: Juba, Yei, Bor
-                Uganda: 2 refugee settlements (Kiryandongo, Rhino Camp)
-                Kenya: Nakuru, Nairobi
-                Ghana. Accra, Kumasi
-                Germany: Berlin"
+        desc: "Trainings in Adjumnani on collaborative (online) Documentation and beyond in the past three years, 25 trainings had been conducted with an average of 15 participants per training in the following regions: South Sudan: Juba, Yei, Bor  Uganda: 2 refugee settlements (Kiryandongo, Rhino Camp)  Kenya: Nakuru, Nairobi Ghana. Accra, Kumasi  Germany: Berlin"
         image: assets/img/timeline/2.png
         alt: 
         url:

@@ -105,10 +105,10 @@ en: &DEFAULT_EN
         submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
 
   timeline:
-    title: "Timeline"
-    text: "Projects, Trainings and Activities"
-    section: timeline
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/47
+      title: "Timeline"
+      text: "Projects, Trainings and Activities"
+      section: timeline
+      submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/47
       # left is the default
       #start_align: "left"
       events:

@@ -112,25 +112,6 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-<<<<<<< HEAD
-      - title: "Our Humble Beginnings"
-        year: "2015"
-        desc: "The program started in South Sudan with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (jHUB). The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet."
-        image: assets/img/timeline/1.png
-        alt:
-       - title: "Pilot Workshops."
-        year: "2016"
-        desc: "Pilot Workshop with trainers, 3 kits (<a href='https://askotec.openculture.agency/>#ASKotec</a>) and 30 students was developed in Uganda."
-        image: assets/img/timeline/2.png
-        alt:
-       - title: "....."
-        year: "2016"
-        desc: "The program started in South Sudan with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (jHUB). The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet."
-        image: assets/img/timeline/1.png
-        alt:
-        # you can enforce the alignment: 
-        # align: right
-=======
       - title: ""
         year: "2015"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
@@ -149,10 +130,8 @@ en: &DEFAULT_EN
         image: assets/img/timeline/2017.jpg
         alt: 
         url: 
->>>>>>> 10433366d1775cf8c3a5aef016487c734f733eb0
         # you can enforce the alignment: 
         # align: right
-  
     end: 
       title: "Add new training, event or project!"
       link: "https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-timeline-event&template=new-timeline-event.yml&title=Add+Timeline+Event%3A+"

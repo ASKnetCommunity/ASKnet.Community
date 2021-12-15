@@ -133,19 +133,19 @@ en: &DEFAULT_EN
         - title: "Project Kickoffs"
           year: "2018"
           desc: "Intense trainings on organisational development and #OpenTech in Uganda Rhino Camp with the amazing Community Repair Café event kickoff"
-          image: assets/img/timeline/1.png
+          image: assets/img/timeline/2018.jpeg
           alt: 
           url: 
         - title: "Online Trainings"
           year: "2019"
           desc: "Trainings in Adjumnani on collaborative (online) Documentation and beyond in the past three years, 25 trainings had been conducted with an average of 15 participants per training in the following regions: South Sudan: Juba, Yei, Bor  Uganda: 2 refugee settlements (Kiryandongo, Rhino Camp)  Kenya: Nakuru, Nairobi Ghana. Accra, Kumasi  Germany: Berlin"
-          image: assets/img/timeline/2.png
+          image: assets/img/timeline/2019.jpg
           alt: 
           url:
         - title: "Decentralized Networks, New Satellite Hubs"
           year: "2020"
           desc: "Moving from the individual trainings with compact sessions to a more decentralized activity network with lots of trainings across Uganda, South Sudan and into virtual space with Remote Community Co-Creation and Repair Cafés as well as strong organisations emerging and forming new sattelites"
-          image: assets/img/timeline/2.png
+          image: assets/img/timeline/1.png
           alt: 
           url: 
         - title: "Untold Story"

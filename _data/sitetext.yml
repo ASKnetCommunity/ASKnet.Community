@@ -123,7 +123,6 @@ en: &DEFAULT_EN
           desc: "Pilot Workshop with trainers, 3 kits <a href='https://askotec.openculture.agency/'>#ASKotec</a> and 30 students was developed in Uganda."
           image: assets/img/timeline/2016.jpg
           alt: 
-          url: https://github.com/ASKnetCommunity/ASKnet.Community
         - title: "Hub Launched"
           year: "2017"
           desc: "Four hubs Already established and launched; training participants in different skills. More emerging through initiatives of the "jHUB Pioneers" Community members"

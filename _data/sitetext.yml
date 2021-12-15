@@ -120,7 +120,7 @@ en: &DEFAULT_EN
         url: 
       - title: "Pilot Workshop"
         year: "2016"
-        desc: "Pilot Workshop with trainers, 3 kits (<a href='https://askotec.openculture.agency/>#ASKotec</a>) and 30 students was developed in Uganda."
+        desc: "Pilot Workshop with trainers, 3 kits <a href='https://askotec.openculture.agency/>#ASKotec</a> and 30 students was developed in Uganda."
         image: assets/img/timeline/2016.jpg
         alt: 
         url: https://github.com/ASKnetCommunity/ASKnet.Community

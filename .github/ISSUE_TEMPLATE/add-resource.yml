@@ -1,0 +1,41 @@
+name: Add Resource
+description: You can propose a new resource.
+title: "Add Resource: "
+labels: [content-submit, new-resource]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Here you can submit your proposal for a new learning resource that you think should be shown on the #ASKnet website. 
+                
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: "short heading of the resource"
+    validations:
+      required: true  
+
+  - type: input
+    id: subtitle
+    attributes:
+      label: Sub-Title
+      description: "a short description / sentence"
+    validations:
+      required: true
+
+  - type: textarea
+    id: picture
+    attributes:
+      label: Picture
+      description: You can upload an image by dragging & dropping into this textarea or clicking on the bottom of this textarea and selecting your image. 
+    validations:
+      required: false
+
+  - type: input
+    id: link
+    attributes:
+      label: Reference Link
+      description: "a link to the resource"
+    validations:
+      required: false

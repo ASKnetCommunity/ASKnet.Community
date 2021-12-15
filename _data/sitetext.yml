@@ -112,6 +112,7 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
+<<<<<<< HEAD
       - title: "Our Humble Beginnings"
         year: "2015"
         desc: "The program started in South Sudan with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (jHUB). The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet."
@@ -129,6 +130,26 @@ en: &DEFAULT_EN
         desc: "The program started in South Sudan with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (jHUB). The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet."
         image: assets/img/timeline/1.png
         alt:
+=======
+      - title: ""
+        year: "2015"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2015.jpg
+        alt: 
+        url: 
+      - title: ""
+        year: "2016"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2016.jpg
+        alt: 
+        url: https://github.com/ASKnetCommunity/ASKnet.Community
+      - title: ""
+        year: "2017"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2017.jpg
+        alt: 
+        url: 
+>>>>>>> 10433366d1775cf8c3a5aef016487c734f733eb0
         # you can enforce the alignment: 
         # align: right
   
@@ -215,12 +236,12 @@ en: &DEFAULT_EN
         icon: "fab fa-twitter"
       - url: https://www.facebook.com/hashtag/asknet
         icon: "fab fa-facebook-f"
+      - url: https://www.instagram.com/explore/tags/asknet/
+        icon: "fab fa-instagram"
       - url: https://www.linkedin.com/search/results/content/?keywords=%23asknet&origin=SWITCH_SEARCH_VERTICAL&sid=GQE
         icon: "fab fa-linkedin-in"
       - url: https://github.com/ASKnetCommunity
         icon: "fab fa-github"
-      - url: https://www.instagram.com/explore/tags/asknet/
-        icon: "fab fa-instagram"
   submit-content:
     url: https://github.com/ASKnetCommunity/ASKnet.Community/wiki
 en-US:

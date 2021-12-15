@@ -9,6 +9,11 @@
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
+      .tools-img {
+        height: 130px;
+        width: 100%;
+        object-fit: cover;
+      }
       .hubs-hover {
         position: absolute;
         width: 100%;

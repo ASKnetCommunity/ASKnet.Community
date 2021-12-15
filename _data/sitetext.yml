@@ -114,7 +114,7 @@ en: &DEFAULT_EN
       events:
         - title: "The Start"
           year: "2015"
-          desc: 'The program started in South Sudan with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (jHUB). The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet.'
+          desc: "The program started in South Sudan with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (jHUB). The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet."
           image: assets/img/timeline/2015.jpg
           alt: 
           url: 
@@ -126,7 +126,7 @@ en: &DEFAULT_EN
           url: https://github.com/ASKnetCommunity/ASKnet.Community
         - title: "Hub Launched"
           year: "2017"
-          desc: "Four hubs Already established and launched; training participants in different skills. More emerging through initiatives of the "jHUB Pioneers" Community members"
+          desc: 'Four hubs Already established and launched; training participants in different skills. More emerging through initiatives of the "jHUB Pioneers" Community members'
           image: assets/img/timeline/2017.jpg
           alt: 
           url: 

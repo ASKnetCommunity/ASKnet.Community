@@ -18,7 +18,7 @@ caption:
 {:.logo}
 ![Platform Africa](assets/img/hubs/01-logo.png)
 
-<a href="https://www.platformafrica.ngo/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>  <a href="https://twitter.com/platformngo" class="btn btn-primary visit-website" target="_blank" ><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/PlatformNGO/" class="btn btn-primary visit-website" target="_blank" ><i class="fab fa-facebook-f"></i></a>  <a href="https://www.instagram.com/PlatformNGO/" class="btn btn-primary visit-website target="_blank"><i class="fab fa-instagram"></i></a>  <a href="https://www.youtube.com/c/platformngo" class="btn btn-primary visit-website" target="_blank" ><i class="fab fa-youtube"></i></a>  <a href="https://www.linkedin.com/company/platformngo/" class="btn btn-primary visit-website" target="_blank" ><i class="fab fa-linkedin"></i></a>  
+<a href="https://www.platformafrica.ngo/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>  <a href="https://twitter.com/platformngo" class="btn btn-primary visit-website" target="_blank" ><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/PlatformNGO/" class="btn btn-primary visit-website" target="_blank" ><i class="fab fa-facebook-f"></i></a>  <a href="https://www.instagram.com/PlatformNGO/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-instagram"></i></a>  <a href="https://www.youtube.com/c/platformngo" class="btn btn-primary visit-website" target="_blank" ><i class="fab fa-youtube"></i></a>  <a href="https://www.linkedin.com/company/platformngo/" class="btn btn-primary visit-website" target="_blank" ><i class="fab fa-linkedin"></i></a>
 
 
 

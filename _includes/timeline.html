@@ -36,9 +36,15 @@
                 <li>
               {% endif %}
             {%- endif -%}
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
-              </div>
+            {% if event.url %}
+              <a href="{{ event.url }}" target="_blank">
+            {% endif %}
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+                </div>
+            {% if event.url %}
+              </a>
+            {% endif %}
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>{{ event.year | markdownify }}</h4>

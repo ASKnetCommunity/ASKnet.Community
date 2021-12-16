@@ -18,7 +18,7 @@ caption:
 {:.logo}
 ![GoGirls ICT](assets/img/hubs/02-logo.png)
 
-<a href="https://gogirlsict.org/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>  <a href="https://twitter.com/gogirlsictjuba" class="btn btn-primary visit-website"><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/GoGirlsICT/" class="btn btn-primary visit-website"><i class="fab fa-facebook-f"></i></a>  <a href="https://www.instagram.com/gogirlsictinitiative/" class="btn btn-primary visit-website"><i class="fab fa-instagram"></i></a>  <a href="https://www.youtube.com/channel/UCPn5exq63qRHlNkecMywNwQ" class="btn btn-primary visit-website"><i class="fab fa-youtube"></i></a>  
+<a href="https://gogirlsict.org/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>  <a href="https://twitter.com/gogirlsictjuba" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/GoGirlsICT/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-facebook-f"></i></a>  <a href="https://www.instagram.com/gogirlsictinitiative/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-instagram"></i></a>  <a href="https://www.youtube.com/channel/UCPn5exq63qRHlNkecMywNwQ" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-youtube"></i></a>
 
 GoGirls ICT founded in 2015 that engages, educates, and empowers girls and women in the fields of Science, Technology, Engineering, Art, and Mathematics (STEAM).
 

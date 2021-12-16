@@ -19,7 +19,7 @@ caption:
 {:.logo}
 ![ATAKA Hub](assets/img/hubs/04-logo.png)
 
-<a href="https://twitter.com/atakahub" class="btn btn-primary visit-website"><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/atakahub/" class="btn btn-primary visit-website"><i class="fab fa-facebook-f"></i></a> 
+<a href="https://twitter.com/atakahub" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/atakahub/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-facebook-f"></i></a>
 
 ATAKA-HUB fosters peacebuilding using social media skills training, comedy theatre and gender equality awareness, and youth self-employment through open tech and repairing skills. ATAKA uses cryptocurrency #eatBCH to provide food to orphans in Bor.
 

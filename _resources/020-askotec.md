@@ -2,5 +2,5 @@
 title: '#ASKotec'
 subtitle: open tech training kit
 thumbnail: assets/img/resources/askotec.jpg
-link: https://askotec.asknet.community/
+link: https://askotec.openculture.agency/
 ---

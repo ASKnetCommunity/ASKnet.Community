@@ -174,9 +174,33 @@ en: &DEFAULT_EN
       - title: "r0g_agency"
         url: https://openculture.agency/
         logo: assets/img/clients/r0g_logo.png
+        bw: true
       - title: "BMZ"
         url: https://www.bmz.de/en
         logo: assets/img/clients/founder_BMZ.jpg
+      - title: "Hive Colab"
+        url: https://hivecolab.org/
+        logo: assets/img/clients/hive_colab.png
+        bw: true
+      - title: "Platform Africa"
+        url: https://www.platformafrica.ngo/
+        logo: assets/img/hubs/01-logo.png
+        bw: true
+      - title: "GoGirls ICT"
+        url: https://gogirlsict.org/
+        logo: assets/img/hubs/02-logo.png
+        bw: true
+      - title: "Junub Open Space"
+        url: https://junubos.org/
+        logo: assets/img/hubs/03-logo.png
+        bw: true
+      - title: "ATAKA-HUB"
+        logo: assets/img/hubs/04-logo.png
+        bw: true
+      - title: "Youth Empowerment Foundation"
+        url: https://yef-uganda.org/
+        logo: assets/img/hubs/05-logo.png
+        bw: true
 
   team:
     title: "#ASKnet Team"

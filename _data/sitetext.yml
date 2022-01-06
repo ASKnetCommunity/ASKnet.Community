@@ -18,7 +18,30 @@ en: &DEFAULT_EN
 
   services:
     title: "#ASKnet<br />Access to Skills & Knowledge Network"
-    text: 'The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality.  <br> <br>   <i class="fas fa-project-diagram"></i> #ASKnet is a <b>network of hubs and community members</b> <br> <br> <i class="fas fa-graduation-cap"></i>  who subscribe to the <b>vision of educating on media literacy and creating communities with hands-on experience,</b> <br> <br> <i class="fas fa-book-open"></i> while providing <b>open access to skills and knowledge that can impact a community,</b> <br><br> <i class="fas fa-cogs"></i>  using the <b>available resources.</b>'
+    text: ' 
+    The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality.  <br> <br>   
+    
+    <div class="row my-3 justify-content-center no-gutters">
+      <div class="col-auto"><i class="fas fa-project-diagram fa-2x"></i> &nbsp; </div> 
+      <div class="col-md-2 col-7 text-left text-nowrap">#ASKnet is a <b>network of hubs <br />and community members</b> </div>
+    </div>
+    <div class="row my-3 justify-content-center no-gutters">
+      <div class="col-md-2 col-7 text-right text-nowrap"><div style="float: right;">who subscribe to the <b>vision of <br />educating on media literacy </b> </div></div>
+      <div class="col-auto"> &nbsp; <i class="fas fa-graduation-cap fa-2x"></i></div> 
+    </div>
+    <div class="row my-3 justify-content-center no-gutters">
+      <div class="col-auto"><i class="fas fa-users fa-2x"></i> &nbsp; </div> 
+      <div class="col-md-2 col-7 text-left text-nowrap">and <b>creating communities <br />with hands-on experience,</b> </div>
+    </div>
+    <div class="row my-3 justify-content-center no-gutters">
+      <div class="col-md-2 col-7 text-right text-nowrap"><div style="float: right;">while providing <b>open access <br />to skills and knowledge <br />that can impact a community,</b></div></div>
+      <div class="col-auto"> &nbsp; <i class="fas fa-book-open fa-2x"></i></div> 
+    </div>
+    <div class="row my-3 justify-content-center no-gutters">
+      <div class="col-auto"><i class="fas fa-cogs fa-2x"></i> &nbsp; </div> 
+      <div class="col-md-2 col-7 text-left text-nowrap">using the <b>available resources.</b> </div>
+    </div>
+    '
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/30
     section: about
     list:

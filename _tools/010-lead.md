@@ -1,6 +1,6 @@
 ---
-title: Local Experts Action Directory
-subtitle: Find a Local Expert by Skills and Location in this directory with the technical skills you need.
+title: Local Expert Action Directory
+subtitle: Find a local expert in your region with the help of this directory.
 thumbnail: assets/img/tools/lead.png
 link: https://lead.asknet.community/
 ---

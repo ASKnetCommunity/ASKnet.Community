@@ -124,7 +124,13 @@ $ docker-compose down
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+All content is licensed under CC-BY-SA 4.0 
+
+Theme used: [Agency Theme (Jekyll version)](https://github.com/raviriley/agency-jekyll-theme). The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+Technologies used: 
+- [Bootstrap](https://getbootstrap.com/) which is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+- FontAwesome - [License here](https://fontawesome.com/license/free)  (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
 
 
 [demo-page]: https://asknetcommunity.github.io/ASKnet.Community/

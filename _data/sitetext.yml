@@ -18,7 +18,30 @@ en: &DEFAULT_EN
 
   services:
     title: "#ASKnet<br />Access to Skills & Knowledge Network"
-    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    text: ' 
+    The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality.  <br> <br>   
+    
+    <div class="row my-3 justify-content-center no-gutters">
+      <div class="col-auto"><i class="fas fa-project-diagram fa-2x"></i> &nbsp; </div> 
+      <div class="col-md-2 col-7 text-left text-nowrap">#ASKnet is a <b>network of hubs <br />and community members</b> </div>
+    </div>
+    <div class="row my-3 justify-content-center no-gutters">
+      <div class="col-md-2 col-7 text-right text-nowrap"><div style="float: right;">who subscribe to the <b>vision of <br />educating on media literacy </b> </div></div>
+      <div class="col-auto"> &nbsp; <i class="fas fa-graduation-cap fa-2x"></i></div> 
+    </div>
+    <div class="row my-3 justify-content-center no-gutters">
+      <div class="col-auto"><i class="fas fa-users fa-2x"></i> &nbsp; </div> 
+      <div class="col-md-2 col-7 text-left text-nowrap">and <b>creating communities <br />with hands-on experience,</b> </div>
+    </div>
+    <div class="row my-3 justify-content-center no-gutters">
+      <div class="col-md-2 col-7 text-right text-nowrap"><div style="float: right;">while providing <b>open access <br />to skills and knowledge <br />that can impact a community,</b></div></div>
+      <div class="col-auto"> &nbsp; <i class="fas fa-book-open fa-2x"></i></div> 
+    </div>
+    <div class="row my-3 justify-content-center no-gutters">
+      <div class="col-auto"><i class="fas fa-cogs fa-2x"></i> &nbsp; </div> 
+      <div class="col-md-2 col-7 text-left text-nowrap">using the <b>available resources.</b> </div>
+    </div>
+    '
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/30
     section: about
     list:
@@ -44,7 +67,7 @@ en: &DEFAULT_EN
   
   askotec:
     title: "#ASKotec<br />Open Tech Emergency Case"
-    text: "#ASKotec; the Access to Skills and Knowledge Open Tech Emergency Case is a resource kit for community trainers, created for mobile field-use where there is neither easy power nor internet connectivity such as refugee camps, low-infrastructure regions or rural areas. Intended as Open Tech for Good, #ASKotec was created through a series of hub development workshops by a community of young innovators intent on bringing skills training and peace-building together in the effort to end the South Sudan conflict."
+    text: "#ASKotec; the Access to Skills and Knowledge Open Tech Emergency Case is a resource kit for community trainers."
     section: askotec
     image: assets/img/projects/askotec-website.png
     website: https://askotec.openculture.agency
@@ -105,57 +128,57 @@ en: &DEFAULT_EN
         submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
 
   timeline:
-      title: "Timeline"
-      text: "Projects, Trainings and Activities"
-      section: timeline
-      # left is the default
-      #start_align: "left"
-      events:
-        - title: "The Pioneers"
-          year: "2015"
-          desc: "The program started in South Sudan with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (jHUB). The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet."
-          image: assets/img/timeline/2015.jpg
-          alt: 
-          url: 
-        - title: "#ASKnet Pilot Workshop"
-          year: "2016"
-          desc: 'Pilot Workshop with trainers, 3 training kits (<a href="https://askotec.asknet.community/" target="_blank">#ASKotec</a>) and 30 students were developed in Uganda.'
-          image: assets/img/timeline/2016.jpg
-          alt:
-          url: https://github.com/ASKnetCommunity/ASKnet.Community
-        - title: "First Hubs Launched"
-          year: "2017"
-          desc: 'Four hubs already established and launched; training participants in different skills. More emerging through initiatives of the "jHUB Pioneers" Community members'
-          image: assets/img/timeline/2017.jpg
-          alt: 
-          url: 
-        - title: "Official #ASKnet Kickoff"
-          year: "2018"
-          desc: "Intense trainings on organisational development and #OpenTech in Uganda Rhino Camp with the first amazing Community Repair Café event. This is were #ASKnet emerged as an official program and the network of hubs and experts started to grow. "
-          image: assets/img/timeline/2018.jpeg
-          alt: 
-          url: 
-        - title: "Community Trainings"
-          year: "2019"
-          desc: "Trainings in Adjumani on collaborative (online) Documentation and beyond in the past three years, 25 trainings had been conducted with an average of 15 participants per training."
-          image: assets/img/timeline/2019.jpg
-          alt: 
-          url:
-        - title: "Decentralized Trainings, New Satellite Hubs"
-          year: "2020"
-          desc: "Moving from the individual trainings with compact sessions to a more decentralized activity network with lots of trainings across Uganda, South Sudan and into virtual space with Remote Community Co-Creation and Repair Cafés as well as strong organisations emerging and forming new sattelites"
-          image: assets/img/timeline/2020.jpg
-          alt: 
-          url: 
-        - title: "Coming Soon"
-          year: "2021"
-          desc: "A story yet to be told, stay tuned..."
-          image: assets/img/timeline/2021.jpg
-          alt: 
-          url: 
+    title: "Timeline"
+    text: "Projects, Trainings and Activities"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "The Pioneers"
+        year: "2015"
+        desc: "The program started in South Sudan with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (jHUB). The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet."
+        image: assets/img/timeline/2015.jpg
+        alt: 
+        url: https://openculture.agency/peacehackcamp-2015/
+      - title: "#ASKnet Pilot Workshop"
+        year: "2016"
+        desc: 'Pilot Workshop with trainers, 3 training kits (<a href="https://askotec.asknet.community/" target="_blank">#ASKotec</a>) and 30 students were developed in Uganda.'
+        image: assets/img/timeline/2016.jpg
+        alt:
+        url: https://github.com/ASKnetCommunity/ASKnet.Community
+      - title: "First Hubs Launched"
+        year: "2017"
+        desc: 'Four hubs already established and launched; training participants in different skills. More emerging through initiatives of the "jHUB Pioneers" Community members'
+        image: assets/img/timeline/2017.jpg
+        alt: 
+        url: 
+      - title: "Official #ASKnet Kickoff"
+        year: "2018"
+        desc: "Intense trainings on organisational development and #OpenTech in Uganda Rhino Camp with the first amazing Community Repair Café event. This is were #ASKnet emerged as an official program and the network of hubs and experts started to grow. "
+        image: assets/img/timeline/2018.jpeg
+        alt: 
+        url: 
+      - title: "Community Trainings"
+        year: "2019"
+        desc: "Trainings in Adjumani on collaborative (online) Documentation and beyond in the past three years, 25 trainings had been conducted with an average of 15 participants per training."
+        image: assets/img/timeline/2019.jpg
+        alt: 
+        url:
+      - title: "Decentralized Trainings, New Satellite Hubs"
+        year: "2020"
+        desc: "Moving from the individual trainings with compact sessions to a more decentralized activity network with lots of trainings across Uganda, South Sudan and into virtual space with Remote Community Co-Creation and Repair Cafés as well as strong organisations emerging and forming new sattelites"
+        image: assets/img/timeline/2020.jpg
+        alt: 
+        url: 
+      - title: "Coming Soon"
+        year: "2021-2022"
+        desc: "A story yet to be told, stay tuned..."
+        image: assets/img/timeline/2021.jpg
+        alt: 
+        url: 
       # you can enforce the alignment: 
       # align: right
-  end: 
+    end: 
       title: "Add new training, event or project!"
       link: "https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-timeline-event&template=new-timeline-event.yml&title=Add+Timeline+Event%3A+"
 
@@ -174,9 +197,33 @@ en: &DEFAULT_EN
       - title: "r0g_agency"
         url: https://openculture.agency/
         logo: assets/img/clients/r0g_logo.png
+        bw: true
       - title: "BMZ"
         url: https://www.bmz.de/en
         logo: assets/img/clients/founder_BMZ.jpg
+      - title: "Hive Colab"
+        url: https://hivecolab.org/
+        logo: assets/img/clients/hive_colab.png
+        bw: true
+      - title: "Platform Africa"
+        url: https://www.platformafrica.ngo/
+        logo: assets/img/hubs/01-logo.png
+        bw: true
+      - title: "GoGirls ICT"
+        url: https://gogirlsict.org/
+        logo: assets/img/hubs/02-logo.png
+        bw: true
+      - title: "Junub Open Space"
+        url: https://junubos.org/
+        logo: assets/img/hubs/03-logo.png
+        bw: true
+      - title: "ATAKA-HUB"
+        logo: assets/img/hubs/04-logo.png
+        bw: true
+      - title: "Youth Empowerment Foundation"
+        url: https://yef-uganda.org/
+        logo: assets/img/hubs/05-logo.png
+        bw: true
 
   team:
     title: "#ASKnet Team"

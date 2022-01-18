@@ -1,6 +1,6 @@
 ---
 title: Open Documentation Guide
-subtitle: share your knowledge openly
+subtitle: Info on how to share your knowledge
 thumbnail: assets/img/resources/documentation.jpg
 link: https://github.com/opencultureagency/Open-Documentation-Guide/
 ---

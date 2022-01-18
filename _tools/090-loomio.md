@@ -1,6 +1,6 @@
 ---
 title: 'Proposals & Decision Making'
-subtitle: 'Loomio offers a workspace for conversation, sharing information and proposals, and deciding actions.<br><i class="fas fa-exclamation-triangle"></i> Coming Soon <i class="fas fa-exclamation-triangle"></i>'
+subtitle: 'Loomio offers a workspace to have conversations, share information and proposals, and decide on next steps. <br><i class="fas fa-exclamation-triangle"></i> coming soon <i class="fas fa-exclamation-triangle"></i>'
 thumbnail: assets/img/tools/loomio.jpg
 link: https://loomio.asknet.community/
 ---

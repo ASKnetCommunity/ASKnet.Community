@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: "Welcome to #ASKnet"
-    text: Access to skills<br />& Knowledge
+    text: The ACCESS to SKILLS & KNOWLEDGE Network
     button: Learn more
     buttonlink: "#about"
 
@@ -129,7 +129,7 @@ en: &DEFAULT_EN
 
   timeline:
     title: "Timeline"
-    text: "Projects, Trainings and Activities"
+    text: "Projects, trainings and activities"
     section: timeline
     # left is the default
     #start_align: "left"
@@ -142,44 +142,44 @@ en: &DEFAULT_EN
         url: https://openculture.agency/peacehackcamp-2015/
       - title: "#ASKnet Pilot Workshop"
         year: "2016"
-        desc: 'Pilot Workshop with trainers, 3 training kits (<a href="https://askotec.asknet.community/" target="_blank">#ASKotec</a>) and 30 students were developed in Uganda.'
+        desc: 'A pilot workshop with trainers, 3 <a href="https://askotec.asknet.community/" target="_blank">#ASKotec</a> kits, and 30 students was held in Uganda.'
         image: assets/img/timeline/2016.jpg
         alt:
         url: https://github.com/ASKnetCommunity/ASKnet.Community
       - title: "First Hubs Launched"
         year: "2017"
-        desc: 'Four hubs already established and launched; training participants in different skills. More emerging through initiatives of the "jHUB Pioneers" Community members'
+        desc: 'Four hubs were established and launched. They began teaching various skills to local participants. More emerging through initiatives of the "jHUB Pioneers" Community members'
         image: assets/img/timeline/2017.jpg
         alt: 
         url: 
       - title: "Official #ASKnet Kickoff"
         year: "2018"
-        desc: "Intense trainings on organisational development and #OpenTech in Uganda Rhino Camp with the first amazing Community Repair Café event. This is were #ASKnet emerged as an official program and the network of hubs and experts started to grow. "
+        desc: "Trainings on organizational development and #OpenTech were held in Uganda at the Rhino Camp refugee settlement. The first community repair café took place and was a great success. #ASKnet emerges as an official program and the network of hubs and experts starts to grow."
         image: assets/img/timeline/2018.jpeg
         alt: 
         url: 
       - title: "Community Trainings"
         year: "2019"
-        desc: "Trainings in Adjumani on collaborative (online) Documentation and beyond in the past three years, 25 trainings had been conducted with an average of 15 participants per training."
+        desc: "Trainings are held in Adjumani, Uganda on the collaborative, online documentation process. Since then, 25 trainings have been conducted, with an average of 15 participants per training."
         image: assets/img/timeline/2019.jpg
         alt: 
         url:
       - title: "Decentralized Trainings, New Satellite Hubs"
         year: "2020"
-        desc: "Moving from the individual trainings with compact sessions to a more decentralized activity network with lots of trainings across Uganda, South Sudan and into virtual space with Remote Community Co-Creation and Repair Cafés as well as strong organisations emerging and forming new sattelites"
+        desc: "#ASKnet evolves from hosting local, individualized trainings with a limited number of participants to a more decentralized network of activity. Many more trainings take place across Uganda, South Sudan, and online, allowing remote communities to interact. Repair cafés continue to be held. Stronger, more autonomous hub identities continue to develop. "
         image: assets/img/timeline/2020.jpg
         alt: 
         url: 
-      - title: "Coming Soon"
+      - title: "Coming soon"
         year: "2021-2022"
-        desc: "A story yet to be told, stay tuned..."
+        desc: "A story yet to be told, stay tuned!"
         image: assets/img/timeline/2021.jpg
         alt: 
         url: 
       # you can enforce the alignment: 
       # align: right
     end: 
-      title: "Add new training, event or project!"
+      title: "Add new training, event, or project!"
       link: "https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-timeline-event&template=new-timeline-event.yml&title=Add+Timeline+Event%3A+"
 
   about:

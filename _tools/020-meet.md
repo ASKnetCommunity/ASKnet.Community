@@ -1,6 +1,6 @@
 ---
 title: Online Meetings
-subtitle: A simple open-source web conferencing channel (BigBlueButton). 
+subtitle: BigBlueButton is a simple, open-source platform for online meetings. 
 thumbnail: assets/img/tools/workshop.jpg
 link: https://meet.openculture.agency/r/ASKnet
 ---

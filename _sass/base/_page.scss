@@ -20,6 +20,14 @@ a {
 }
 .bg-primary {
   background-color: $primary !important;
+  background: url(../../assets/img/tile4.jpg);
+  background-attachment: fixed;
+}
+
+.bg-dark {
+  background-color: $primary !important;
+  background: url(../../assets/img/tile-dark.jpg);
+  background-attachment: fixed;
 }
 
 h1,

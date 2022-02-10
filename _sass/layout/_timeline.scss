@@ -66,6 +66,9 @@
       float: right;
       padding: 0 20px 0 100px;
       text-align: left;
+      .subheading {
+        box-shadow: -80px 17px 0px -13px lightgray;
+      }
       &:before {
         right: auto;
         left: -15px;
@@ -89,6 +92,7 @@
       color: inherit;
       &.subheading {
         text-transform: none;
+        box-shadow: 80px 17px 0px -13px lightgray;
       }
     }
   }

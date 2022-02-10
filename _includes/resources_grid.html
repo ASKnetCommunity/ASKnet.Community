@@ -17,6 +17,7 @@
     <div class="row">
 	{% for project in site.resources %}
       <div class="col-md-4 col-sm-6 hubs-item">
+        <div class="shadow-box">
         <a class="hubs-link" href="{{ project.link }}" target="_blank">
           <div class="hubs-hover">
             <div class="hubs-hover-content">
@@ -28,6 +29,7 @@
         <div class="hubs-caption">
           <h4>{{ project.title }}</h4>
           <p class="text-muted">{{ project.subtitle }}</p>
+        </div>
         </div>
       </div>
 	{% endfor %}

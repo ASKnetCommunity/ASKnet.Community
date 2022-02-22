@@ -2,10 +2,9 @@
 #hubs, #asktools, #resources {
   .hubs-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0 30px;
     .shadow-box {
-      box-shadow: 5px 5px 10px -4px black;   //blur
-      // box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.19); //no blur, harte kante aber transparent
+      box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.1); 
     }
     .hubs-link {
       position: relative;

@@ -201,6 +201,7 @@ en: &DEFAULT_EN
       - title: "BMZ"
         url: https://www.bmz.de/en
         logo: assets/img/clients/founder_BMZ.jpg
+        bw: true
       - title: "Hive Colab"
         url: https://hivecolab.org/
         logo: assets/img/clients/hive_colab.png

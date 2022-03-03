@@ -7,6 +7,7 @@
 
 // Custom colors
 $primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
+$secondary: {{ site.data.style.highlight-dark | default: "#fed136" }} !default;
 $white: {{ site.data.style.white | default: "#fff" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;
 

@@ -2,7 +2,10 @@
 #hubs, #asktools, #resources {
   .hubs-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0 30px;
+    .shadow-box {
+      box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.1); 
+    }
     .hubs-link {
       position: relative;
       display: block;
@@ -11,6 +14,11 @@
       cursor: pointer;
       .tools-img {
         height: 200px;
+        width: 100%;
+        object-fit: cover;
+      }
+      .hubs-img{
+        height: 245px;
         width: 100%;
         object-fit: cover;
       }

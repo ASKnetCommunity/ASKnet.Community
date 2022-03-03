@@ -17,32 +17,36 @@
     <div class="row">
 	{% for project in site.hubs %}
       <div class="col-md-4 col-sm-6 hubs-item">
-        <a class="hubs-link" data-toggle="modal" href="#p{{ forloop.index }}">
-          <div class="hubs-hover">
-            <div class="hubs-hover-content">
-              <i class="{{ site.data.style.hubs-icon | default: "fas fa-plus fa-3x" }}"></i>
+        <div class="shadow-box">
+          <a class="hubs-link" data-toggle="modal" href="#p{{ forloop.index }}">
+            <div class="hubs-hover">
+              <div class="hubs-hover-content">
+                <i class="{{ site.data.style.hubs-icon | default: " fas fa-plus fa-3x" }}"></i>
+              </div>
             </div>
+            <img class="img-fluid hubs-img" src="{{ project.caption.thumbnail }}" alt="">
+          </a>
+          <div class="hubs-caption">
+            <h4>{{ project.caption.title }}</h4>
+            <p class="text-muted">{{ project.caption.subtitle }}</p>
           </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-        </a>
-        <div class="hubs-caption">
-          <h4>{{ project.caption.title }}</h4>
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
         </div>
       </div>
 	{% endfor %}
       <div class="col-md-4 col-sm-6 hubs-item">
-        <a class="hubs-link" target="_blank" href="https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-hub&template=new-hub.yml&title=Add+Hub%3A+">
+        <div class="shadow-box">
+          <a class="hubs-link" target="_blank" href="https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-hub&template=new-hub.yml&title=Add+Hub%3A+">
           <div class="hubs-hover">
             <div class="hubs-hover-content">
               <i class="{{ site.data.style.hubs-icon | default: "fas fa-plus fa-3x" }}"></i>
             </div>
           </div>
-          <img class="img-fluid" src="assets/img/hubs/00-new-hub.jpg" alt="">
+          <img class="img-fluid hubs-img" src="assets/img/hubs/00-new-hub.jpg" alt="">
         </a>
         <div class="hubs-caption">
           <h4>Add new Hub</h4>
           <p class="text-muted">you can register your hub here</p>
+        </div>
         </div>
       </div>
     </div>

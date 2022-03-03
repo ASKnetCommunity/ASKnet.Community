@@ -20,14 +20,18 @@ a {
 }
 .bg-primary {
   background-color: $primary !important;
-  background: url(../../assets/img/tile5.jpg);
-  background-attachment: fixed;
+  background: url(../../assets/img/tile-orange.jpg);
+  // background-attachment: fixed;
+}
+
+.bg-light {
+  background: url(../../assets/img/tile-light.jpg);
 }
 
 .bg-dark {
-  background-color: $primary !important;
+  // background-color: $primary !important;
   background: url(../../assets/img/tile-dark.jpg);
-  background-attachment: fixed;
+  // background-attachment: fixed;
 }
 
 h1,

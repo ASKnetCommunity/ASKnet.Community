@@ -18,23 +18,24 @@
 	{% for project in site.resources %}
       <div class="col-md-4 col-sm-6 hubs-item">
         <div class="shadow-box">
-        <a class="hubs-link" href="{{ project.link }}" target="_blank">
-          <div class="hubs-hover">
-            <div class="hubs-hover-content">
-              <i class="fas fa-external-link-alt"></i>
+          <a class="hubs-link" href="{{ project.link }}" target="_blank">
+            <div class="hubs-hover">
+              <div class="hubs-hover-content">
+                <i class="fas fa-external-link-alt"></i>
+              </div>
             </div>
+            <img class="img-fluid tools-img" src="{{ project.thumbnail }}" alt="">
+          </a>
+          <div class="hubs-caption">
+            <h4>{{ project.title }}</h4>
+            <p class="text-muted">{{ project.subtitle }}</p>
           </div>
-          <img class="img-fluid tools-img" src="{{ project.thumbnail }}" alt="">
-        </a>
-        <div class="hubs-caption">
-          <h4>{{ project.title }}</h4>
-          <p class="text-muted">{{ project.subtitle }}</p>
-        </div>
         </div>
       </div>
 	{% endfor %}
       <div class="col-md-4 col-sm-6 hubs-item">
-        <a class="hubs-link" target="_blank" href="https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-resource&template=add-resource.yml&title=Add+Resource%3A+">
+        <div class="shadow-box">
+          <a class="hubs-link" target="_blank" href="https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-resource&template=add-resource.yml&title=Add+Resource%3A+">
           <div class="hubs-hover">
             <div class="hubs-hover-content">
               <i class="{{ site.data.style.hubs-icon | default: "fas fa-plus fa-3x" }}"></i>
@@ -45,6 +46,7 @@
         <div class="hubs-caption">
           <h4>Add new resource</h4>
           <p class="text-muted">you can propose a resource here</p>
+        </div>
         </div>
       </div>
     </div>

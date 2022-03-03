@@ -42,7 +42,6 @@ en: &DEFAULT_EN
       <div class="col-md-2 col-7 text-left text-nowrap">using the <b>available resources.</b> </div>
     </div>
     '
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/30
     section: about
     list:
       - title: "Community"
@@ -89,18 +88,16 @@ en: &DEFAULT_EN
     github: https://github.com/ASKtraining/Training
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/33
 
-  tools:
-    title: "#ASKtools"
-    text: "---here is the asktools text---"
-    section: asktools
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/55
-
   resources:
     title: "Resources"
-    text: "open educational training resources"
+    text: "While providing Access to Skills and Knowledge, our network shares all creations and open educational training resources."
     section: resources
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/56
   
+  tools:
+    title: "#ASKtools"
+    text: ""
+    section: asktools
+
 
   lead:
     title: "LEAD<br />Local Experts Action Directory"

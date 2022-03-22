@@ -122,6 +122,14 @@ To stop the website:
 $ docker-compose down
 ```
 
+## Partners and Funder
+
+| r0g Agency | ASKnet  | BMZ |
+| :--------: | :----: | :-------: |
+|[![r0g Logo](assets/img/clients/r0g_logo.png)](https://openculture.agency/)|[![#ASKnet Logo](assets/img/clients/asknet-logo.png)](https://github.com/ASKnet-Open-Training)|  [![BMZ Logo](assets/img/clients/founder_BMZ.jpg)](https://www.bmz.de/en/) |
+| [Official Website](https://openculture.agency/) | [Official Website](https://github.com/ASKnet-Open-Training) | [Official Website](https://www.bmz.de/en/) |
+
+
 ## License
 
 All content is licensed under CC-BY-SA 4.0 

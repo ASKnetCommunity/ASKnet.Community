@@ -19,7 +19,7 @@ caption:
 {:.logo}
 ![Youth Empowerment Foundation](assets/img/hubs/05-logo.png)
 
-<a href="https://yef-uganda.org/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>  <a href="https://www.facebook.com/WeAreYEF/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-facebook-f"></i></a>  <a href="https://www.instagram.com/youth.empowermentfoundation/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-instagram"></i></a>  <a href="https://www.youtube.com/channel/UCaGRC0F9tmuV0PeZb0DMVDg" class="btn btn-primary visit-website" target="_blank" ><i class="fab fa-youtube"></i></a>
+<a href="https://yef-uganda.org/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>  <a href="https://www.facebook.com/WeAreYEF/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-facebook-f"></i></a>  <a href="https://www.instagram.com/youth.empowermentfoundation/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-instagram"></i></a>  <a href="https://www.youtube.com/channel/UCaGRC0F9tmuV0PeZb0DMVDg" class="btn btn-primary visit-website" target="_blank" ><i class="fab fa-youtube"></i></a>  <a href="https://github.com/WeAreYEF" class="btn btn-primary visit-website" target="_blank" ><i class="fab fa-github"></i></a> 
 
 
 YEF works together with the community of Adjumani and displaced people in the Pagirinya refugee settlement to addresses local issues of unemployment and gender-based violence. We aim to do this through trainings for youth that focus on open technologies and media skills, entrepreneurship, peacebuilding, and attitude change.

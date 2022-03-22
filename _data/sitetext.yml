@@ -23,23 +23,23 @@ en: &DEFAULT_EN
     
     <div class="row my-3 justify-content-center no-gutters">
       <div class="col-auto"><i class="fas fa-project-diagram fa-2x"></i> &nbsp; </div> 
-      <div class="col-md-2 col-7 text-left text-nowrap">#ASKnet is a <b>network of hubs <br />and community members</b> </div>
+      <div class="col-md-3 col-8 text-left text-nowrap">#ASKnet is a <b>network of hubs <br />and community members</b> </div>
     </div>
     <div class="row my-3 justify-content-center no-gutters">
-      <div class="col-md-2 col-7 text-right text-nowrap"><div style="float: right;">who subscribe to the <b>vision of <br />educating on media literacy </b> </div></div>
+      <div class="col-md-3 col-8 text-right text-nowrap"><div style="float: right;">who subscribe to the <b>vision of <br />educating on media literacy </b> </div></div>
       <div class="col-auto"> &nbsp; <i class="fas fa-graduation-cap fa-2x"></i></div> 
     </div>
     <div class="row my-3 justify-content-center no-gutters">
       <div class="col-auto"><i class="fas fa-users fa-2x"></i> &nbsp; </div> 
-      <div class="col-md-2 col-7 text-left text-nowrap">and <b>creating communities <br />with hands-on experience,</b> </div>
+      <div class="col-md-3 col-8 text-left text-nowrap">and <b>creating communities <br />with hands-on experience,</b> </div>
     </div>
     <div class="row my-3 justify-content-center no-gutters">
-      <div class="col-md-2 col-7 text-right text-nowrap"><div style="float: right;">while providing <b>open access <br />to skills and knowledge <br />that can impact a community,</b></div></div>
+      <div class="col-md-3 col-8 text-right text-nowrap"><div style="float: right;">while providing <b>open access <br />to skills and knowledge <br />that can impact a community,</b></div></div>
       <div class="col-auto"> &nbsp; <i class="fas fa-book-open fa-2x"></i></div> 
     </div>
     <div class="row my-3 justify-content-center no-gutters">
       <div class="col-auto"><i class="fas fa-cogs fa-2x"></i> &nbsp; </div> 
-      <div class="col-md-2 col-7 text-left text-nowrap">using the <b>available resources.</b> </div>
+      <div class="col-md-3 col-8 text-left text-nowrap">using the <b>available resources.</b> </div>
     </div>
     '
     section: about

@@ -9,7 +9,7 @@ p {
 }
 
 a {
-  color: $primary;
+  color: $secondary;
   &:hover {
     color: darken($primary, 10%);
   }
@@ -21,7 +21,6 @@ a {
 .bg-primary {
   background-color: $primary !important;
   background: url(../../assets/img/tile-orange.jpg);
-  // background-attachment: fixed;
 }
 
 .bg-light {
@@ -29,9 +28,8 @@ a {
 }
 
 .bg-dark {
-  // background-color: $primary !important;
+  background-color: $primary !important;
   background: url(../../assets/img/tile-dark.jpg);
-  // background-attachment: fixed;
 }
 
 h1,

@@ -2,5 +2,5 @@
 title: DIY Solar Charger
 subtitle: build a simple solar charger
 thumbnail: assets/img/resources/solar-charger.jpg
-link: https://wikifab.org/wiki/DIY_Solar_Charger/
+link: https://wikifab.org/wiki/DIY_Solar_Charger
 ---

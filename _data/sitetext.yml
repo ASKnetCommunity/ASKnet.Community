@@ -68,7 +68,7 @@ en: &DEFAULT_EN
 
   resources:
     title: "Resources"
-    text: "While providing Access to Skills and Knowledge, our network shares all creations and open educational training resources."
+    text: "Our resource library is an open-access collection of the most useful open-source tools and how-to material covering a wide range of themes and challenges in the areas of open tech, media, and training. We curate and share open learning guides, toolkits, and community resources from our work so that others can adopt and deploy them in their own communities to promote local innovation and peer-to-peer knowledge exchange."
     section: resources
   
   tools:

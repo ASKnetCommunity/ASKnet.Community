@@ -1,11 +1,11 @@
 ---
-title: GoGirls ICT
-subtitle: GoGirls ICT is a South Sudanese female-led non-profit organization.
+title: GoGirls ICT Initiative
+subtitle: "GoGirls ICT Initiative is a Juba, South Sudan based non-profit initiative founded by a group of dedicated young women in the fields of Computer Science, Information Systems, ICT4D Innovation, hacktivism, and peace-building."
 image: assets/img/hubs/02-full.jpg
-alt: GoGirls ICT
+alt: GoGirls ICT Initiative
 
 caption:
-  title: GoGirls ICT
+  title: GoGirls ICT Initiative
   subtitle: Juba, South Sudan
   thumbnail: assets/img/hubs/02-thumbnail.jpg
 ---
@@ -20,7 +20,7 @@ caption:
 
 <a href="https://gogirlsict.org/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>  <a href="https://twitter.com/gogirlsictjuba" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/GoGirlsICT/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-facebook-f"></i></a>  <a href="https://www.instagram.com/gogirlsictinitiative/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-instagram"></i></a>  <a href="https://www.youtube.com/channel/UCPn5exq63qRHlNkecMywNwQ" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-youtube"></i></a>
 
-GoGirls ICT was founded in 2015 and aims to engage, educate, and empower girls and women in the fields of science, technology, engineering, art, and mathematics (STEAM).
+GoGirls ICT’s focus is on mentorship in STEAM (Science, Technology, Engineering, Art and Mathematics) related topics leveraging more on Open Source resources to create an Open Culture in South Sudan. Founded in 2015, the Organization was finally registered as an independent Non-Governmental Organization in 2019.
 
 ![GoGirls ICT](assets/img/hubs/02-content.jpg)
 

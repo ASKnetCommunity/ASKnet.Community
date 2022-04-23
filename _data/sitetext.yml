@@ -269,11 +269,11 @@ en: &DEFAULT_EN
     name-validation: "Please enter your name."
     email: "Email*"
     email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
+    subject-prefix: "[Contact Form]"
+    subject: "Subject*"
+    subject-validation: "Please enter a subject for your email."
     message: "Message*"
     message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
     submit: "Send Message"
 
   footer:

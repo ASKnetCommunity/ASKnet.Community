@@ -10,12 +10,16 @@ $(function() {
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
-	  var url = "https://formspree.io/" + "{% if site.formspree_form_path %}{{ site.formspree_form_path }}{% else %}{{ site.email }}{% endif %}";
-      var name = $("input#name").val();
-      var email = $("input#email").val();
-      var phone = $("input#phone").val();
-      var message = $("textarea#message").val();
+      var honeynamepot = $("input#name").val(); //trap for sp4m-bots
+	    var url = "https://formspree.io/" + "{% if site.formspree_form_path %}{{ site.formspree_form_path }}{% else %}{{ site.email }}{% endif %}";
+      var name = $("input#namejkl").val();
+      var email = $("input#emailasd").val();
+      var subject = "{{ site.data.sitetext[site.locale].contact.subject-prefix | default: "[Contact Form]" }}" + " " + $("input#hddhemail-subjectwerw").val();
+      var message = $("textarea#messagexrtz").val();
       var firstName = name; // For Success/Failure Message
+      if (honeynamepot.length > 0) { // if the h o n e y p o t - field is not empty, the script is aborted without sending an email
+          return;
+      }
       // Check for white space in name for Success/Fail message
       if (firstName.indexOf(' ') >= 0) {
         firstName = name.split(' ').slice(0, -1).join(' ');
@@ -25,10 +29,10 @@ $(function() {
       $.ajax({
         url: url,
         type: "POST",
-	dataType: "json",
+	      dataType: "json",
         data: {
           name: name,
-          phone: phone,
+          subject: subject,
           email: email,
           message: message
         },

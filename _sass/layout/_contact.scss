@@ -19,6 +19,15 @@ section#contact {
     textarea.form-control {
       height: 248px;
     }
+    .its-a-trap { //this makes the honeypot input fields invisible (they are used to fool spam bots)
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 0;
+      width: 0;
+      z-index: -1;
+    }
   }
   .form-control:focus {
     border-color: $primary;

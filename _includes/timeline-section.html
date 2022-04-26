@@ -1,0 +1,72 @@
+<!-- about -->
+<section id="timeline" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center mb-60">
+        <h2 class="font-primary text-dark">{{ site.data.settings.timeline-title }}</h2>
+        <p class="font-primary paragraph-lg text-dark">{{ site.data.settings.timeline-description }}</p>
+        <div class="col-lg-12">
+          <ul class="timeline">
+      {%- assign align = site.data.settings.timeline.start_align -%}
+      {%- for event in site.data.settings.timeline.events -%}
+            {%- if align == "right" -%}
+              {%- if event.align and event.align == "left" -%}
+                {%- assign align = "right" -%}
+                <li>
+              {%- else -%}
+                {%- assign align = "left" %}
+                <li class="timeline-inverted">
+              {% endif %}
+            {% else %}
+              {%- if event.align and event.align == "right" -%}
+                {%- assign align = "left" -%}
+                <li class="timeline-inverted">
+              {%- else -%}
+                {%- assign align = "right" %}
+                <li>
+              {% endif %}
+            {%- endif -%}
+            {% if event.url %}
+              <a href="{{ event.url }}" target="_blank">
+            {% endif %}
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+                </div>
+            {% if event.url %}
+              </a>
+            {% endif %}
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>{{ event.year | markdownify }}</h4>
+                  <h4 class="subheading">{{ event.title }}</h4>
+                </div>
+                <div class="timeline-body">
+                  <div class="text-muted">{{ event.desc | markdownify }}</div>
+                </div>
+              </div>
+            </li>
+		  {% endfor %}	
+            
+		  {% if site.data.settings.timeline.end %}	
+			<li class="timeline-inverted">
+        <a href="{{ site.data.settings.timeline.end.link }}" target="_blank">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="assets/img/timeline/add.png" alt="add timeline event">
+              </div>
+        </a>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <a href="{{ site.data.settings.timeline.end.link }}" target="_blank">
+                    <h4>{{ site.data.sitetext[site.locale].timeline.end.title }}</h4>
+                  </a>
+                </div>
+              </div>
+      </li>
+		  {% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->

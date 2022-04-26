@@ -1,0 +1,16 @@
+.hero-area {
+  background-image: url(/assets/img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+.hero-area .introduction {
+  margin-top: 290px;
+  font-size: 40px;
+}
+
+.hero-area .container {
+  line-height: 1.5;
+}

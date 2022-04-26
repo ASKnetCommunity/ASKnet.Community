@@ -1,55 +1,50 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
-# If you change this file, please restart the server process.
-
-# Site settings
-# are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-#theme: jekyll-agency
-
-url    : "https://www.asknet.community" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.asknet.community" # the base hostname & protocol for your site, e.g. http://example.com
 
-title      : "#ASKnet"
-email      :  #this is also the email contact forms will go to
-description: "Access to Skills & Knowledge network"
-author     : '#ASKnet'
-logo:     #optional, defaults to site title
-  path: assets/img/asknet-logo.png
-  height: 60 #height in px, defaults to 52px
-screenshot: https://raw.githubusercontent.com/ASKnetCommunity/ASKnet.Community/51b8d4f7a3a772eb2a55968b721b98bb657db161/screenshot.png
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
 
-analytics:
-  google: #Google Analytics tracking code here
+include:
+  - _pages
+
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+# Collections
 
 collections:
   hubs:
     output: true
     output_ext: .html
     permalink: /hubs/:path/
-  projects:
-    output: true
-    output_ext: .html
-    permalink: /projects/:path/
-  tools:
-    output: true
-    output_ext: .html
-    permalink: /tools/:path/
   resources:
     output: true
     output_ext: .html
     permalink: /resources/:path/
+  tools:
+    output: true
+    output_ext: .html
+    permalink: /tools/:path/
 
-markdown: kramdown
-
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-formspree_form_path: "f/myylarkr"
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.text
+  - README.md
+  - SECURITY.md

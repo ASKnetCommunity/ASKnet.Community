@@ -1,0 +1,20 @@
+<!-- hero area -->
+<section class="hero-area" id="parallax">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-11 mx-auto text-center">
+        <p class="text-white font-secondary introduction">{{ site.data.settings.hero.hero-title }}</p>
+        <h1 class="text-white">{{ site.data.settings.hero.hero-subtitle }}</h1>
+        <a class="btn btn-primary" href="{{ site.data.settings.hero.hero-button-link }}">{{ site.data.settings.hero.hero-button-text }}</a>
+      </div>
+    </div>
+  </div>
+  <!-- social icon -->
+  <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+    {% for social in site.data.settings.social %}
+    <li class="mb-3"><a class="text-white" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
+    {% endfor %}
+  </ul>
+  <!-- /social icon -->
+</section>
+<!-- /hero area -->

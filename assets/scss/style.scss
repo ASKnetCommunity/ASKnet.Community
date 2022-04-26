@@ -1,0 +1,43 @@
+---
+---
+
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+PROJECT:	Project Name
+VERSION:	Versoin Number
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+-------------------------------------------------------------------*/
+
+@import 'variables';
+
+@import 'mixins';
+
+@import 'typography';
+
+@import 'buttons';
+
+@import 'common';
+
+@import 'templates/navigation';
+
+@import 'templates/hero-area';
+
+@import 'templates/homepage';
+
+@import 'templates/blog';
+
+@import 'templates/about';
+
+@import 'templates/lead';
+
+@import 'templates/hubs';
+
+@import 'templates/resources';
+
+@import 'templates/tools';
+
+@import 'templates/timeline';

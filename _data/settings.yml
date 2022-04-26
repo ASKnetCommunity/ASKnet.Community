@@ -1,0 +1,200 @@
+#-------------------------------
+# General Site Settings
+
+title: '#ASKnet'
+logo: assets/img/asknet-logo.png
+author: '#ASKnet'
+description: "Access to Skills & Knowledge network"
+email: info@asknet.community
+phone: 
+address: 
+copyright: CC-BY-SA 4.0 #ASKnet 2022
+screenshot: https://raw.githubusercontent.com/ASKnetCommunity/ASKnet.Community/51b8d4f7a3a772eb2a55968b721b98bb657db161/screenshot.png
+
+menu:
+- {name: About, link: '/about'}
+- {name: Blog, link: '/blog'}
+- {name: hub, link: '/hub'}
+- {name: Contact, link: '/contact'}
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: "Welcome to #ASKnet"
+  hero-subtitle: The ACCESS to SKILLS & KNOWLEDGE Network
+  hero-button-text: LEARN MORE
+  hero-button-link: "#about"
+
+social:
+- {icon: "ti-facebook", link: "#"}
+- {icon: "ti-instagram", link: "#"}
+- {icon: "ti-dribbble", link: "#"}
+- {icon: "ti-twitter", link: "#"}
+
+#-------------------------------
+# About Section
+
+about-title: "#ASKnet<br />Access to Skills & Knowledge Network"
+about-description: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+about:
+- {name: '#ASKnet is a network of hubs and community members', icon: 'fas fa-project-diagram' }
+- {name: 'who subscribe to the vision of educating on media literacy', icon: 'fas fa-graduation-cap' }
+- {name: 'and creating communities with hands-on experience,', icon: 'fas fa-users' }
+- {name: 'while providing open access to skills and knowledge,', icon: 'fas fa-book-open' }
+- {name: 'that can impact a community using the available resources.,', icon: 'fas fa-cogs' }
+
+#-------------------------------
+# LEAD Section
+
+lead-title: "LEAD<br />Local Experts Action Directory"
+lead-description: "The #ASKnet Local Expert Action Directory (LEAD) is a growing and functioning tool to connect people who have specific expertise and skills in media, ICT, and a range of various technologies - be they device repair, software programming, or mechanical skills with potential clients.<br /><br />The directory makes it easier for organizations be they international donors and non-governmental agencies, local, national, and international governmental organizations, local companies, etc., - to contact and commission #ASKnet media and technology experts in the region.<br /><br />The LEAD directory allows professionals, and individuals with special skills in South Sudan and refugee-hosting regions to develop profiles, share their expertise, and promote themselves both locally and internationally. We require experts to add references/links to their work to allow partners and/or future clients to access the experts' previous work and portfolios in order to create confidence and credibility.<br /><br />Consider hiring an #ASKnet LEAD Expert for your local training or development project!"
+lead-button-title: "Go to LEAD"
+lead-button-link: "https://lead.asknet.community/"
+
+#-------------------------------
+# Resources Section
+
+resources-title: "RESOURCES"
+resources-description: "Our resource library is an open-access collection of the most useful open-source tools and how-to material covering a wide range of themes and challenges in the areas of open tech, media, and training.<br /><br />We curate and share open learning guides, toolkits, and community resources from our work so that others can adopt and deploy them in their own communities to promote local innovation and peer-to-peer knowledge exchange."
+
+#-------------------------------
+# Tools Section
+
+tools-title: "#ASKTOOLS"
+tools-description: ""
+
+#-------------------------------
+# Timeline Section
+
+timeline:
+    title: "Timeline"
+    text: "Projects, trainings and activities"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "The Pioneers"
+        year: "2015"
+        desc: "The program started in South Sudan with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (jHUB). The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet."
+        image: assets/img/timeline/2015.jpg
+        alt: 
+        url: https://openculture.agency/peacehackcamp-2015/
+      - title: "#ASKnet Pilot Workshop"
+        year: "2016"
+        desc: 'A pilot workshop with trainers, 3 <a href="https://askotec.asknet.community/" target="_blank">#ASKotec</a> kits, and 30 students was held in Uganda.'
+        image: assets/img/timeline/2016.jpg
+        alt:
+        url: https://github.com/ASKnetCommunity/ASKnet.Community
+      - title: "First Hubs Launched"
+        year: "2017"
+        desc: 'Four hubs were established and launched. They began teaching various skills to local participants. More emerging through initiatives of the "jHUB Pioneers" Community members'
+        image: assets/img/timeline/2017.jpg
+        alt: 
+        url: 
+      - title: "Official #ASKnet Kickoff"
+        year: "2018"
+        desc: "Trainings on organizational development and #OpenTech were held in Uganda at the Rhino Camp refugee settlement. The first community repair café took place and was a great success. #ASKnet emerges as an official program and the network of hubs and experts starts to grow."
+        image: assets/img/timeline/2018.jpeg
+        alt: 
+        url: 
+      - title: "Community Trainings"
+        year: "2019"
+        desc: "Trainings are held in Adjumani, Uganda on the collaborative, online documentation process. Since then, 25 trainings have been conducted, with an average of 15 participants per training."
+        image: assets/img/timeline/2019.jpg
+        alt: 
+        url:
+      - title: "Decentralized Trainings, New Satellite Hubs"
+        year: "2020"
+        desc: "#ASKnet evolves from hosting local, individualized trainings with a limited number of participants to a more decentralized network of activity. Many more trainings take place across Uganda, South Sudan, and online, allowing remote communities to interact. Repair cafés continue to be held. Stronger, more autonomous hub identities continue to develop. "
+        image: assets/img/timeline/2020.jpg
+        alt: 
+        url: 
+      - title: "Coming soon"
+        year: "2021-2022"
+        desc: "A story yet to be told, stay tuned!"
+        image: assets/img/timeline/2021.jpg
+        alt: 
+        url: 
+      # you can enforce the alignment: 
+      # align: right
+    end: 
+      title: "Add new training, event, or project!"
+      link: "https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-timeline-event&template=new-timeline-event.yml&title=Add+Timeline+Event%3A+"
+
+#-------------------------------
+# Services Section
+
+services-title: Services
+services:
+- {
+    name: Community,
+    icon: fas fa-users,
+    description: 'We bring together people and ideas to help build resilient environments for strong knowledge exchange within numerous communities - in towns, villages, and local neighborhoods, including within refugee or IDP settlements. We strive to harness and make public the collective knowledge and skills of local experts, refugees, activists, and CSOs to deepen local impact and create opportunities for mutual support and collaboration.',
+    active: # Add true to select section
+  }
+- {
+    name: Media Literacy,
+    icon: fas fa-laptop,
+    description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
+    active: # Add true to select section
+  }
+- {
+    name: Open Access,
+    icon: fab fa-osi,
+    description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
+    active: # Add true to select section
+  }
+
+
+#-------------------------------
+# Hubs Section
+
+hub-section-title: YOUTH LED HUBS
+hub-section-description: "#ASKnet is a capacity building and hub development program linking South Sudanese youth-led community hubs, be they in South Sudan or neighboring regions.<br /><br />The program started in 2015 with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (jHUB) which aimed to provide an open forum to discuss, identify, and develop solutions for South Sudan’s post-conflict challenges. Conflict flared up again at the end of 2016 and the jHUB community was dispersed. The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet.<br /><br />This community continues to grow, move and intersect with other like-minded individuals and organizations at the grassroots and beyond creating opportunities for collaborations, training, and knowledge sharing. Meet the #ASKnet Hubs!"
+
+
+#-------------------------------
+# Client Slider Section
+  
+client-slider-items:    
+  - logo: assets/img/clients/r0g_logo.png
+    url: https://openculture.agency/
+  - logo: assets/img/clients/founder_BMZ.jpg
+    url: https://www.bmz.de/en
+  - logo: assets/img/clients/hive_colab.png
+    url: https://hivecolab.org/
+  - logo: assets/img/hubs/01-logo.png
+    url: https://www.platformafrica.ngo/
+  - logo: assets/img/hubs/02-logo.png
+    url: https://gogirlsict.org/
+  - logo: assets/img/hubs/03-logo.png
+    url: https://junubos.org/
+  - logo: assets/img/hubs/04-logo.png
+    url: 
+  - logo: assets/img/hubs/05-logo.png
+    url: https://yef-uganda.org/
+
+#-------------------------------
+# Contact Section
+
+contact-title: Contact Info
+contact-email: info@asknet.community

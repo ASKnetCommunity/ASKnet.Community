@@ -84,10 +84,22 @@
   }
 }
 
+.shuffle-wrapper {
+  margin:40px 0;
+}
 
-/* /service */
+/* shuffle item */
 
-/* hub */
+.shuffle-item {
+
+  .caption {
+    text-align: center;
+    background: $white;
+    padding: 20px 0;
+  }
+
+}
+
 .hover-wrapper {
   overflow: hidden;
 
@@ -106,6 +118,7 @@
       visibility: visible;
     }
   }
+
 }
 
 .hover-overlay {
@@ -115,10 +128,11 @@
   border-radius: inherit;
   top: 0;
   left: 0;
-  background: rgba($color: $black, $alpha: .3);
+  background: rgba($color: $primary-color, $alpha: .8);
   opacity: 0;
   visibility: hidden;
   transition: .3s ease;
+  color: $white !important;
 }
 
 .hover-content {
@@ -129,8 +143,6 @@
   right: 0;
   text-align: center;
 }
-
-/* /hub */
 
 /* testimonial */
 .testimonial-content {

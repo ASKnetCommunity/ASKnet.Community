@@ -36,6 +36,17 @@ img {
   border: 0;
 }
 
+a:link,
+a:visited {
+  color: $link-color;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: $link-hover-color;
+}
+
 a,
 a:hover,
 a:focus {

@@ -102,6 +102,11 @@ section#timeline {
           background-color: white;
         }
       }
+      &.year {
+        text-transform: none;
+        font-weight: 400;
+        font-size: 1.2rem;
+      }
     }
   }
   .timeline-body {

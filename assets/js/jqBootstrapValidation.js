@@ -962,7 +962,7 @@
       validemail: {
         name: "Validemail",
         type: "regex",
-        regex: "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}",
+        regex: "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}",
         message:
           "Not a valid email address<!-- data-validator-validemail-message to override -->",
       },

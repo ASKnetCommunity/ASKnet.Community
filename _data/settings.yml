@@ -13,6 +13,7 @@ screenshot: https://raw.githubusercontent.com/ASKnetCommunity/ASKnet.Community/5
 
 menu:
 - {name: About, link: '/about'}
+- {name: Tools, link: '/#asktools'}
 - {name: Blog, link: '/blog'}
 - {name: hub, link: '/hub'}
 - {name: Contact, link: '/contact'}

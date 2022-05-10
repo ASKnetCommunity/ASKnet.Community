@@ -16,7 +16,7 @@ menu:
 - {name: Tools, link: '/#asktools'}
 - {name: Blog, link: '/blog'}
 - {name: hub, link: '/hub'}
-- {name: Contact, link: '/contact'}
+- {name: Contact, link: '/#contact'}
 
 
 #-------------------------------

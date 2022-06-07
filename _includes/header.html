@@ -1,8 +1,8 @@
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary btn btn-primary" href="{{ site.baseurl }}/">
+    <a class="navbar-brand font-tertiary btn btn-primary px-3 py-2" href="{{ site.baseurl }}/">
       {% if site.data.settings.logo %}
-        <img height="60" src="{{ site.data.settings.logo | absolute_url }}" alt="{{ site.data.settings.title }}">
+        <img height="40" src="{{ site.data.settings.logo | absolute_url }}" alt="{{ site.data.settings.title }}">
         {% else if %}
         <h3 class="text-white font-tertiary">{{site.data.settings.title}}</h3>
       {% endif %}
@@ -19,7 +19,7 @@
         </li>
         {% for link in site.data.settings.menu %}
           <li class="nav-item {{ class }}">
-            <a class="nav-link" href="{{ site.baseurl }}/{{ link.link }}">{{ link.name }}</a>
+            <a class="nav-link" href="{{ site.baseurl }}{{ link.link }}">{{ link.name }}</a>
           </li>
         {% endfor %}
       </ul>

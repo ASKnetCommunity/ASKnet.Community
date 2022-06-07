@@ -1,0 +1,38 @@
+table.hub-summary {
+  background: $primary-color;
+  color: $text-color-dark;
+  text-align: left;
+  width: 100%;
+  td,
+  th {
+    padding: 15px;
+    border: 4px $white solid;
+    vertical-align: top;
+  }
+}
+
+.logo {
+  text-align: center !important;
+}
+
+.hub-page {
+  .btn {
+    color: $white;
+    height: 38px;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  p {
+    text-align: justify;
+  }
+  ol, ul {
+    list-style-type: initial;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+

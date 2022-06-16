@@ -22,56 +22,47 @@ en: &DEFAULT_EN
     The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality.  <br> <br>   
     
     <div class="row my-3 justify-content-center no-gutters">
-      <div class="col-auto"><i class="fas fa-project-diagram fa-2x"></i> &nbsp; </div> 
-      <div class="col-md-3 col-8 text-left text-nowrap">#ASKnet is a <b>network of hubs <br />and community members</b> </div>
+      <div class="col-auto mt-2 mr-3"><i class="fas fa-project-diagram fa-2x"></i> &nbsp; </div> 
+      <div class="col-md-4 col-8 text-left text-nowrap">#ASKnet is a <b>network of hubs <br />and community members</b> </div>
     </div>
     <div class="row my-3 justify-content-center no-gutters">
-      <div class="col-md-3 col-8 text-right text-nowrap"><div style="float: right;">who subscribe to the <b>vision of <br />educating on media literacy </b> </div></div>
-      <div class="col-auto"> &nbsp; <i class="fas fa-graduation-cap fa-2x"></i></div> 
+      <div class="col-md-4 col-8 text-right text-nowrap"><div style="float: right;">who subscribe to the <b>vision of <br />educating on media literacy </b> </div></div>
+      <div class="col-auto mt-2 ml-3"> &nbsp; <i class="fas fa-graduation-cap fa-2x"></i></div> 
     </div>
     <div class="row my-3 justify-content-center no-gutters">
-      <div class="col-auto"><i class="fas fa-users fa-2x"></i> &nbsp; </div> 
-      <div class="col-md-3 col-8 text-left text-nowrap">and <b>creating communities <br />with hands-on experience,</b> </div>
+      <div class="col-auto mt-2 mr-3"><i class="fas fa-users fa-2x"></i> &nbsp; </div> 
+      <div class="col-md-4 col-8 text-left text-nowrap">and <b>creating communities <br />with hands-on experience,</b> </div>
     </div>
     <div class="row my-3 justify-content-center no-gutters">
-      <div class="col-md-3 col-8 text-right text-nowrap"><div style="float: right;">while providing <b>open access <br />to skills and knowledge <br />that can impact a community,</b></div></div>
-      <div class="col-auto"> &nbsp; <i class="fas fa-book-open fa-2x"></i></div> 
+      <div class="col-md-4 col-8 text-right text-nowrap"><div style="float: right;">while providing <b>open access</b> <br />to <b>skills and knowledge </b></div></div>
+      <div class="col-auto mt-2 ml-3"> &nbsp; <i class="fas fa-book-open fa-2x"></i></div> 
     </div>
     <div class="row my-3 justify-content-center no-gutters">
-      <div class="col-auto"><i class="fas fa-cogs fa-2x"></i> &nbsp; </div> 
-      <div class="col-md-3 col-8 text-left text-nowrap">using the <b>available resources.</b> </div>
+      <div class="col-auto mt-2 mr-3"><i class="fas fa-cogs fa-2x"></i> &nbsp; </div> 
+      <div class="col-md-4 col-8 text-left text-nowrap">that can <b>impact a community</b> <br> using the <b>available resources.</b> </div>
     </div>
     '
     section: about
     list:
       - title: "Community"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "We bring together people and ideas to help build resilient environments for strong knowledge exchange within numerous communities - in towns, villages, and local neighborhoods, including within refugee or IDP settlements. We strive to harness and make public the collective knowledge and skills of local experts, refugees, activists, and CSOs to deepen local impact and create opportunities for mutual support and collaboration."
         icon: fas fa-users #find more at https://fontawesome.com/icons
-        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
       - title: "Media Literacy"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources."
         icon: fas fa-laptop
-        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
       - title: "Open Access"
-        desc: "Your description here, full **Markdown** support"
+        desc: "#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources."
         icon: fab fa-osi
-        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/29
 
   hubs:
     title: "Youth Led Hubs"
-    text: "#ASKnet is a capacity building and hub development program linking five community based youth-led innovation hubs in South Sudan and Uganda."
+    text: "#ASKnet is a capacity building and hub development program linking South Sudanese youth-led community hubs, be they in South Sudan or neighboring regions. 
+    <br><br>
+    The program started in 2015 with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (<a href=\"https://openculture.agency/innovation-hubs/\" target=\"_blank\">jHUB</a>) which aimed to provide an open forum to discuss, identify, and develop solutions for South Sudan’s post-conflict challenges. Conflict flared up again at the end of 2016 and the jHUB community was dispersed. The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet. 
+    <br><br>
+    This community continues to grow, move and intersect with other like-minded individuals and organizations at the grassroots and beyond creating opportunities for collaborations, training, and knowledge sharing. Meet the #ASKnet Hubs!"
     section: hubs
     closebutton: "back to hub overview"
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/31
-  
-  askotec:
-    title: "#ASKotec<br />Open Tech Emergency Case"
-    text: "#ASKotec; the Access to Skills and Knowledge Open Tech Emergency Case is a resource kit for community trainers."
-    section: askotec
-    image: assets/img/projects/askotec-website.png
-    website: https://askotec.openculture.agency
-    github: https://github.com/opencultureagency/ASKotec
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/27
   
   asktools:
     title: "#ASKtools<br />a lot of (online-)tools"
@@ -79,18 +70,11 @@ en: &DEFAULT_EN
     section: oldasktools
     submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/28
 
-  asktraining:
-    title: "#ASKtraining<br />Create your own workshop plan"
-    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
-    section: asktraining
-    image: assets/img/projects/asktraining-website.png
-    website: https://asktraining.github.io/Training/
-    github: https://github.com/ASKtraining/Training
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/33
-
   resources:
     title: "Resources"
-    text: "While providing Access to Skills and Knowledge, our network shares all creations and open educational training resources."
+    text: "Our resource library is an open-access collection of the most useful open-source tools and how-to material covering a wide range of themes and challenges in the areas of open tech, media, and training. 
+    <br><br>
+    We curate and share open learning guides, toolkits, and community resources from our work so that others can adopt and deploy them in their own communities to promote local innovation and peer-to-peer knowledge exchange."
     section: resources
   
   tools:
@@ -98,12 +82,16 @@ en: &DEFAULT_EN
     text: ""
     section: asktools
 
-
   lead:
     title: "LEAD<br />Local Experts Action Directory"
-    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+    text: "The #ASKnet Local Expert Action Directory (LEAD) is a growing and functioning tool to connect people who have specific expertise and skills in media, ICT, and a range of various technologies - be they device repair, software programming, or mechanical skills with potential clients. 
+    <br><br>
+    The directory makes it easier for organizations be they international donors and non-governmental agencies, local, national, and international governmental organizations, local companies, etc., - to contact and commission #ASKnet media and technology experts in the region. 
+    <br><br>
+    The LEAD directory allows professionals, and individuals with special skills in South Sudan and refugee-hosting regions to develop profiles, share their expertise, and promote themselves both locally and internationally. We require experts to add references/links to their work to allow partners and/or future clients to access the experts' previous work and portfolios in order to create confidence and credibility. 
+    <br><br>
+    Consider hiring an #ASKnet LEAD Expert for your local training or development project!"
     section: lead
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/32
   
   projects-trainings:
     title: "Projects and Trainings"
@@ -299,152 +287,3 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
-
-# Spanish
-# -------
-es: &DEFAULT_ES
-  header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
-
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
-    list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
-
-  hubs:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
-    closebutton: "Cerrar Proyecto"
-
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
-
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
-
-  clients:
-    section: clientes
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "r0g_agency"
-        url: https://openculture.agency/
-        logo: assets/img/clients/r0g_logo.png
-      - title: "BMZ"
-        url: https://www.bmz.de/en
-        logo: assets/img/clients/founder_BMZ.jpg
-
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
-  contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
-
-  footer:
-    legal: "Política de Privacidad"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES

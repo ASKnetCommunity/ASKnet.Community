@@ -11,7 +11,7 @@ $(function() {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
       var honeynamepot = $("input#name").val(); //trap for sp4m-bots
-	    var url = "https://formspree.io/" + "{% if site.formspree_form_path %}{{ site.formspree_form_path }}{% else %}{{ site.email }}{% endif %}";
+	    var url = "https://formspree.io/" + "{% if site.data.settings.formspree-path %}{{ site.data.settings.formspree-path }}{% else %}{{ site.data.settings.contact-email }}{% endif %}";
       var name = $("input#namejkl").val();
       var email = $("input#emailasd").val();
       var subject = "{{ site.data.sitetext[site.locale].contact.subject-prefix | default: "[Contact Form]" }}" + " " + $("input#hddhemail-subjectwerw").val();

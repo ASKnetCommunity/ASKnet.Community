@@ -1,0 +1,13 @@
+section#hubs {
+  background: url(../../assets/img/tile-light.jpg);
+}
+
+.filter-controls {
+  li {
+    cursor: pointer;
+
+    &.active {
+      font-weight: bold;
+    }
+  }
+}

@@ -3,6 +3,7 @@ title: ATAKA Hub
 subtitle: ATAKA-HUB was founded in 2017 in Bor, South Sudan and is a community-based innovation center that focused on the youth who have dropped out of school and are interested in helping their community.
 image: assets/img/hubs/04-full.jpg
 alt: Ataka Hub
+layout: hub
 
 caption:
   title: Ataka Hub
@@ -17,13 +18,14 @@ caption:
 | Overview of focus areas:  |  Peacebuilding, #defyhatenow, gender-based violence awareness, entrepreneurship for women and the youth, open tech skills using the #ASKotec, poverty mitigation, #eatBCH food donations for orphans, widows, and the elderly. |
 
 {:.logo}
-![ATAKA Hub](assets/img/hubs/04-logo.png)
+![ATAKA Hub]({{ site.baseurl }}/assets/img/hubs/04-logo.png)
 
+{:.text-center}
 <a href="https://twitter.com/atakahub" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/atakahub/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-facebook-f"></i></a>
 
 ATAKA-HUB fosters peacebuilding through social media skills training, comedy theater, and gender equality awareness. We help the youth find self-employment opportunities by teaching them open tech and repair skills. We also use the cryptocurrency #eatBCH to provide food to the needy in Bor.
 
-![ATAKA Hub](assets/img/hubs/04-content-1.jpg)
+![ATAKA Hub]({{ site.baseurl }}/assets/img/hubs/04-content-1.jpg)
 
 ### Founding
 
@@ -35,11 +37,11 @@ Michael Garang, member and trainer at ATAKA believes that “when there are prob
 
 
 
-![ATAKA Hub](assets/img/hubs/04-content-2.jpg)
+![ATAKA Hub]({{ site.baseurl }}/assets/img/hubs/04-content-2.jpg)
 
 
-![ATAKA Hub](assets/img/hubs/04-content-3.jpg)
+![ATAKA Hub]({{ site.baseurl }}/assets/img/hubs/04-content-3.jpg)
 
 
-![ATAKA Hub](assets/img/hubs/04-content-4.jpg)
+![ATAKA Hub]({{ site.baseurl }}/assets/img/hubs/04-content-4.jpg)
 

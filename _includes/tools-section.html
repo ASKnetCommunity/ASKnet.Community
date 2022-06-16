@@ -1,0 +1,43 @@
+<!-- tools -->
+<section id="asktools" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title text-dark">{{ site.data.settings.tools-title}}</h2>
+      </div>
+    </div>
+    <div class="row shuffle-wrapper">
+      {% for tool in site.tools %}
+      <div class="col-md-4 col-sm-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="{{ site.baseurl }}/{{ tool.thumbnail }}" alt="tools-alt" class="img-fluid rounded w-100 d-block" />
+          <a class="hover-overlay" href="{{ tool.link }}">
+            <div class="hover-content">
+              <i class=" fas fa-plus fa-3x"></i>
+            </div>
+          </a>
+        </div>
+        <div class="caption">
+          <h4>{{ tool.title }}</h4>
+          <p class="text-muted">{{ tool.subtitle }}</p>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="col-md-4 col-sm-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <div style="display:block; width:100%; height: 200px; background:#DFAF5F"></div>
+          <a class="hover-overlay" href="https://gittools.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-tools&template=new-tools.yml&title=Add+tools%3A+">
+            <div class="hover-content">
+              <i class=" fas fa-plus fa-3x"></i>
+            </div>
+          </a>
+        </div>
+        <div class="caption">
+          <h4>Add new Tool</h4>
+          <p class="text-muted">you can register your tool here</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /tools -->

@@ -1,14 +1,19 @@
 ---
 layout: default
 ---
-{% include nav.html %}
 
-{% if page.background == "grey" or page.background == "gray" %}
-<script>
-document.getElementById("page-top").className="bg-light";
-</script>
-{% endif %}
+<!-- page title -->
+<section class="page-title position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white ">{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
 
-<div class="container" id="pagecontainer">
-{{ content }}
-</div>
+<section class="page-content">
+  {{ content }}
+</section>

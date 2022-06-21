@@ -1,12 +1,12 @@
-section#resources {
+section#resources-section {
   background: url(../../assets/img/tile-dark.jpg);
 }
 
-#resources p {
+#resources-section p {
   color: $white;
 }
 
-#resources img, #resources #grid-add-item {
+#resources-section img, #resources-section #grid-add-item {
   height: 200px;
 }
 

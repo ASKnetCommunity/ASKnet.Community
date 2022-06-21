@@ -212,7 +212,14 @@ a:hover {
 }
 
 .font-secondary {
+  margin-top: 290px;
   font-family: $secondary-font !important;
+  font-style: italic;
+  font-size: 40px;
+  @include desktop {
+    margin-top: 250px;
+    font-size: 22px;
+  }
 }
 
 .font-tertiary {

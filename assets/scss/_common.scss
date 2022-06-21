@@ -90,7 +90,6 @@ a:hover {
   &-title {
     font-family: $primary-font;
     margin-top: 0;
-    margin-bottom: 15px;
     text-transform:uppercase;
     font-weight: bold;
   }
@@ -242,7 +241,7 @@ a:hover {
 
 .icon-bg {
   background: $primary-color;
-  padding: 50px;
+  padding: 35px;
   border-radius: 100%;
   color: $white;
   text-align: center;

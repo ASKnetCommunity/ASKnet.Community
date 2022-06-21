@@ -3,8 +3,8 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">{{ site.data.settings.hub-section-title}}</h2>
-        <p>{{ site.data.settings.hub-section-description }}</p>
+        <h2>{{ site.data.settings.hub-section-title}}</h2>
+        {{ site.data.settings.hub-section-description | markdownify }}
       </div>
     </div>
     <div class="row shuffle-wrapper">

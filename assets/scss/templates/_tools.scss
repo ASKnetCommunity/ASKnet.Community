@@ -2,6 +2,10 @@ section#asktools {
   background:url(../../assets/img/tile-orange.jpg);
 }
 
+#asktools p {
+  color: $text-color-dark;
+}
+
 #asktools img, #asktools #grid-add-item {
   height: 200px;
 }

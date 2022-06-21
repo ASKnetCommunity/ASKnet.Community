@@ -1,5 +1,6 @@
 /*  typography */
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400');
+
+@import 'templates/fonts';
 
 body {
   line-height: 1.2;
@@ -12,9 +13,12 @@ body {
 p, .paragraph {
   font-weight: 400;
   color: $text-color;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 1.5;
-  font-family: $primary-font;
+  font-family: $secondary-font;
+  @include desktop {
+    font-size: 1.1rem;
+  }
   &-lg{
     font-size: 22px;
   }
@@ -36,8 +40,9 @@ h1, .h1{
 
 h2, .h2{
   font-size: 40px;
+  margin-bottom: 1em;
   @include desktop {
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 

@@ -1,3 +1,7 @@
 section#lead {
   background: url(../../assets/img/tile-orange.jpg);
 }
+
+#lead p {
+  color: $text-color-dark;
+}

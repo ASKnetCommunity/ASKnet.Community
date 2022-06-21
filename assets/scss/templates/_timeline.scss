@@ -90,7 +90,7 @@ section#timeline {
   .timeline-heading {
     h4 {
       margin-top: 0;
-      color: inherit;
+      color: $text-color-dark;
       &.subheading {
         text-transform: none;
         &:before {
@@ -115,6 +115,9 @@ section#timeline {
       margin-bottom: 0;
     }
   }
+}
+.timeline-body p {
+  font-size: 1.1rem !important;  
 }
 @media (min-width: 768px) {
   .timeline {

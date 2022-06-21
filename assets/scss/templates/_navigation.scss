@@ -30,3 +30,11 @@
 .navbar-dark .navbar-nav .nav-link{
   color: $primary-color;
 }
+
+.jump-mark {
+  height: 0;
+  width: 0;
+  opacity: 0;
+  position: relative;
+  top: -160px;
+}

@@ -1,9 +1,11 @@
 /* Button style */
 .btn {
   font-size: 22px;
-  font-family: $secondary-font;
+  font-family: $primary-font;
+  color: $white !important;
   text-transform: capitalize;
   padding: 16px 44px;
+  margin-top: 15px;
   border-radius: 5px;
   font-weight: 600;
   border: 0;

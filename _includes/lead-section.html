@@ -1,11 +1,12 @@
 <!-- about -->
 <section id="lead" class="section">
+  <div id="lead-section" class="jump-mark"></div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto text-center mb-60">
-        <h2 class="font-primary text-dark">{{ site.data.settings.lead-title }}</h2>
-        <p class="font-primary paragraph-lg text-dark">{{ site.data.settings.lead-description }}</p>
-        <a class="btn btn-primary" href="{{ site.data.settings.lead-button-link }}">{{ site.data.settings.lead-button-title }} <i class="fas fa-external-link-alt"></i></a>
+      <div class="col-lg-10 mx-auto mb-60">
+        <h2>{{ site.data.settings.lead-title }}</h2>
+        {{ site.data.settings.lead-description | markdownify }}
+        <a class="btn btn-dark mt-4" href="{{ site.data.settings.lead-button-link }}">{{ site.data.settings.lead-button-title }} <i class="fas fa-external-link-alt"></i></a>
       </div>
     </div>
   </div>

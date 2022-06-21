@@ -81,11 +81,15 @@ a:hover {
 .section {
   padding-top: 80px;
   padding-bottom: 80px;
-
+  &.hub-nav{
+    @include desktop {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
   &-title {
     font-family: $primary-font;
     margin-top: 0;
-    margin-bottom: 15px;
     text-transform:uppercase;
     font-weight: bold;
   }
@@ -207,7 +211,14 @@ a:hover {
 }
 
 .font-secondary {
+  margin-top: 290px;
   font-family: $secondary-font !important;
+  font-style: italic;
+  font-size: 40px;
+  @include desktop {
+    margin-top: 250px;
+    font-size: 22px;
+  }
 }
 
 .font-tertiary {
@@ -230,7 +241,7 @@ a:hover {
 
 .icon-bg {
   background: $primary-color;
-  padding: 50px;
+  padding: 35px;
   border-radius: 100%;
   color: $white;
   text-align: center;
@@ -306,8 +317,38 @@ textarea.form-control{
 }
 
 .page-content {
-  max-width:700px;
-  margin: 20px auto;
+  max-width:1000px;
+  margin: 30px auto;
+  padding: 0px 15px;
+  min-height: 55vh;
 }
 
 /* /page */
+
+/* footer */
+
+ul.social-buttons {
+  margin-bottom: 0;
+  li {
+    a {
+      font-size: 20px;
+      line-height: 50px;
+      display: block;
+      width: 50px;
+      height: 50px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      color: white;
+      border-radius: 100%;
+      outline: none;
+      background-color: $link-color;
+      &:active,
+      &:focus,
+      &:hover {
+        background-color: $link-hover-color;
+      }
+    }
+  }
+}
+/* /footer */

@@ -1,10 +1,11 @@
 <!-- about -->
 <section id="timeline" class="section">
+  <div id="timeline-section" class="jump-mark"></div>
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">{{ site.data.settings.timeline.title }}</h2>
-        <p class="font-primary paragraph-lg">{{ site.data.settings.timeline.text }}</p>
+        <h2>{{ site.data.settings.timeline.title }}</h2>
+        {{ site.data.settings.timeline.text | markdownify }}
       </div>
       <div class="col-lg-10 mx-auto text-center mb-60">
         <h2 class="font-primary text-dark">{{ site.data.settings.timeline-title }}</h2>

@@ -1,28 +1,31 @@
 <!-- footer -->
 <footer class="bg-dark footer-section">
-  <!--
-  <div class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.email }}</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.phone }}</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.address }}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
   <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-white">#ASKnet.Community {{site.data.settings.copyright | markdownify}}<a href="{{ site.baseurl }}/imprint/">Imprint</a> | <a href="{{ site.baseurl }}/privacy-policy/">Privacy Policy</a></p>
+
+    <!-- Social Media -->
+    <div class="col-md-12 text-center mb-3">
+      <ul class="list-inline social-buttons">
+        {% for link in site.data.sitetext.en.footer.social %}
+        <li class="list-inline-item">
+          {% if link.url %}
+          <a href="{{ link.url }}" target="_blank">
+            {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+          </a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <p class="mb-0 text-white">Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a> {{ site.title }} {{ 'now' | date: "%Y" }}<br>
+      <a href="https://github.com/raviriley/agency-jekyll-theme" target="_blank">Theme</a>: <a href="https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt" target="_blank">MIT license</a> <br>
+      (<a href="https://github.com/ASKnetCommunity/ASKnet.Community" target="_blank">Github</a>)
+    </p>
+    <p>
+      <a href="{% link _pages/imprint.md %}">Imprint</a> | <a href="{% link _pages/privacy-policy.md %}">Privacy Policy</a>
+    </p>
   </div>
+
 </footer>
 <!-- /footer -->
 

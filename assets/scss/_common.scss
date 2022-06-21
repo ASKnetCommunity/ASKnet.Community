@@ -324,3 +324,31 @@ textarea.form-control{
 }
 
 /* /page */
+
+/* footer */
+
+ul.social-buttons {
+  margin-bottom: 0;
+  li {
+    a {
+      font-size: 20px;
+      line-height: 50px;
+      display: block;
+      width: 50px;
+      height: 50px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      color: white;
+      border-radius: 100%;
+      outline: none;
+      background-color: $link-color;
+      &:active,
+      &:focus,
+      &:hover {
+        background-color: $link-hover-color;
+      }
+    }
+  }
+}
+/* /footer */

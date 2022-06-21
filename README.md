@@ -139,6 +139,7 @@ Theme used: [Agency Theme (Jekyll version)](https://github.com/raviriley/agency-
 Technologies used: 
 - [Bootstrap](https://getbootstrap.com/) which is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 - FontAwesome - [License here](https://fontawesome.com/license/free)  (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+- [jqBootstrapValidation](https://reactiveraven.github.io/jqBootstrapValidation/) which is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 Fonts used: 
 - montserrat-v24-latin-ext_latin-regular.ttf: Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)

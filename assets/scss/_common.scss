@@ -81,7 +81,12 @@ a:hover {
 .section {
   padding-top: 80px;
   padding-bottom: 80px;
-
+  &.hub-nav{
+    @include desktop {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
   &-title {
     font-family: $primary-font;
     margin-top: 0;

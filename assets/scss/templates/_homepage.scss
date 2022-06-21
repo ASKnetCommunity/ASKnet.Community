@@ -95,9 +95,20 @@
   .caption {
     text-align: center;
     background: $white;
-    padding: 20px 0;
+    padding: 20px 10px;
+
+    p {
+      margin-bottom: 0px;
+    }
   }
 
+}
+
+.shuffle-wrapper .shuffle-item img, #grid-add-item {
+  width: 100%;
+  object-fit: cover;
+  background: $primary-color;
+  display: block;
 }
 
 .hover-wrapper {

@@ -1,0 +1,45 @@
+<!-- resources -->
+<section id="resources" class="section">
+  <div id="resources-section" class="jump-mark"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-white">{{ site.data.settings.resources-title}}</h2>
+        {{ site.data.settings.resources-description | markdownify }}
+      </div>
+    </div>
+    <div class="row shuffle-wrapper">
+      {% for resource in site.resources %}
+      <div class="col-md-4 col-sm-6 mb-4 shuffle-item">
+        <div class="position-relative hover-wrapper">
+          <img src="{{ site.baseurl }}/{{ resource.thumbnail }}" alt="resources-alt" class="img-fluid w-100 d-block" />
+          <a class="hover-overlay" href="{{ resource.link }}">
+            <div class="hover-content">
+              <i class=" fas fa-plus fa-3x"></i>
+            </div>
+          </a>
+        </div>
+        <div class="caption">
+          <h4>{{ resource.title }}</h4>
+          <p class="text-muted">{{ resource.subtitle }}</p>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="col-md-4 col-sm-6 mb-4 shuffle-item">
+        <div class="position-relative hover-wrapper">
+          <div id="grid-add-item"></div>
+          <a class="hover-overlay" href="https://gitresources.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-resources&template=new-resources.yml&title=Add+resources%3A+">
+            <div class="hover-content">
+              <i class=" fas fa-plus fa-3x"></i>
+            </div>
+          </a>
+        </div>
+        <div class="caption">
+          <h4>Add new Resource</h4>
+          <p class="text-muted">you can register your resource here</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /resources -->

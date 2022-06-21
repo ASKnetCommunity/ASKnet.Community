@@ -1,54 +1,42 @@
-<!-- Footer -->
-<footer class="footer" id="footer" style="background-color: white">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <span class="copyright">
-          Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a> {{ site.title }} {{ 'now' | date: "%Y" }}<br>
-          <a href="https://github.com/raviriley/agency-jekyll-theme" target="_blank">Theme</a>: <a href="https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt" target="_blank">MIT license</a> <br>
-          (<a href="https://github.com/ASKnetCommunity/ASKnet.Community" target="_blank">Github</a>)
-        </span>
-      </div>
-      <!-- Social Media -->
-      <div class="col-md-4">
-        <ul class="list-inline social-buttons">
-          {% for link in site.data.sitetext[site.locale].footer.social %}
-          <li class="list-inline-item">
-            {% if link.url %}
-            <a href="{{ link.url }}" target="_blank">
-              {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
-            </a>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      <!-- Legal -->
-      <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          <li class="list-inline-item">
-            <a href="legal"
-              >{{ site.data.sitetext[site.locale].footer.legal | default:
-              "Privacy Policy" }}</a
-            >
-          </li>
-        </ul>
-      </div>
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="border-top text-center border-dark py-5">
+
+    <!-- Social Media -->
+    <div class="col-md-12 text-center mb-3">
+      <ul class="list-inline social-buttons">
+        {% for link in site.data.sitetext.en.footer.social %}
+        <li class="list-inline-item">
+          {% if link.url %}
+          <a href="{{ link.url }}" target="_blank">
+            {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+          </a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
     </div>
+
+    <p class="mb-0 text-white">Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a> {{ site.title }} {{ 'now' | date: "%Y" }}<br>
+      <a href="https://github.com/raviriley/agency-jekyll-theme" target="_blank">Theme</a>: <a href="https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt" target="_blank">MIT license</a> <br>
+      (<a href="https://github.com/ASKnetCommunity/ASKnet.Community" target="_blank">Github</a>)
+    </p>
+    <p>
+      <a href="{% link _pages/imprint.md %}">Imprint</a> | <a href="{% link _pages/privacy-policy.md %}">Privacy Policy</a>
+    </p>
   </div>
+
 </footer>
-{% if page.layout == "page" %}
-<script>
-  fixPageShort();
-  function fixPageShort() {
-    if (window.innerHeight > document.body.offsetHeight) {
-      document.getElementById("footer").style.position = "fixed";
-      document.getElementById("footer").style.bottom = 0;
-      document.getElementById("footer").style.right = 0;
-      document.getElementById("footer").style.left = 0;
-      document.getElementById("footer").style.width = "100%";
-    }
-  }
-</script>
-{% endif %}
-<!-- End Footer -->
+<!-- /footer -->
+
+
+<!-- JS Plugins -->
+{% for js in site.data.plugins.js %}
+<script src="{{ js | relative_url }}"></script>
+{% endfor %}
+
+<!-- Main Script -->
+<script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+
+<!-- Contact form JavaScript -->
+<script src="assets/js/contact_me.js"></script>

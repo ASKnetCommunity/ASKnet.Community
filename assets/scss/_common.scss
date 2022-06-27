@@ -245,7 +245,16 @@ a:hover {
   border-radius: 100%;
   color: $white;
   text-align: center;
+  width: 125px;
+  height: 125px;
+  &::after {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    height: 110%;
+  }
 }
+
 
 .icon-light {
   color: #c8d5ef;

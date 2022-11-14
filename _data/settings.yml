@@ -184,6 +184,8 @@ client-slider-items:
     url: 
   - logo: assets/img/hubs/05-logo.png
     url: https://yef-uganda.org/
+  - logo: assets/img/hubs/06-logo.png
+    url: hubs/cc4d/
 
 #-------------------------------
 # Contact Section

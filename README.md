@@ -85,42 +85,7 @@ For bug reports, follow the provided template.
 
 ## Development
 
-Requirements:
-
-- git ([how to install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
-- docker ([how to install docker](https://docs.docker.com/get-docker/))
-- docker-compose ([how to install docker-compose](https://docs.docker.com/compose/install/))
-
-To set up your environment to develop this website, clone this repo or your fork.
-
-```sh
-$ git clone https://github.com/ASKnetCommunity/ASKnet.Community.git
-$ cd ASKnet.Community
-```
-
-Then run:
-
-```sh
-$ docker-compose up -d
-```
-
-To check the logs, run this. (Using the `--follow` flag for tail the output.)
-
-```sh
-$ docker-compose logs --follow
-```
-
-Then open your browser at:
-
-- http://localhost:4000
-
-Add pages, documents, data, etc. like normal to test the website's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
-
-To stop the website:
-
-```sh
-$ docker-compose down
-```
+You can find out how to get the website running and developed locally on your computer here: [Development](https://github.com/ASKnetCommunity/ASKnet.Community/wiki/development)
 
 ## Partners and Funder
 
@@ -148,5 +113,3 @@ Fonts used:
 - noto-serif-v21-latin-ext_latin-italic.ttf: Copyright 2012 Google Inc. All Rights Reserved.
 - noto-serif-v21-latin-ext_latin-700italic.ttf: Copyright 2012 Google Inc. All Rights Reserved.
 - noto-serif-v21-latin-ext_latin-700.ttf: Copyright 2012 Google Inc. All Rights Reserved.
-
-[demo-page]: https://asknetcommunity.github.io/ASKnet.Community/

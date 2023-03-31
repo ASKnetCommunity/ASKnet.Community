@@ -99,12 +99,31 @@ You can find out how to get the website running and developed locally on your co
 
 All content is licensed under CC-BY-SA 4.0 
 
-Theme used: [Agency Theme (Jekyll version)](https://github.com/raviriley/agency-jekyll-theme). The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+## Credits
 
-Technologies used: 
-- [Bootstrap](https://getbootstrap.com/) which is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-- FontAwesome - [License here](https://fontawesome.com/license/free)  (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
-- [jqBootstrapValidation](https://reactiveraven.github.io/jqBootstrapValidation/) which is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+#### Theme: Kross Theme (https://github.com/themefisher/kross-jekyll)
+- Copyright (c) 2016 - Present, Designed & Developed by Themefisher
+- Licensed under MIT (https://github.com/themefisher/kross-jekyll/blob/main/LICENSE)
+
+#### Bootstrap v4.1.1 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+#### Font Awesome Free v5.15.4 (https://fontawesome.com)
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+
+#### Shuffle.js v5.4.1 (https://vestride.github.io/Shuffle/)
+* Licensed under MIT (https://github.com/Vestride/Shuffle/blob/main/LICENSE)
+
+#### jQuery v3.6.0 (https://jquery.com/)
+* Licensed under MIT (https://github.com/jquery/jquery/blob/main/LICENSE.txt)
+
+#### Themify Icons (https://themify.me/themify-icons)
+* License - https://themify.me/pricing (Icons: GPL, Fonts: SIL OFL 1.1, Code: MIT License) All brand icons are copyright/trademarks of their respective owners.
+
+#### slick v1.8.0 (https://github.com/kenwheeler/slick)
+* Licensed under MIT (https://github.com/kenwheeler/slick/blob/master/LICENSE)
 
 Fonts used: 
 - montserrat-v24-latin-ext_latin-regular.ttf: Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)

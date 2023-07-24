@@ -23,6 +23,12 @@ This is a GoGirls ICT Podcast!
 
 ### Refugee Youth Podcast
 
+The Refugee Youth Podcast is a Youth Empowerment podcast,  platform that shares vital information on refugee issues, providing a voice to those directly affected. This program is driven by the passion and dedication of refugee youth who curate and produce engaging content, ensuring that accurate and relevant information reaches their communities. 🗣💡
+
+We believe that access to information is crucial for empowering individuals and creating positive change. Through the Refugee Youth Podcast, we are bridging the gap and amplifying the voices of refugees, allowing them to share their experiences, insights, and solutions. 🎧✨
+
+We invite you to tune in, listen, and support the Refugee Youth Podcast as we strive to foster awareness, understanding, and solidarity. Together, we can break barriers, empower refugees, and create a more inclusive society. 🤝💙
+
 [https://soundcloud.com/refugee-youth-podcast](https://soundcloud.com/refugee-youth-podcast)
 
 ![refugee youth podcast logo]({{ site.baseurl }}/assets/img/media-page/rypodcast.png){:style="max-width: 300px"}

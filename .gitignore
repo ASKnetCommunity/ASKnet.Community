@@ -6,3 +6,5 @@ _site
 Gemfile.lock
 unused
 bootstrap-reference.html
+assets/img/hubs/.directory
+.directory

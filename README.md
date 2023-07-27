@@ -85,42 +85,7 @@ For bug reports, follow the provided template.
 
 ## Development
 
-Requirements:
-
-- git ([how to install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
-- docker ([how to install docker](https://docs.docker.com/get-docker/))
-- docker-compose ([how to install docker-compose](https://docs.docker.com/compose/install/))
-
-To set up your environment to develop this website, clone this repo or your fork.
-
-```sh
-$ git clone https://github.com/ASKnetCommunity/ASKnet.Community.git
-$ cd ASKnet.Community
-```
-
-Then run:
-
-```sh
-$ docker-compose up -d
-```
-
-To check the logs, run this. (Using the `--follow` flag for tail the output.)
-
-```sh
-$ docker-compose logs --follow
-```
-
-Then open your browser at:
-
-- http://localhost:4000
-
-Add pages, documents, data, etc. like normal to test the website's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
-
-To stop the website:
-
-```sh
-$ docker-compose down
-```
+You can find out how to get the website running and developed locally on your computer here: [Development](https://github.com/ASKnetCommunity/ASKnet.Community/wiki/development)
 
 ## Partners and Funder
 
@@ -134,12 +99,31 @@ $ docker-compose down
 
 All content is licensed under CC-BY-SA 4.0 
 
-Theme used: [Agency Theme (Jekyll version)](https://github.com/raviriley/agency-jekyll-theme). The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+## Credits
 
-Technologies used: 
-- [Bootstrap](https://getbootstrap.com/) which is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-- FontAwesome - [License here](https://fontawesome.com/license/free)  (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
-- [jqBootstrapValidation](https://reactiveraven.github.io/jqBootstrapValidation/) which is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+#### Theme: Kross Theme (https://github.com/themefisher/kross-jekyll)
+- Copyright (c) 2016 - Present, Designed & Developed by Themefisher
+- Licensed under MIT (https://github.com/themefisher/kross-jekyll/blob/main/LICENSE)
+
+#### Bootstrap v4.1.1 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+#### Font Awesome Free v5.15.4 (https://fontawesome.com)
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+
+#### Shuffle.js v5.4.1 (https://vestride.github.io/Shuffle/)
+* Licensed under MIT (https://github.com/Vestride/Shuffle/blob/main/LICENSE)
+
+#### jQuery v3.6.0 (https://jquery.com/)
+* Licensed under MIT (https://github.com/jquery/jquery/blob/main/LICENSE.txt)
+
+#### Themify Icons (https://themify.me/themify-icons)
+* License - https://themify.me/pricing (Icons: GPL, Fonts: SIL OFL 1.1, Code: MIT License) All brand icons are copyright/trademarks of their respective owners.
+
+#### slick v1.8.0 (https://github.com/kenwheeler/slick)
+* Licensed under MIT (https://github.com/kenwheeler/slick/blob/master/LICENSE)
 
 Fonts used: 
 - montserrat-v24-latin-ext_latin-regular.ttf: Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)
@@ -148,5 +132,3 @@ Fonts used:
 - noto-serif-v21-latin-ext_latin-italic.ttf: Copyright 2012 Google Inc. All Rights Reserved.
 - noto-serif-v21-latin-ext_latin-700italic.ttf: Copyright 2012 Google Inc. All Rights Reserved.
 - noto-serif-v21-latin-ext_latin-700.ttf: Copyright 2012 Google Inc. All Rights Reserved.
-
-[demo-page]: https://asknetcommunity.github.io/ASKnet.Community/

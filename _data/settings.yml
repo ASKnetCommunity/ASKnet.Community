@@ -15,6 +15,7 @@ menu:
 - {name: Hubs, link: '/#hubs'}
 - {name: Experts, link: '/#lead'}
 - {name: Resources, link: '/#resources'}
+- {name: Media, link: '/media.html'}
 - {name: "#ASKtools", link: '/#asktools'}
 - {name: Timeline, link: '/#timeline'}
 - {name: Contact, link: '/#contact'}

@@ -61,3 +61,26 @@ h5, .h5{
 h6, .h6{
   font-size: 14px;
 }
+
+.page-layout {  //set smaller font sizes for headings only on "layout: page" (like imprint etc.)
+
+  h1, .h1{
+    font-size: 40px;
+  }
+  
+  h2, .h2{
+    font-size: 32px;
+  }
+  
+  h3, .h3{
+    font-size: 22px;
+  }
+  
+  h4, .h4{
+    font-size: 18px;
+  }
+  
+  h5, .h5{
+    font-size: 14px;
+  }
+}

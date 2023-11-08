@@ -132,3 +132,6 @@ Fonts used:
 - noto-serif-v21-latin-ext_latin-italic.ttf: Copyright 2012 Google Inc. All Rights Reserved.
 - noto-serif-v21-latin-ext_latin-700italic.ttf: Copyright 2012 Google Inc. All Rights Reserved.
 - noto-serif-v21-latin-ext_latin-700.ttf: Copyright 2012 Google Inc. All Rights Reserved.
+
+
+[demo-page]: https://asknetcommunity.github.io/ASKnet.Community/

@@ -327,9 +327,13 @@ textarea.form-control{
 
 .page-content {
   max-width:1000px;
-  margin: 30px auto;
-  padding: 0px 15px;
+  margin: 45px auto;
+  padding: 15px;
   min-height: 55vh;
+}
+
+.page-layout { //set background for body tag only on "layout: page" (like imprint etc.)
+  background: url(../../assets/img/tile-light.jpg);
 }
 
 /* /page */

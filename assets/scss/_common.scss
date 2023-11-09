@@ -309,7 +309,8 @@ textarea.form-control{
 
 /* card */
 .card{
-  border: 0;
+  // border: 1px;
+  background-color: rgba($primary-color, 0.4);
   &-header{
     border: 0;
   }

@@ -2,7 +2,9 @@
   padding: 40px 130px;
   transition: .3s ease;
   &.nav-bg {
-    background-color: $secondary-color;
+    background-color: rgba($secondary-color, 0.9);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     padding: 15px 100px;
     @include desktop {
       padding: 15px 20px;

@@ -54,6 +54,7 @@ about:
 - {name: 'and creating communities with hands-on experience,', icon: 'fas fa-users' }
 - {name: 'while providing open access to skills and knowledge,', icon: 'fas fa-book-open' }
 - {name: 'that can impact a community using the available resources.', icon: 'fas fa-cogs' }
+about-document-button-title: "Our Organizational Framework"
 
 #-------------------------------
 # LEAD Section

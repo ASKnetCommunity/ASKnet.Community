@@ -11,11 +11,10 @@ caption:
   thumbnail: assets/img/hubs/07-mamara-thumbnail.jpg
 ---
 
-{:.list-inline .hub-summary}
-| Location: | Juba, South Sudan |
-| --------- | ------------------ |
-| Mission:  |  |
-| Vision:  | A South Sudan where every person feels valued and dignified with the utmost autonomy and control over their lives. |
+{:.logo}
+![Ma'Mara hub logo]({{ site.baseurl }}/assets/img/hubs/07-mamara-logo.jpg)
+
+**Location: Juba, South Sudan**
 
 <div class="card">
   <div class="card-body">
@@ -24,13 +23,9 @@ caption:
   </div>
 </div>
 
-
-{:.logo}
-![Ma'Mara hub logo]({{ site.baseurl }}/assets/img/hubs/07-mamara-logo.jpg)
-
 {:.text-center}
-<a href="https://www.facebook.com/mamarasakitvillage/	" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-facebook-f"></i></a>
-etc. etc. etc.
+<a href="https://mamarasakitvillage.org/" class="btn btn-primary visit-website" target="_blank">Visit Website</a>  <a href="https://twitter.com/mamarasakit_v" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/mamarasakitvillage/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-facebook-f"></i></a>  <a href="https://www.instagram.com/mamarasakitvillage/" class="btn btn-primary visit-website" target="_blank"><i class="fab fa-instagram"></i></a>  
+
 
 Ma’Mara Sakit Village is a feminist community that amplifies voices and creates platforms and opportunities to facilitate processes that contribute to the attainment of individual and collective agency using research, art, culture, and multimedia.
 

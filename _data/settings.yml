@@ -12,7 +12,7 @@ screenshot: https://raw.githubusercontent.com/ASKnetCommunity/ASKnet.Community/5
 
 menu:
 - {name: About, link: '/#about'}
-- {name: Hubs, link: '/#hubs'}
+- {name: Members, link: '/#members'}
 - {name: Experts, link: '/#lead'}
 - {name: Resources, link: '/#resources'}
 - {name: Media, link: '/media.html'}

@@ -11,9 +11,7 @@ table.hub-summary {
   }
 }
 
-.logo {
-  text-align: center !important;
-}
+
 
 .hub-page {
   .btn {
@@ -33,6 +31,12 @@ table.hub-summary {
   }
   img {
     max-width: 100%;
+  }
+  .logo {
+    text-align: center !important;
+    img {
+      max-width: 220px;
+    }
   }
 }
 

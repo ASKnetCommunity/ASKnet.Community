@@ -316,7 +316,8 @@ textarea.form-control{
 
 /* card */
 .card{
-  border: 0;
+  // border: 1px;
+  background-color: rgba($primary-color, 0.4);
   &-header{
     border: 0;
   }
@@ -341,6 +342,9 @@ textarea.form-control{
 
 .page-layout { //set background for body tag only on "layout: page" (like imprint etc.)
   background: url(../../assets/img/tile-light.jpg);
+  h2 { //set margin for h2 headings back to bootstrap standard (on front page the h2 margin needs to be bigger)
+    margin-bottom: .5rem;
+  }
 }
 
 /* /page */

@@ -46,15 +46,16 @@ social:
 #-------------------------------
 # About Section
 
-about-title: "#ASKnet<br />Access to Skills & Knowledge Network"
-about-description: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+about-title: "#ASKnet<br />The Access to Skills & Knowledge network"
+about-description: "#ASKnet is a cross-border consortium of community driven organizations with an aim to build a transformative and sustainable open society and a professional media skills ecosystem. The network provides access to a range of open source knowledge and information, media and IT related training as well as community oriented hands-on skills."
 about:
-- {name: '#ASKnet is a network of hubs and community members', icon: 'fas fa-project-diagram' }
-- {name: 'who subscribe to the vision of educating on media literacy', icon: 'fas fa-graduation-cap' }
-- {name: 'and creating communities with hands-on experience,', icon: 'fas fa-users' }
-- {name: 'while providing open access to skills and knowledge,', icon: 'fas fa-book-open' }
-- {name: 'that can impact a community using the available resources.', icon: 'fas fa-cogs' }
-about-document-button-title: "Our Organizational Framework"
+- {name: '#ASKnet is a network of hubs and community members,', icon: 'fas fa-project-diagram' }
+- {name: 'founded by young South Sudanese innovators,', icon: 'fas fa-lightbulb' }
+- {name: 'governed by a Steering Committee drawn from all of its member organizations,', icon: 'fas fa-users' }
+- {name: 'to build a transformative and sustainable media development ecosystem.', icon: 'fas fa-photo-video' }
+about-description-2: "The nine members of #ASKnet address local community challenges, support empowerment with knowledge and skills, inspire regional innovation and creativity, and engage peacebuilding and community empowerment among all members of society."
+about-description-3: "#ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners. The project in the period of 2022-2025 is funded by the German Ministry of Economic Development and Cooperation (BMZ)."
+about-profile-button-title: "Our Organizational Framework"
 
 #-------------------------------
 # LEAD Section

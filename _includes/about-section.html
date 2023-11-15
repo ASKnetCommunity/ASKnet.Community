@@ -3,14 +3,14 @@
   <div id="about" class="jump-mark"></div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto mb-60">
+      <div class="col-lg-12 mx-auto mb-5">
         <h2 class="text-center">{{ site.data.settings.about-title }}</h2>
         <p>{{ site.data.settings.about-description }}</p>
       </div>
       {% for about in site.data.settings.about %}
         <div class="col-lg-6 col-md-6 mb-20">
           <div class="d-flex">
-            <div class="mr-lg-5 mr-3">
+            <div class="about-icon mr-lg-4 mr-3">
               <i class="{{ about.icon }} icon d-block"></i>
             </div>
             <div>
@@ -22,7 +22,16 @@
       {% endfor %}
     </div>
     <div class="row">
-      <a class="btn btn-sm btn-primary mb-5 mx-auto" href="{{ site.baseurl }}{% link _pages/documents.md %}">{{ site.data.settings.about-document-button-title }}</a>
+      <div class="col-lg-12 mx-auto mt-5 mb-3">
+        <p>{{ site.data.settings.about-description-2 }}</p>
+        <p>{{ site.data.settings.about-description-3 }}</p>
+      </div>  
+    </div>
+    <div class="row">
+      <a class="btn btn-sm btn-primary mb-2 mx-auto" href="{{ site.baseurl }}{% link _pages/profile.md %}">{{ site.data.settings.about-profile-button-title }}</a>
+    </div>
+    <div class="row">
+      <a class="mb-5 mx-auto" href="{{ site.baseurl }}{% link assets/docs/ASKnet_Flyer_07_2023.pdf %}">{{ site.data.settings.about-flyer-link-title }}</a>
     </div>
   </div>
 </section>

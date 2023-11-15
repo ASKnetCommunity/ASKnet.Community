@@ -27,8 +27,12 @@ body {
 
 ol,
 ul {
-  list-style-type: none;
-  margin: 0px;
+  // list-style-type: none;
+  // margin: 0px;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
 
 img {
@@ -97,6 +101,9 @@ a:hover {
 
 #about-section.section {
   padding-bottom:0;
+  .row .about-icon .icon {
+    width: 55px;
+  }
 }
 
 #services.section {

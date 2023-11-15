@@ -24,6 +24,18 @@ p, .paragraph {
   }
 }
 
+.page-content { //select only the ol/ul in the page body, not the ones used for the header menu
+  ol,
+  ul {
+    font-family: $secondary-font;
+    font-size: 1.3rem;
+    @include desktop {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
   font-family: $primary-font;
@@ -70,6 +82,7 @@ h6, .h6{
   
   h2, .h2{
     font-size: 32px;
+    margin-bottom: .5rem;
   }
   
   h3, .h3{

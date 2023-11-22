@@ -31,6 +31,10 @@ ul {
   // margin: 0px;
 }
 
+li {
+  margin-bottom: 0.5rem;
+}
+
 img {
   vertical-align: middle;
   border: 0;
@@ -93,6 +97,9 @@ a.text-dark{
 
 #about-section.section {
   padding-bottom:0;
+  .row .about-icon .icon {
+    width: 55px;
+  }
 }
 
 #services.section {
@@ -305,7 +312,8 @@ textarea.form-control{
 
 /* card */
 .card{
-  border: 0;
+  // border: 1px;
+  background-color: rgba($primary-color, 0.4);
   &-header{
     border: 0;
   }

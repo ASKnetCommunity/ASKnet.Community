@@ -70,10 +70,6 @@ a.text-dark{
   }
 }
 
-a:hover {
-  color: $primary-color;
-}
-
 .slick-slide {
   outline: 0;
 }
@@ -333,7 +329,7 @@ textarea.form-control{
 }
 
 .page-layout { //set background for body tag only on "layout: page" (like imprint etc.)
-  background: url(../../assets/img/tile-light.jpg);
+  background: url(../../assets/img/tile-light-purple.jpg);
 }
 
 /* /page */

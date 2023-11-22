@@ -25,7 +25,8 @@
         </div>
       </div>
       {% endfor %}
-      <div class="col-md-4 col-sm-6 mb-4 shuffle-item">
+
+      {% comment %} <div class="col-md-4 col-sm-6 mb-4 shuffle-item">
         <div class="position-relative hover-wrapper">
           <div id="grid-add-item"></div>
           <a class="hover-overlay" href="https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-hub&template=new-hub.yml&title=Add+Hub%3A+">
@@ -38,7 +39,18 @@
           <h4>Add new Hub</h4>
           <p class="text-muted">you can register your hub here</p>
         </div>
-      </div>
+      </div> {% endcomment %}
+
+    </div>
+    <div class="row text-center">
+      <p class="text-center w-100">
+        {{ site.data.settings.hub-section-contact }}
+      </p>
+    </div>
+    <div class="row text-center">
+      <p class="text-center w-100">
+        <a class="btn btn-sm btn-primary" href="#contact">Contact</a>
+      </p>
     </div>
   </div>
 </section>

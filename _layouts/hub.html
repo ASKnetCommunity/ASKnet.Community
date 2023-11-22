@@ -13,6 +13,25 @@ layout: default
         <p class="mx-auto">{{ page.subtitle }}</p>
         <div class="content">
           <img src="{{ page.image | relative_url }}" class="img-fluid rounded mx-auto mb-4 d-block" alt="{{page.title}}">
+          <div class="card">
+            <div class="card-body mb-0">
+              <p class="card-text">{{ page.keyphrase }}</p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-5 col-12 mb-0 logo">
+              <img src="{{ site.baseurl }}/assets/img/hubs/{{ page.logo-file-name }}" alt="{{ page.title }} Logo">
+            </div>
+            <div class="col-md-7 col-12 mb-0 text-center">
+              {% if page.social-media.website-url %}
+                <a href="{{ page.social-media.website-url }}" class="btn btn-primary visit-website" target="_blank">Visit Website</a>  
+              {% endif %}
+              {% for platform in page.social-media.platforms %}
+                <a href="{{ platform.url }}" class="btn btn-primary visit-website" target="_blank"><i class="fab {{ platform.fa-icon-code }}"></i></a>
+              {% endfor %}
+            </div>
+          </div>
+          <p>Location: {{ page.caption.subtitle }}</p>
           {{ content }}
         </div>
       </div>

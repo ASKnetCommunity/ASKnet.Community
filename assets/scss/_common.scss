@@ -74,10 +74,6 @@ a.text-dark{
   }
 }
 
-a:hover {
-  color: $primary-color;
-}
-
 .slick-slide {
   outline: 0;
 }
@@ -341,7 +337,7 @@ textarea.form-control{
 }
 
 .page-layout { //set background for body tag only on "layout: page" (like imprint etc.)
-  background: url(../../assets/img/tile-light.jpg);
+  background: url(../../assets/img/tile-light-purple.jpg);
   h2 { //set margin for h2 headings back to bootstrap standard (on front page the h2 margin needs to be bigger)
     margin-bottom: .5rem;
   }

@@ -3,11 +3,13 @@
   <div id="lead" class="jump-mark"></div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto mb-60">
+      <div class="col-lg-10 mx-auto">
         <h2 class="text-center">{{ site.data.settings.lead-title }}</h2>
         {{ site.data.settings.lead-description | markdownify }}
-        <a class="btn btn-dark mt-4" href="{{ site.data.settings.lead-button-link }}">{{ site.data.settings.lead-button-title }} <i class="fas fa-external-link-alt"></i></a>
       </div>
+    </div>
+    <div class="row">
+      <a class="btn btn-dark mx-auto" href="{{ site.data.settings.lead-button-link }}">{{ site.data.settings.lead-button-title }} <i class="fas fa-external-link-alt"></i></a>
     </div>
   </div>
 </section>

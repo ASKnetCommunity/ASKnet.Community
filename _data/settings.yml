@@ -61,8 +61,12 @@ about-flyer-link-title: "#ASKnet Flyer"
 #-------------------------------
 # LEAD Section
 
-lead-title: "LEAD<br />Local Experts Action Directory"
-lead-description: "The #ASKnet Local Expert Action Directory (LEAD) is a growing and functioning tool to connect people who have specific expertise and skills in media, ICT, and a range of various technologies - be they device repair, software programming, or mechanical skills with potential clients. \n \n The directory makes it easier for organizations be they international donors and non-governmental agencies, local, national, and international governmental organizations, local companies, etc., - to contact and commission #ASKnet media and technology experts in the region. \n \n The LEAD directory allows professionals, and individuals with special skills in South Sudan and refugee-hosting regions to develop profiles, share their expertise, and promote themselves both locally and internationally. We require experts to add references/links to their work to allow partners and/or future clients to access the experts' previous work and portfolios in order to create confidence and credibility. \n \n Consider hiring an #ASKnet LEAD Expert for your local training or development project!"
+lead-title: "#ASKlead"
+lead-description: |
+  Many of the #ASKnet members and their communities have undergone training of trainer programs and peer-to-peer learning in self-taught formats, developed collaboratively through workshops and programs run by the initiative.
+  
+  The #ASKnet Local Expert Action Directory (LEAD) is a growing and functioning tool to connect people who have specific expertise and skills in media, ICT, and a range of various technologies with important backgrounds on local and regional contexts - be they storytelling, videography, device repair, software programming, or mechanical skills with potential clients, other community members, and all those seeking advice and information about youth-led South Sudanese innovation culture.
+
 lead-button-title: "Go to LEAD"
 lead-button-link: "https://lead.asknet.community/"
 

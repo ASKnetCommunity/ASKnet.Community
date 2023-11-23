@@ -195,5 +195,12 @@ client-slider-items:
 # Contact-Section
 
 contact-title: Contact Info
-contact-email: info@asknet.community
+contact-text: |
+  For general information about the network please contact our #ASKnet – Network Coordination in Juba by email: <a href="mailto:coordinator@asknet.community">coordinator@asknet.community</a>.
+  
+  #ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners.
+  
+  #ASKnet  2022-2025 is funded by the German Ministry of Economic Development and Cooperation (BMZ).
+
+contact-email: coordinator@asknet.community
 formspree-path: f/myylarkr

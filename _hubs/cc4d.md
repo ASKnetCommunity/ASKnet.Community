@@ -20,16 +20,9 @@ caption:
   thumbnail: assets/img/hubs/06-CC4D-Asknet-thumbnail.jpg
 ---
 
-CC4D-UGANDA aspires to implement sustainable community intervention initiatives targeted at positively transforming both the refugees and the communities that host them, with an emphasis on safe use of information and communication technology (ICT) while protecting the environment from global warming and improve the lives of both the refugees and host community in Uganda. Open access to information and Information broadcasting is an important aspect of our strategic plan to impact communities in which we operate. Improving the health and well-being of community residents is important to us, for example, through:
+CC4D aims at connecting communities while also finding solutions to protect the environment from global warming. We connect communities through organizing repair café events that encourage people to work together and share knowledge and skills which helps to bring people together and work on building a more coherent and peaceful community.
 
-- Organizing repair café events
-- Advocacy on repair and reuse
-- Access to information and Hardware
-- Providing digital literacy skills
-- Awareness raising on E-Waste management
-- Collection and recycling of E-waste
-- Promotion of peaceful coexistence
-
+CC4D is implementing Co-funded electronic waste management project through repair café events (mobile repairs and maintenance of electronics) mobile digital literacy skills training programs, ICT mentorship for women and girls. CC4D is a member of the #ASKnet community (Access to Skills Knowledge and Network), Global Innovation Gathering (GIG), Africa Open Science Hardware (AfricaOSH), Africa Makers Space Network , Restarters community and the Global Open Science Hardware (GOSH).
 
 ![CC4D]({{ site.baseurl }}/assets/img/hubs/06-content-2.jpg)
 

@@ -182,24 +182,42 @@ services:
 # Client Slider Section
   
 client-slider-items:    
+
   - logo: assets/img/clients/r0g_logo.png
     url: https://openculture.agency/
+
   - logo: assets/img/clients/founder_BMZ.jpg
     url: https://www.bmz.de/en
+
   - logo: assets/img/clients/hive_colab.png
     url: https://hivecolab.org/
+
   - logo: assets/img/hubs/01-logo.png
     url: https://www.platformafrica.ngo/
+
   - logo: assets/img/hubs/02-logo.png
     url: https://gogirlsict.org/
+
   - logo: assets/img/hubs/03-logo.png
     url: https://junubos.org/
-  - logo: assets/img/hubs/04-logo.png
-    url: 
+
   - logo: assets/img/hubs/05-logo.png
     url: https://yef-uganda.org/
-  - logo: assets/img/hubs/06-logo.png
-    url: hubs/cc4d/
+
+  - logo: assets/img/hubs/06-CC4D-asknet-logo.png
+    url: https://cc4d.tech/
+
+  - logo: assets/img/hubs/07-mamara-logo.jpg
+    url: https://mamarasakitvillage.org/
+
+  - logo: assets/img/hubs/08-CECI-Uganda-Logo.png
+    url: https://www.ceciuganda.org/
+
+  - logo: assets/img/hubs/09-CIC-logo.jpg
+    url: https://www.facebook.com/profile.php?id=100076026173627
+
+  - logo: assets/img/hubs/10-koneta-logo.png
+    url: https://konetahub.org/
 
 #-------------------------------
 # Contact-Section

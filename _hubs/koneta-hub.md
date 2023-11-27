@@ -24,4 +24,4 @@ KONETA was founded with the aim of responding to the increasingly poor health, p
 
 We engage in diverse sectors, including health, education, food security, protection and WASH with an understanding of the context of implementation as well organizational day-to-day requirements.
 
-![Koneta]({{ site.baseurl }}/assets/img/hubs/10-koneta-hub-asknet-full.jpeg)
+![Koneta]({{ site.baseurl }}/assets/img/hubs/10-koneta-hub-asknet-1.jpeg)

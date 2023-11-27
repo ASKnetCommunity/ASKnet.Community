@@ -1,11 +1,10 @@
 ---
 layout: hub
 
-title: Community Empowerment for Creative Innovation (Ceci-Uagnda)
+title: Community Empowerment for Creative Innovation (Ceci-Uganda)
 subtitle: Promoting peace, self-reliance and dignity in refugee communities in Northern Uganda since 2017
 image: assets/img/hubs/08-CECI-Uganda-full.png
-keyphrase: 
-An Empowered, Peaceful and Self-reliant community
+keyphrase: An Empowered, Peaceful and Self-reliant community
 location: Yumbe, Obongi, Koboko, Uganda
 logo-file-name: 08-CECI-Uganda-Logo.png
 social-media:

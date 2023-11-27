@@ -6,13 +6,13 @@ subtitle: A community-based organization founded by South Sudanese Refugees prof
 image: assets/img/hubs/06-CC4D-asknet-full.jpg
 keyphrase: Connecting communities while finding solutions to protect the environment from global warming.
 location:  Eden II, Rhino Camp, Uganda 
-logo-file-name: 06-CC4D-asknet-logo.jpg
+logo-file-name: 06-CC4D-asknet-logo.png
 social-media:
   website-url: https://cc4d.tech/
   platforms:  # icon codes can be found here: https://fontawesome.com/v5/search?o=r&m=free
   - { fa-icon-code: "fa-twitter", url: "https://twitter.com/comcreative4d" }
   - { fa-icon-code: "fa-youtube", url: "https://www.youtube.com/@comcreative4d" }
-    - { fa-icon-code: "fa-facebook-f", url: "https://www.facebook.com/CC4D.Uganda/" }
+  - { fa-icon-code: "fa-facebook-f", url: "https://www.facebook.com/CC4D.Uganda/" }
 
 caption:
   title: Community Creativity For Development (CC4D)

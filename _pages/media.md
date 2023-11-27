@@ -69,4 +69,3 @@ ASKPodcast: Where technology meets community, and innovation solves problems. Jo
 [![](assets/img/media-page/refutories-cover.jpg){: .link-logo }  **Refutories** <br />on SoundCloud](https://on.soundcloud.com/QAbKZCdG9wY34Nos6){: .btn .btn-primary target="_blank"}
 
 — by [Platform Africa]({% link _hubs/platform-africa.md %})
-

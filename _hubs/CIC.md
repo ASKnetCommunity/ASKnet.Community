@@ -25,4 +25,4 @@ Creative Innovation Centre (CIC) is a non-profit, non-political Community Based 
 CIC focus is to create a peaceful platform to generate and share new creative and innovative ideas to address the most urgent and pressing needs of the youths through engaging them in peer-to-peer learning, rehabilitating and mentoring on education (vocational skills).
 CIC aims at achieving youth comprehensive and sustainable development through harnessing electronics wastes to understand technology and enhancing environmental conservation.
 
-![CC4D]({{ site.baseurl }}/assets/img/hubs/09-CIC-creative-innovation-center-asknet-2.jpg)
+![CIC]({{ site.baseurl }}/assets/img/hubs/09-CIC-creative-innovation-center-asknet-2.jpg)

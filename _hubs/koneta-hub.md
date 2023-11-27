@@ -5,7 +5,7 @@ title: Koneta Hub
 subtitle: A youth-led organization that is focused on providing community-led solutions to the socio-economic issues affecting our society
 image: assets/img/hubs/10-koneta-hub-asknet-full.jpeg
 keyphrase: Seeks to impact the lives of people in South Sudan
-location: Rhino Camp, Uganda
+location: Juba, South Sudan
 logo-file-name: 10-koneta-hub-logo.png
 social-media:
   website-url: https://konetahub.org/
@@ -15,8 +15,8 @@ social-media:
   - { fa-icon-code: "fa-youtube", url: "https://www.youtube.com/@konetahub" }
 
 caption:
-  title: Creative Innovation Centre (CIC)
-  subtitle: Rhino Camp, Uganda
+  title: Koneta Hub
+  subtitle: Juba, South Sudan
   thumbnail: assets/img/hubs/10-koneta-hub-asknet-thumbnail.jpeg
 ---
 

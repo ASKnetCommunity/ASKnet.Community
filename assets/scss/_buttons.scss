@@ -3,7 +3,7 @@
   font-size: 22px;
   font-family: $primary-font;
   color: $white !important;
-  background-image: linear-gradient(160deg, rgba($white, 0.4), rgba($white, 0));
+  background-image: linear-gradient(160deg, rgba($white, 0.25), rgba($white, 0));
   text-transform: capitalize;
   padding: 16px 44px;
   margin-top: 15px;
@@ -32,17 +32,6 @@
     padding: 5px 10px;
     font-size: 15px;
   }
-
-  // ::after {
-  //   background: linear-gradient(160deg, rgba($white, 0.4), rgba($white, 0));
-  //   content: "";
-  //   position: absolute;
-  //   z-index: -1;
-  //   top: 0;
-  //   left: 0;
-  //   right: 0;
-  //   bottom: 0;
-  // }
 }
 
 .btn-primary {
@@ -61,6 +50,12 @@
   &.active {
     background-color: lighten($color: $primary-color, $amount: 10) !important;
     box-shadow: none !important;
+  }
+}
+
+.hero-area, .contact-section {
+  .btn-primary {
+    border: 1px solid rgba($secondary-color, 0.5);
   }
 }
 

@@ -15,7 +15,7 @@ menu:
 - {name: Members, link: '/#members'}
 - {name: Experts, link: '/#lead'}
 - {name: Resources, link: '/#resources'}
-- {name: Media, link: '/media.html'}
+- {name: Media, link: '/media'}
 - {name: "#ASKtools", link: '/#asktools'}
 - {name: Timeline, link: '/#timeline'}
 - {name: Contact, link: '/#contact'}
@@ -46,14 +46,17 @@ social:
 #-------------------------------
 # About Section
 
-about-title: "#ASKnet<br />Access to Skills & Knowledge Network"
-about-description: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
+about-title: "#ASKnet<br />The Access to Skills & Knowledge network"
+about-description: "#ASKnet is a cross-border consortium of community driven organizations with an aim to build a transformative and sustainable open society and a professional media skills ecosystem. The network provides access to a range of open source knowledge and information, media and IT related training as well as community oriented hands-on skills."
 about:
-- {name: '#ASKnet is a network of hubs and community members', icon: 'fas fa-project-diagram' }
-- {name: 'who subscribe to the vision of educating on media literacy', icon: 'fas fa-graduation-cap' }
-- {name: 'and creating communities with hands-on experience,', icon: 'fas fa-users' }
-- {name: 'while providing open access to skills and knowledge,', icon: 'fas fa-book-open' }
-- {name: 'that can impact a community using the available resources.', icon: 'fas fa-cogs' }
+- {name: '#ASKnet is a network of hubs and community members,', icon: 'fas fa-project-diagram' }
+- {name: 'founded by young South Sudanese innovators,', icon: 'fas fa-lightbulb' }
+- {name: 'governed by a Steering Committee drawn from all of its member organizations,', icon: 'fas fa-users' }
+- {name: 'to build a transformative and sustainable media development ecosystem.', icon: 'fas fa-photo-video' }
+about-description-2: "The nine members of #ASKnet address local community challenges, support empowerment with knowledge and skills, inspire regional innovation and creativity, and engage peacebuilding and community empowerment among all members of society."
+about-description-3: "#ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners. The project in the period of 2022-2025 is funded by the German Ministry of Economic Development and Cooperation (BMZ)."
+about-profile-button-title: "Our Organizational Framework"
+about-flyer-link-title: "#ASKnet Flyer"
 
 
 #-------------------------------
@@ -78,8 +81,12 @@ hub-section-contact: "Are you interested to become a member? Get in contact with
 #-------------------------------
 # LEAD Section
 
-lead-title: "LEAD<br />Local Experts Action Directory"
-lead-description: "The #ASKnet Local Expert Action Directory (LEAD) is a growing and functioning tool to connect people who have specific expertise and skills in media, ICT, and a range of various technologies - be they device repair, software programming, or mechanical skills with potential clients. \n \n The directory makes it easier for organizations be they international donors and non-governmental agencies, local, national, and international governmental organizations, local companies, etc., - to contact and commission #ASKnet media and technology experts in the region. \n \n The LEAD directory allows professionals, and individuals with special skills in South Sudan and refugee-hosting regions to develop profiles, share their expertise, and promote themselves both locally and internationally. We require experts to add references/links to their work to allow partners and/or future clients to access the experts' previous work and portfolios in order to create confidence and credibility. \n \n Consider hiring an #ASKnet LEAD Expert for your local training or development project!"
+lead-title: "#ASKlead"
+lead-description: |
+  Many of the #ASKnet members and their communities have undergone training of trainer programs and peer-to-peer learning in self-taught formats, developed collaboratively through workshops and programs run by the initiative.
+  
+  The #ASKnet Local Expert Action Directory (LEAD) is a growing and functioning tool to connect people who have specific expertise and skills in media, ICT, and a range of various technologies with important backgrounds on local and regional contexts - be they storytelling, videography, device repair, software programming, or mechanical skills with potential clients, other community members, and all those seeking advice and information about youth-led South Sudanese innovation culture.
+
 lead-button-title: "Go to LEAD"
 lead-button-link: "https://lead.asknet.community/"
 
@@ -223,5 +230,12 @@ client-slider-items:
 # Contact-Section
 
 contact-title: Contact Info
-contact-email: info@asknet.community
+contact-text: |
+  For general information about the network please contact our #ASKnet – Network Coordination in Juba by email: <a href="mailto:coordinator@asknet.community">coordinator@asknet.community</a>.
+  
+  #ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners.
+  
+  #ASKnet  2022-2025 is funded by the German Ministry of Economic Development and Cooperation (BMZ).
+
+contact-email: coordinator@asknet.community
 formspree-path: f/myylarkr

@@ -1,8 +1,10 @@
 // Color Variables
-$primary-color: #DFAF5F;
-$secondary-color: #212529;
-$link-color: #A46131;
-$link-hover-color: #DFAF5F;
+$primary-color: #30002A; // #DFAF5F;
+$secondary-color: #efe2f3; // #8F747F; "old" purple
+$third-color: #EEE7D4;
+$fourth-color: #C5A14B;
+$link-color: $fourth-color; // #A46131;
+$link-hover-color: lighten($color: $fourth-color, $amount: 10);
 $text-color: #4c4c4c;
 $text-color-dark: #000;
 $text-color-light: #999;

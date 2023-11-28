@@ -58,6 +58,14 @@ about-description-3: "#ASKnet is supported by r0g_agency (Berlin, Germany) and H
 about-profile-button-title: "Our Organizational Framework"
 about-flyer-link-title: "#ASKnet Flyer"
 
+
+#-------------------------------
+# Member Hubs Section
+
+hub-section-title: YOUTH LED HUBS
+hub-section-description: "#ASKnet is a capacity building and hub development program linking South Sudanese youth-led community hubs, be they in South Sudan or neighboring regions. \n \n The program started in 2015 with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (jHUB) which aimed to provide an open forum to discuss, identify, and develop solutions for South Sudan’s post-conflict challenges. Conflict flared up again at the end of 2016 and the jHUB community was dispersed. The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet. \n \n This community continues to grow, move and intersect with other like-minded individuals and organizations at the grassroots and beyond creating opportunities for collaborations, training, and knowledge sharing. Meet the #ASKnet Hubs!"
+hub-section-contact: "Are you interested to become a member? Get in contact with us!"
+
 #-------------------------------
 # LEAD Section
 
@@ -169,13 +177,6 @@ services:
     description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
     active: # Add true to select section
   }
-
-
-#-------------------------------
-# Hubs Section
-
-hub-section-title: YOUTH LED HUBS
-hub-section-description: "#ASKnet is a capacity building and hub development program linking South Sudanese youth-led community hubs, be they in South Sudan or neighboring regions. \n \n The program started in 2015 with the creation of a community-based media training center, Juba’s Open Knowledge and Innovation Hub (jHUB) which aimed to provide an open forum to discuss, identify, and develop solutions for South Sudan’s post-conflict challenges. Conflict flared up again at the end of 2016 and the jHUB community was dispersed. The program has since evolved into a collection of smaller hubs and local initiatives in South Sudan and Uganda known as #ASKnet. \n \n This community continues to grow, move and intersect with other like-minded individuals and organizations at the grassroots and beyond creating opportunities for collaborations, training, and knowledge sharing. Meet the #ASKnet Hubs!"
 
 
 #-------------------------------

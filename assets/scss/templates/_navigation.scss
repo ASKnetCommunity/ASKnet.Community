@@ -2,17 +2,17 @@
   padding: 40px 130px;
   transition: .3s ease;
   &.nav-bg {
-    background-color: rgba($secondary-color, 0.9);
+    background-color: rgba($primary-color, 0.8);
+    padding: 15px 100px;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    padding: 15px 100px;
     @include desktop {
       padding: 15px 20px;
     }
   }
   @include desktop {
     padding: 20px;
-    background: $secondary-color;
+    background: $primary-color;
   }
 }
 
@@ -27,10 +27,13 @@
       font-weight: bold;
     }
   }
+  .navbar-brand {
+    background-color: $secondary-color;
+  }
 }
 
 .navbar-dark .navbar-nav .nav-link{
-  color: $primary-color;
+  color: lighten($secondary-color, 35);
 }
 
 .jump-mark {

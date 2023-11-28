@@ -3,6 +3,7 @@
   font-size: 22px;
   font-family: $primary-font;
   color: $white !important;
+  background-image: linear-gradient(160deg, rgba($white, 0.25), rgba($white, 0));
   text-transform: capitalize;
   padding: 16px 44px;
   margin-top: 15px;
@@ -34,27 +35,33 @@
 }
 
 .btn-primary {
-  background: $primary-color;
+  background-color: $primary-color;
   color: $white;
 
   &:active {
-    background: lighten($color: $primary-color, $amount: 10) !important;
+    background-color: lighten($color: $primary-color, $amount: 10) !important;
   }
 
   &:hover {
-    background: lighten($color: $primary-color, $amount: 10);
+    background-color: lighten($color: $primary-color, $amount: 10);
   }
 
   &.focus,
   &.active {
-    background: lighten($color: $primary-color, $amount: 10) !important;
+    background-color: lighten($color: $primary-color, $amount: 10) !important;
     box-shadow: none !important;
+  }
+}
+
+.hero-area, .contact-section {
+  .btn-primary {
+    border: 1px solid rgba($secondary-color, 0.5);
   }
 }
 
 
 .btn-transparent {
-  background: transparent;
+  background-color: transparent;
   color: $primary-color;
   font-weight: bold;
 

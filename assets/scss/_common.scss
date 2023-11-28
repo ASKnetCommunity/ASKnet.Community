@@ -233,7 +233,7 @@ a.text-dark{
 }
 
 .bg-dark{
-  background-color: #222222 !important;
+  background-color: $primary-color !important;
 }
 
 /* icon */
@@ -313,7 +313,7 @@ textarea.form-control{
 /* card */
 .card{
   // border: 1px;
-  background-color: rgba($primary-color, 0.4);
+  background-color: $secondary-color;
   &-header{
     border: 0;
   }
@@ -337,7 +337,7 @@ textarea.form-control{
 }
 
 .page-layout { //set background for body tag only on "layout: page" (like imprint etc.)
-  background: url(../../assets/img/tile-light-purple.jpg);
+  background: url(../../assets/img/tile-light-ochre2.jpg);
   h2 { //set margin for h2 headings back to bootstrap standard (on front page the h2 margin needs to be bigger)
     margin-bottom: .5rem;
   }

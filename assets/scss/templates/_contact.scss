@@ -1,5 +1,8 @@
 .contact-section {
   background: url(../../assets/img/contact.png);
+  p {
+    color: $white;
+  }
 }
 
 .its-a-trap { //this makes the honeypot input fields invisible (they are used to fool spam bots)

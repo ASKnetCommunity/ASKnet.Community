@@ -16,7 +16,7 @@ menu:
 - {name: Experts, link: '/#lead'}
 - {name: Resources, link: '/#resources'}
 - {name: Media, link: '/media'}
-- {name: "#ASKtools", link: '/#asktools'}
+# - {name: "#ASKtools", link: '/#asktools'}
 - {name: Timeline, link: '/#timeline'}
 - {name: Contact, link: '/#contact'}
 
@@ -85,9 +85,9 @@ resources-title: "#ASKnet Tools and Resources"
 resources-description: |
   The #ASKnet and community members curate and share Open Learning Guides, toolkits, and resources from their work so that others can adopt, adapt and deploy them in their own communities to promote local innovation and peer-to-peer knowledge exchange.
 resources-sub-sections: 
-  - { title: "#ASKtraining", text: "An initial prototype of the #ASKtraining platform, to be used to compile, share and streamline the running of workshops, learning content and deliver ‚how to‘ instructions is created to make training easier and more accessible. In this way, experiential knowledge is secured, which improves the sustainability of activities and facilitates the induction of new members and participants.", image-url: "assets/img/tools/training.jpg", button-text: "Go To #ASKtraining", button-url: "https://training.asknet.community/training/" }
-  - { title: "#ASKotec", text: "#ASKotec - the ‘Access to Skills and Knowledge open tech emergency case’ is a resource kit for community trainers that is designed as a light and handy mobile workshop creation set, equipped with a broad range of items needed to teach others. The kit is especially valuable to communities where access to tools, power and materials is often scarce.", image-url: "assets/img/resources/askotec.jpg", button-text: "More about #ASKotec", button-url: "https://askotec.openculture.agency/" }
-  - { title: "#OpenGuides", text: "#ASKnet has so far released five ‘OpenGuides’, providing beginners and advanced users with methods and strategies to apply open culture principles more effectively - opening doors to new creative opportunities for collaboration, learning and developing new skills.", image-url: "assets/img/resources/olg.jpg", button-text: "view Open Guides", button-url: "" }
+  - { title: "#ASKtraining", text: "An initial prototype of the #ASKtraining platform, to be used to compile, share and streamline the running of workshops, learning content and deliver ‚how to‘ instructions is created to make training easier and more accessible. In this way, experiential knowledge is secured, which improves the sustainability of activities and facilitates the induction of new members and participants.", image-url: "assets/img/tools/training.jpg", button-text: "Go To #ASKtraining", button-url: "https://training.asknet.community/training/", button-is-internal: false }
+  - { title: "#ASKotec", text: "#ASKotec - the ‘Access to Skills and Knowledge open tech emergency case’ is a resource kit for community trainers that is designed as a light and handy mobile workshop creation set, equipped with a broad range of items needed to teach others. The kit is especially valuable to communities where access to tools, power and materials is often scarce.", image-url: "assets/img/resources/askotec.jpg", button-text: "More about #ASKotec", button-url: "https://askotec.openculture.agency/", button-is-internal: false }
+  - { title: "#OpenGuides", text: "#ASKnet has so far released five ‘OpenGuides’, providing beginners and advanced users with methods and strategies to apply open culture principles more effectively - opening doors to new creative opportunities for collaboration, learning and developing new skills.", image-url: "assets/img/resources/open-guides.png", button-text: "view Open Guides", button-url: "_pages/open-guides.md", button-is-internal: true }
 
 
 #-------------------------------

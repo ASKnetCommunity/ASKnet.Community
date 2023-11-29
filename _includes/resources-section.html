@@ -12,13 +12,17 @@
     {% assign counter = 1 %}  <!-- zähler-variable, um Farbe und Bild-Seite abwechselnd zu machen -->
     {% for sub-section in site.data.settings.resources-sub-sections %}
       {% assign mod = counter | modulo: 2 %}
-      <div style="background-color: {% if mod == 0 %}#00000024{% else %}#ffffff12{% endif %};" class="row pb-3">
+      <div style="background-color: {% if mod == 0 %}#00000024{% else %}#ffffff12{% endif %};" class="row pb-3 px-md-3">
         <div class="col-12">
           <h3 class="text-white mt-4 mb-3 text-center">{{ sub-section.title }}</h3>
           <img src="{{ sub-section.image-url }}" style="object-fit: cover;" class="col-md-3 col-12 py-2 {% if mod == 0 %}float-right pr-0{% else %}float-left pl-0{% endif %}">
           {{ sub-section.text | markdownify }}
           <div class="row col-12 mb-3 mx-0">
+          {% if sub-section.button-is-internal %}
+            <a class="btn btn-sm btn-primary mx-auto" href="{% link {{ sub-section.button-url }} %}">{{ sub-section.button-text }}</a>
+          {% else %}
             <a class="btn btn-sm btn-primary mx-auto" href="{{ sub-section.button-url }}" target="_blank">{{ sub-section.button-text }} <i class="fas fa-external-link-alt"></i></a>
+          {% endif %}
           </div>
         </div>
       </div>

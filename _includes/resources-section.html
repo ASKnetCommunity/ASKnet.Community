@@ -19,7 +19,7 @@
           {{ sub-section.text | markdownify }}
           <div class="row col-12 mb-3 mx-0">
           {% if sub-section.button-is-internal %}
-            <a class="btn btn-sm btn-primary mx-auto" href="{% comment %} {% link {{ sub-section.button-url }} %} {% endcomment %}">{{ sub-section.button-text }}</a>
+            <a class="btn btn-sm btn-primary mx-auto" href="{{ sub-section.button-url }}">{{ sub-section.button-text }}</a>
           {% else %}
             <a class="btn btn-sm btn-primary mx-auto" href="{{ sub-section.button-url }}" target="_blank">{{ sub-section.button-text }} <i class="fas fa-external-link-alt"></i></a>
           {% endif %}

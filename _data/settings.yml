@@ -5,7 +5,7 @@ title: '#ASKnet'
 logo: assets/img/asknet-logo.png
 author: '#ASKnet'
 description: "Access to Skills & Knowledge network"
-email: info@asknet.community
+email: coordinator@asknet.community
 phone: 
 address: 
 screenshot: https://raw.githubusercontent.com/ASKnetCommunity/ASKnet.Community/51b8d4f7a3a772eb2a55968b721b98bb657db161/screenshot.png
@@ -60,6 +60,31 @@ about-flyer-link-title: "#ASKnet Flyer"
 
 
 #-------------------------------
+# Services Section
+
+services-title: Services
+services:
+- {
+    name: Community,
+    icon: fas fa-users,
+    description: 'We bring together people and ideas to help build resilient environments for strong knowledge exchange within numerous communities - in towns, villages, and local neighborhoods, including within refugee or IDP settlements. We strive to harness and make public the collective knowledge and skills of local experts, refugees, activists, and CSOs to deepen local impact and create opportunities for mutual support and collaboration.',
+    active: # Add true to select section
+  }
+- {
+    name: Media Literacy,
+    icon: fas fa-laptop,
+    description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
+    active: # Add true to select section
+  }
+- {
+    name: Media Development,
+    icon: fab fa-osi,
+    description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
+    active: # Add true to select section
+  }
+
+
+#-------------------------------
 # Member Hubs Section
 
 hub-section-title: YOUTH LED HUBS
@@ -87,7 +112,7 @@ resources-description: |
 resources-sub-sections: 
   - { title: "#ASKtraining", text: "An initial prototype of the #ASKtraining platform, to be used to compile, share and streamline the running of workshops, learning content and deliver ‚how to‘ instructions is created to make training easier and more accessible. In this way, experiential knowledge is secured, which improves the sustainability of activities and facilitates the induction of new members and participants.", image-url: "assets/img/tools/training.jpg", button-text: "Go To #ASKtraining", button-url: "https://training.asknet.community/training/", button-is-internal: false }
   - { title: "#ASKotec", text: "#ASKotec - the ‘Access to Skills and Knowledge open tech emergency case’ is a resource kit for community trainers that is designed as a light and handy mobile workshop creation set, equipped with a broad range of items needed to teach others. The kit is especially valuable to communities where access to tools, power and materials is often scarce.", image-url: "assets/img/resources/askotec.jpg", button-text: "More about #ASKotec", button-url: "https://askotec.openculture.agency/", button-is-internal: false }
-  - { title: "#OpenGuides", text: "#ASKnet has so far released five ‘OpenGuides’, providing beginners and advanced users with methods and strategies to apply open culture principles more effectively - opening doors to new creative opportunities for collaboration, learning and developing new skills.", image-url: "assets/img/resources/open-guides.png", button-text: "view Open Guides", button-url: "_pages/open-guides.md", button-is-internal: true }
+  - { title: "#OpenGuides", text: "#ASKnet has so far released five ‘OpenGuides’, providing beginners and advanced users with methods and strategies to apply open culture principles more effectively - opening doors to new creative opportunities for collaboration, learning and developing new skills.", image-url: "assets/img/resources/open-guides.png", button-text: "view Open Guides", button-url: "open-guides", button-is-internal: true }
 
 
 #-------------------------------
@@ -153,30 +178,6 @@ timeline:
     end: 
       title: "Add new training, event, or project!"
       link: "https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-timeline-event&template=new-timeline-event.yml&title=Add+Timeline+Event%3A+"
-
-#-------------------------------
-# Services Section
-
-services-title: Services
-services:
-- {
-    name: Community,
-    icon: fas fa-users,
-    description: 'We bring together people and ideas to help build resilient environments for strong knowledge exchange within numerous communities - in towns, villages, and local neighborhoods, including within refugee or IDP settlements. We strive to harness and make public the collective knowledge and skills of local experts, refugees, activists, and CSOs to deepen local impact and create opportunities for mutual support and collaboration.',
-    active: # Add true to select section
-  }
-- {
-    name: Media Literacy,
-    icon: fas fa-laptop,
-    description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
-    active: # Add true to select section
-  }
-- {
-    name: Open Access,
-    icon: fab fa-osi,
-    description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
-    active: # Add true to select section
-  }
 
 
 #-------------------------------

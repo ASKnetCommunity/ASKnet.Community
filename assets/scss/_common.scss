@@ -89,6 +89,14 @@ a.text-dark{
     text-transform:uppercase;
     font-weight: bold;
   }
+  &#timeline-section {
+    @media (min-width: 992px) {
+      padding-bottom: 200px;
+    }
+    @media (min-width: 1200px) {
+      padding-bottom: 140px;
+    }    
+  }
 }
 
 #about-section.section {

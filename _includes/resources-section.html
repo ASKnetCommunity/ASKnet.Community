@@ -8,38 +8,27 @@
         {{ site.data.settings.resources-description | markdownify }}
       </div>
     </div>
-    <div class="row shuffle-wrapper">
-      {% for resource in site.resources %}
-      <div class="col-md-4 col-sm-6 mb-4 shuffle-item">
-        <div class="position-relative hover-wrapper">
-          <img src="{{ site.baseurl }}/{{ resource.thumbnail }}" alt="resources-alt" class="img-fluid w-100 d-block" />
-          <a class="hover-overlay" href="{{ resource.link }}">
-            <div class="hover-content">
-              <i class=" fas fa-plus fa-3x"></i>
-            </div>
-          </a>
-        </div>
-        <div class="caption">
-          <h4>{{ resource.title }}</h4>
-          <p class="text-muted">{{ resource.subtitle }}</p>
-        </div>
-      </div>
-      {% endfor %}
-      <div class="col-md-4 col-sm-6 mb-4 shuffle-item">
-        <div class="position-relative hover-wrapper">
-          <div id="grid-add-item"></div>
-          <a class="hover-overlay" href="https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-resources&template=add-resource.yml&title=Add+resources%3A+">
-            <div class="hover-content">
-              <i class=" fas fa-plus fa-3x"></i>
-            </div>
-          </a>
-        </div>
-        <div class="caption">
-          <h4>Add new Resource</h4>
-          <p class="text-muted">you can register your resource here</p>
+
+    {% assign counter = 1 %}  <!-- zähler-variable, um Farbe und Bild-Seite abwechselnd zu machen -->
+    {% for sub-section in site.data.settings.resources-sub-sections %}
+      {% assign mod = counter | modulo: 2 %}
+      <div style="background-color: {% if mod == 0 %}#00000024{% else %}#ffffff12{% endif %};" class="row pb-3 px-md-3">
+        <div class="col-12">
+          <h3 class="text-white mt-4 mb-3 text-center">{{ sub-section.title }}</h3>
+          <img src="{{ sub-section.image-url }}" style="object-fit: cover;" class="col-md-3 col-12 py-2 {% if mod == 0 %}float-right pr-0{% else %}float-left pl-0{% endif %}">
+          {{ sub-section.text | markdownify }}
+          <div class="row col-12 mb-3 mx-0">
+          {% if sub-section.button-is-internal %}
+            <a class="btn btn-sm btn-primary mx-auto" href="{% link {{ sub-section.button-url }} %}">{{ sub-section.button-text }}</a>
+          {% else %}
+            <a class="btn btn-sm btn-primary mx-auto" href="{{ sub-section.button-url }}" target="_blank">{{ sub-section.button-text }} <i class="fas fa-external-link-alt"></i></a>
+          {% endif %}
+          </div>
         </div>
       </div>
-    </div>
+      {% assign counter = counter | plus: 1 %}
+    {% endfor %}
+    
   </div>
 </section>
 <!-- /resources -->

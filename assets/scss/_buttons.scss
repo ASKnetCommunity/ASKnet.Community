@@ -55,9 +55,34 @@
 
 .hero-area, .contact-section {
   .btn-primary {
-    border: 1px solid rgba($secondary-color, 0.5);
+    border: 1px solid rgba($secondary-color, 0.5) !important;
+    // ::before {
+    //   position: absolute;
+    //   content: "";
+    //   z-index: -1;
+    //   top: 0px;
+    //   left: 0px;
+    //   bottom: 0px;
+    //   right: 0px;
+    //   box-shadow: 0px 0px 20px -4px $secondary-color;
+    //   border: 2px solid red;
+    //   background: blue;
+    // }
   }
 }
+
+// .hero-area a ::before { 
+//   position: absolute;
+//   content: "";
+//   z-index: -1;
+//   top: 0px;
+//   left: 0px;
+//   bottom: 0px;
+//   right: 0px;
+//   box-shadow: 0px 0px 20px -4px $secondary-color;
+//   border: 2px solid red;
+//   background: blue;
+// }
 
 
 .btn-transparent {

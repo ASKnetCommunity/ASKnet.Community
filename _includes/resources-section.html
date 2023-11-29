@@ -21,7 +21,7 @@
           {% if sub-section.button-is-internal %}
             {% assign pagepath = sub-section.button-url %}
             {{ pagepath }}
-            <a class="btn btn-sm btn-primary mx-auto" href="{% comment %} {% link {{ pagepath }} %} {% endcomment %}">{{ sub-section.button-text }}</a>
+            <a class="btn btn-sm btn-primary mx-auto" href="{% link {{ pagepath }} %}">{{ sub-section.button-text }}</a>
           {% else %}
             <a class="btn btn-sm btn-primary mx-auto" href="{{ sub-section.button-url }}" target="_blank">{{ sub-section.button-text }} <i class="fas fa-external-link-alt"></i></a>
           {% endif %}

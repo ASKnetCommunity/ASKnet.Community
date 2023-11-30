@@ -9,7 +9,7 @@ title: Open Guides
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-<a href="{{ site.baserl }}{% link assets/docs/open-source-documentation-guide.pdf %}" class="btn btn-sm btn-primary" target="_blank">Download</a>  
+<a href="{{ site.baseurl }}{% link assets/docs/open-source-documentation-guide.pdf %}" class="btn btn-sm btn-primary" target="_blank">Download</a>  
 
 <a href="https://github.com/opencultureagency/Open-Documentation-Guide" target="_blank">Source Files (Repository)</a>
 
@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-<a href="{{ site.baserl }}{%  link assets/docs/open-training-guide.pdf %}" class="btn btn-sm btn-primary" target="_blank">Download</a>  
+<a href="{{ site.baseurl }}{%  link assets/docs/open-training-guide.pdf %}" class="btn btn-sm btn-primary" target="_blank">Download</a>  
 
 <a href="https://github.com/opencultureagency/Open-Training-Guide" target="_blank">Source Files (Repository)</a>
 
@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-<a href="{{ site.baserl }}{% link assets/docs/open-hardware-guide.pdf %}" class="btn btn-sm btn-primary" target="_blank">Download</a>  
+<a href="{{ site.baseurl }}{% link assets/docs/open-hardware-guide.pdf %}" class="btn btn-sm btn-primary" target="_blank">Download</a>  
 
 <a href="https://github.com/opencultureagency/Open-Hardware-Guide" target="_blank">Source Files (Repository)</a>
 
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-<a href="{{ site.baserl }}{% link assets/docs/open-learning-guide.pdf %}" class="btn btn-sm btn-primary" target="_blank">Download</a>  
+<a href="{{ site.baseurl }}{% link assets/docs/open-learning-guide.pdf %}" class="btn btn-sm btn-primary" target="_blank">Download</a>  
 
 <a href="https://github.com/opencultureagency/Open-Learning-Guide" target="_blank">Source Files (Repository)</a>
 

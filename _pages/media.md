@@ -13,7 +13,7 @@ css-id: media-page
 
 ### Refugee Youth Podcast
 
-— by [Youth Empowerment Foundation]({% link _hubs/yef.md %})
+— by [Youth Empowerment Foundation]({{ site.baserl }}{% link _hubs/yef.md %})
 
 A series dedicated to sharing the stories and experiences of refugees living in Northern Uganda. Produced and hosted by young refugees in the Pagirinya refugee settlement near Adjumani, Uganda experiences and stories are shared with the aim of educating, informing, and strengthening resilience within the community. 
 
@@ -22,7 +22,7 @@ A series dedicated to sharing the stories and experiences of refugees living in 
 
 ### Amplified Gender Voices Podcast
 
-— by [GoGirls ICT Initiative]({% link _hubs/gogirls-ict.md %})
+— by [GoGirls ICT Initiative]({{ site.baserl }}{% link _hubs/gogirls-ict.md %})
 
 Every woman’s story is a powerful force for change. In this podcast, the Juba-based GoGirlsICT community brings you inspiring stories, thought-provoking interviews, and impactful conversations that shine a light on how the women of South Sudan overcome deeply rooted societal challenges. 
  
@@ -32,7 +32,7 @@ Every woman’s story is a powerful force for change. In this podcast, the Juba-
 
 ### Classroom on Phone Series
 
-— by [GoGirls ICT Initiative]({% link _hubs/gogirls-ict.md %})
+— by [GoGirls ICT Initiative]({{ site.baserl }}{% link _hubs/gogirls-ict.md %})
 
 A pre-recorded series of learning programs, easily accessible through smart phones, where primary and secondary school students are taught a range of STEM subjects (Science, Technology, Engineering and Mathematics) with the aim of enhancing the love and practice of science. 
 
@@ -59,7 +59,7 @@ This is where technology meets community, and innovation solves problems. Join u
 
 ### Refutories
 
-— by [Platform Africa]({% link _hubs/platform-africa.md %})
+— by [Platform Africa]({{ site.baserl }}{% link _hubs/platform-africa.md %})
 
 “Refutories” is a word that emanates from Refugee Stories, telling these through interviews with refugees in the Rhino Camp settlement near Arua, Uganda. Their daily experiences with access to education and the numerous struggles faced living in the refugee settlement, the podcast looks at issues ranging from sex education to the many cultural aspects displaced people must face on a daily basis. 
 
@@ -69,7 +69,7 @@ This is where technology meets community, and innovation solves problems. Join u
 
 ### E-Waste Awareness Video
 
-— by [Community Creativity 4 Development]({% link _hubs/cc4d.md %})
+— by [Community Creativity 4 Development]({{ site.baserl }}{% link _hubs/cc4d.md %})
 
 Highlighting refugee innovation in tackling the problem of e-waste management through training and awareness on repair, reuse, and upcycling projects the video was produced in support of the global International Repair Day. 
 

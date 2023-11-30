@@ -19,6 +19,8 @@ The community-based media and life skills organizations have joined together to 
 - **Platform Africa** (Rhino Camp, Uganda)
 - **YEF** - Youth Empowerment Foundation (Adjumani / Pagirinya, Uganda)
 
+<br>
+
 ## Membership and Steering Committee
 
 An organization must be community-driven, nonpartisan, and politically neutral in order to be accepted into the network.

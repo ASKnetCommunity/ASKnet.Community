@@ -5,6 +5,10 @@ title: Imprint
 
 # Imprint
 
+For general information about the network please contact the #ASKnet – Network Coordination Office Email: coordinator@asknet.community
+
+#ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners and is funded by the German Ministry of Economic Development and Cooperation (BMZ) 2022-2025.
+
 ## Information according to [§ 5 TMG](https://www.gesetze-im-internet.de/tmg/__5.html)
 
 **r0g_agency for open culture and critical transformation gGmbH**

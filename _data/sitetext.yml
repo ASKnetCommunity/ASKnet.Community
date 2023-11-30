@@ -267,13 +267,15 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com/search?q=%23%23ASKnet&f=live
+      - url: https://twitter.com/_asknet
         icon: "fab fa-twitter"
-      - url: https://www.facebook.com/hashtag/asknet
+      - url: https://www.facebook.com/profile.php?id=100091808654094
         icon: "fab fa-facebook-f"
+      - url: https://www.youtube.com/@_ASKnet
+        icon: "fab fa-youtube"
       - url: https://www.instagram.com/explore/tags/asknet/
         icon: "fab fa-instagram"
-      - url: https://www.linkedin.com/search/results/content/?keywords=%23asknet&origin=SWITCH_SEARCH_VERTICAL&sid=GQE
+      - url: https://www.linkedin.com/company/access-to-skills-and-knowledge-network-asknet/
         icon: "fab fa-linkedin-in"
       - url: https://github.com/ASKnetCommunity
         icon: "fab fa-github"

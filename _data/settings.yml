@@ -62,8 +62,10 @@ about-flyer-link-title: "#ASKnet Flyer"
 #-------------------------------
 # Member Hubs Section
 
-hub-section-title: "#ASKnet Members <div style=\"font-weight: normal;\">(November 2023)</div>"
+hub-section-title: "#ASKnet Members <div class=\"h4\" style=\"font-weight: normal;\">(November 2023)</div>"
 hub-section-description: |
+  
+
   The member organizations have a community-led focus and contribute to strengthening civil society structures in South Sudan, while creating a basis for strengthened communication and cooperation, especially between communities of refugees in neighbouring countries together with those in South Sudan. 
  
   - CC4D - Community Creativity for Development (Rhino Camp, Uganda)

@@ -13,11 +13,10 @@ screenshot: https://raw.githubusercontent.com/ASKnetCommunity/ASKnet.Community/5
 menu:
 - {name: About, link: '/#about'}
 - {name: Members, link: '/#members'}
+- {name: Our Story, link: '/#timeline'}
 - {name: Experts, link: '/#lead'}
 - {name: Resources, link: '/#resources'}
 - {name: Media, link: '/media'}
-# - {name: "#ASKtools", link: '/#asktools'}
-- {name: Our Story, link: '/#timeline'}
 - {name: Contact, link: '/#contact'}
 
 
@@ -70,15 +69,15 @@ services:
     active: # Add true to select section
   }
 - {
-    name: Media Literacy,
-    icon: fab fa-osi,
-    description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
-    active: # Add true to select section
-  }
-- {
     name: Media Development,
     icon: fas fa-laptop,
     description: '#ASKnet contributes to create an environment where the media plays a constructive role in fostering democracy, accountability, and public participation. Education about media literacy is crucial and involves helping individuals critically evaluate and understand the media they consume, discerning reliable information from misinformation.',
+    active: # Add true to select section
+  }
+- {
+    name: Open Access,
+    icon: fab fa-osi,
+    description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
     active: # Add true to select section
   }
 
@@ -127,7 +126,7 @@ timeline:
       desc: 'As armed conflict erupted again in South Sudan, the community scattered, with some members taking refuge in neighboring countries. Hosting of trainings were taken on by partners in Addis Ababa, Nairobi, Kigali, Kampala. The #ASKotec kit was developed and a network of local initiatives that has since evolved into what is now #ASKnet.'
       image: assets/img/timeline/2016.jpg
       alt:
-      url: https://github.com/ASKnetCommunity/ASKnet.Community
+      url: 
     - title: "New Members"
       year: "2017"
       desc: 'A number of new, initially informal organizations were established and launched by former jHUB members, who began sharing various skills with local participants in their specific contexts. These also included refugee settlements such as Rhino Camp in Northern Uganda, and towns in South Sudan such as Bor.'
@@ -155,13 +154,13 @@ timeline:
     - title: "Hub Strengthening"
       year: "2021"
       desc: "#ASKnet hubs increase their own community engagement, with a broad range of media and life skills training, also helping to empower more community members in need of support and attention. The ‚Labmobile‘ at Rhino Camp, and an locally sourced housing prototype at the Pagirinya Refugee Settlement in Uganda join a family of resources and programs established earlier in South Sudan."
-      image: assets/img/timeline/2020.jpg
+      image: assets/img/timeline/2021.jpg
       alt: 
       url: 
     - title: "Founding an International Innovation Consortium"
       year: "2022 / 2023"
       desc: "Adaptation of the informal international #ASKnet group of hubs into a consortium, with a legal registration in South Sudan. Foundations are laid for an inclusive cross-border and self-governed network of South Sudanese led youth-led media and innovation organizations able and open to bring on more members."
-      image: assets/img/timeline/2020.jpg
+      image: assets/img/timeline/2022.jpg
       alt: 
       url: 
     # you can enforce the alignment: 

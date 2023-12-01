@@ -37,6 +37,7 @@
 .btn-primary {
   background-color: $primary-color;
   color: $white;
+  box-shadow: 0px 0px 32px -13px $secondary-color;
 
   &:active {
     background-color: lighten($color: $primary-color, $amount: 10) !important;

@@ -1,4 +1,6 @@
 ---
+layout: hub
+
 title: Youth Empowerment Foundation
 subtitle: The Youth Empowerment Foundation (YEF) is a community-oriented innovation hub in the Adjumani district, Uganda.
 image: assets/img/hubs/05-youth-empowerment-yef-asknet-full.jpg

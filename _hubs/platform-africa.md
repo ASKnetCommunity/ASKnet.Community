@@ -1,4 +1,6 @@
 ---
+layout: hub
+
 title: Platform Africa
 subtitle:  a youth-led nonprofit organization founded in 2017 in the Rhino Camp refugee settlement in the Arua district of northern Uganda.
 image: assets/img/hubs/01-platform-africa-asknet-full.jpg

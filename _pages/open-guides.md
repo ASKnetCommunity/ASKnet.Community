@@ -5,9 +5,11 @@ title: Open Guides
 
 # Open Guides
 
+Open knowledge is knowledge that one is free to use, reuse, and redistribute without legal, social or technological restriction. Open knowledge is a set of principles and methodologies related to the production and distribution of how knowledge works in an open manner. Knowledge is interpreted broadly to include data, content and general information.
+
 ## Open Source Documentation Guide (#ODG)
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Acting as an introduction to open source methodologies the #ODG provides easy guidance to increase the impact and innovative capacities of collaborative projects. Providing beginners and advanced users with strategies to apply open source principles more effectively the #ODG is an educational resource and a door to new creative opportunities!
 
 <a href="{{ site.baseurl }}{% link assets/docs/open-source-documentation-guide.pdf %}" class="btn btn-sm btn-primary" target="_blank">Download</a>  
 
@@ -16,7 +18,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 ## Open Training Guide (#OTG) 
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+The #OTG is a learning resource that can be used by anyone to facilitate easier Access to Skills and Knowledge. It offers tools and methodologies to help design and run your own training, wherever you may be, with whatever resources you have at hand.
 
 <a href="{{ site.baseurl }}{%  link assets/docs/open-training-guide.pdf %}" class="btn btn-sm btn-primary" target="_blank">Download</a>  
 
@@ -24,7 +26,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 ## Open Hardware Guide (#OHG)
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Our #OHG gives examples of hands-on skills possibilities and projects applying open hardware methodologies, introduces to resources and is as a tangible tool in the form of a rugged A1 poster for trainers, tinkerers and facilitators. Get the  #OHG for  anyone interested in exploring open technologies in a very practical way.
 
 <a href="{{ site.baseurl }}{% link assets/docs/open-hardware-guide.pdf %}" class="btn btn-sm btn-primary" target="_blank">Download</a>  
 
@@ -32,7 +34,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 ## Open Learning Guide (#OLG)
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+The #OLG lists resources to Open Educational Resources (OER) around the topics of online literacy, technology and DIY communities to help solve the acute post-independence social, political, educational and environmental challenges which arose through the long-lasting conflicts in South Sudan.
 
 <a href="{{ site.baseurl }}{% link assets/docs/open-learning-guide.pdf %}" class="btn btn-sm btn-primary" target="_blank">Download</a>  
 

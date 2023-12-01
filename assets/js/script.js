@@ -155,3 +155,9 @@
 
 
 })(jQuery);
+
+
+
+$('.navbar-nav>li>a').on('click', function(){     // this causes the navbar to collapse when a link is clicked (in mobile view), this is necessary for page-internal (e.g. #about) links
+    $('.navbar-collapse').collapse('hide');
+});

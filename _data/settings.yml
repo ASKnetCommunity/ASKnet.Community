@@ -247,11 +247,16 @@ client-slider-items:
 
 contact-title: Contact Info
 contact-text: |
-  For general information about the network please contact our #ASKnet – Network Coordination in Juba by email: <a href="mailto:coordinator@asknet.community">coordinator@asknet.community</a>.
-  
-  #ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners.
-  
-  #ASKnet  2022-2025 is funded by the German Ministry of Economic Development and Cooperation (BMZ).
+  <p>For general information about the network please contact our #ASKnet – Network Coordination in Juba by email: <script language="JavaScript" type="text/javascript">
+  var part1 = "coordinator";
+  var part2 = Math.pow(2,6);
+  var part3 = String.fromCharCode(part2);
+  var part4 = "asknet.community";
+  var part5 = part1 + String.fromCharCode(part2) + part4;
+  document.write("<a href=\"" + "mai" + "lto" + ":" + part5 + "\">" + part1 + part3 + part4 + "</a>");
+  </script></p>
+  <p>#ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners.</p>
+  <p>#ASKnet  2022-2025 is funded by the German Ministry of Economic Development and Cooperation (BMZ).</p>
 
 contact-email: coordinator@asknet.community
 formspree-path: f/myylarkr

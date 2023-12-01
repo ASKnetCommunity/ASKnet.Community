@@ -14,7 +14,6 @@ social-media:
   - { fa-icon-code: "fa-twitter", url: "https://twitter.com/platformngo" }
   - { fa-icon-code: "fa-youtube", url: "https://www.youtube.com/@theyouthempowermentfoundat4176" }
   - { fa-icon-code: "fa-facebook-f", url: https://www.facebook.com/WeAreYEF/" }
-  - { fa-icon-code: "fa-linkedin", url: "https://www.linkedin.com/company/platformngo/" }
   - { fa-icon-code: "fa-instagram", url: "https://www.instagram.com/youth.empowermentfoundation/" }
   - { fa-icon-code: "fa-github", url: "https://github.com/WeAreYEF" }
 

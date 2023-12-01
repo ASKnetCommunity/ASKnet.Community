@@ -1,9 +1,10 @@
 .navigation{
-  padding: 40px 130px;
+  padding: 40px 40px 20px 40px;
+  background-color: rgba($primary-color, 0.5);
   transition: .3s ease;
   &.nav-bg {
     background-color: rgba($primary-color, 0.8);
-    padding: 15px 100px;
+    padding: 15px 40px;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     @include desktop {
@@ -29,6 +30,12 @@
   }
   .navbar-brand {
     background-color: $secondary-color;
+    img {
+      height: 40px;
+      @include desktop {
+        height: 30px;
+      }
+    }
   }
 }
 

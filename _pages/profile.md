@@ -7,7 +7,9 @@ title: '#ASKnet Profile'
 
 The community-based media and life skills organizations have joined together to create a formal network that provides them with a platform for exchange and represents their interests at national, regional and international levels in culture, policy creation and economic development. A group of committed individuals representing the member organizations manages the network and ensures its sustainable growth.
 
-## #ASKnet Members (November 2023)
+## #ASKnet Members 
+
+(November 2023)
 
 - **CC4D** - Community Creativity for Development (Rhino Camp, Uganda)
 - **CECI** - Community Empowerment For Creative Innovation (Koboko, Uganda)

@@ -70,15 +70,15 @@ services:
     active: # Add true to select section
   }
 - {
-    name: Media Literacy,
-    icon: fab fa-osi,
-    description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
-    active: # Add true to select section
-  }
-- {
     name: Media Development,
     icon: fas fa-laptop,
     description: '#ASKnet contributes to create an environment where the media plays a constructive role in fostering democracy, accountability, and public participation. Education about media literacy is crucial and involves helping individuals critically evaluate and understand the media they consume, discerning reliable information from misinformation.',
+    active: # Add true to select section
+  }
+- {
+    name: Open Access,
+    icon: fab fa-osi,
+    description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
     active: # Add true to select section
   }
 

@@ -24,6 +24,18 @@ p, .paragraph {
   }
 }
 
+.page-content { //select only the ol/ul in the page body, not the ones used for the header menu
+  ol,
+  ul {
+    font-family: $secondary-font;
+    font-size: 1.3rem;
+    @include desktop {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
   font-family: $primary-font;
@@ -33,8 +45,9 @@ h1,h2,h3,h4,h5,h6 {
 
 h1, .h1{
   font-size: 80px;
+  word-wrap: anywhere;
   @include desktop {
-    font-size: 45px;
+    font-size: 38px;
   }
 }
 
@@ -47,7 +60,10 @@ h2, .h2{
 }
 
 h3, .h3{
-  font-size: 40px;
+  font-size: 32px;
+  @include desktop {
+    font-size: 28px;
+  }
 }
 
 h4, .h4{
@@ -70,6 +86,7 @@ h6, .h6{
   
   h2, .h2{
     font-size: 32px;
+    margin-bottom: .5rem;
   }
   
   h3, .h3{

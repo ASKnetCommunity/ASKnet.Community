@@ -198,8 +198,8 @@ resources-sub-sections:
 #-------------------------------
 # Tools Section
 
-tools-title: "#ASKTOOLS"
-tools-description: ""
+# tools-title: "#ASKTOOLS"
+# tools-description: "
 
 
 #-------------------------------
@@ -261,3 +261,74 @@ contact-text: |
 
 contact-email: coordinator@asknet.community
 formspree-path: f/myylarkr
+
+#-------------------------------
+# Media Page
+
+media-items:
+  podcasts:
+  - title: Refugee Youth Podcast
+    image-url: assets/img/media-page/ryp-logo.jpg
+    by-hub-name: Youth Empowerment Foundation
+    by-hub-link: /hubs/yef
+    text: A series dedicated to sharing the stories and experiences of refugees living in Northern Uganda. Produced and hosted by young refugees in the Pagirinya refugee settlement near Adjumani, Uganda experiences and stories are shared with the aim of educating, informing, and strengthening resilience within the community.
+    link1-url: https://on.soundcloud.com/RMwXEqY6LbAseCBx8
+    link1-platform: SoundCloud
+
+  - title: Amplified Gender Voices 
+    image-url: assets/img/media-page/agvpodcast-logo.jpeg
+    by-hub-name: GoGirls ICT Initiative
+    by-hub-link: /hubs/gogirls-ict
+    text: Every woman’s story is a powerful force for change. In this podcast, the Juba-based GoGirlsICT community brings you inspiring stories, thought-provoking interviews, and impactful conversations that shine a light on how the women of South Sudan overcome deeply rooted societal challenges. <br><br> <a href="https://feeds.soundcloud.com/users/soundcloud:users:1289645559/sounds.rss" target="_blank">RSS Feed</a>
+    link1-url: https://soundcloud.com/agvpodcast
+    link1-platform: SoundCloud
+
+  - title: Classroom on Phone 
+    image-url: assets/img/media-page/cop-logo.jpg
+    by-hub-name: GoGirls ICT Initiative
+    by-hub-link: /hubs/gogirls-ict
+    text: A pre-recorded series of learning programs, easily accessible through smart phones, where primary and secondary school students are taught a range of STEM subjects (Science, Technology, Engineering and Mathematics) with the aim of enhancing the love and practice of science. <br><br> <a href="https://feeds.soundcloud.com/users/soundcloud:users:1289645559/sounds.rss" target="_blank">RSS Feed</a><br><br> <a href="https://www.youtube.com/@gogirlsictinitiative4202" target="_blank">Feedback on Classroom on Phones series implementation in schools</a>
+    link1-url: https://soundcloud.com/classroom-on-phone
+    link1-platform: SoundCloud
+    link2-url: https://podcasters.spotify.com/pod/show/classroomonphone/episodes/ClassroomOnPhone-Series-GoGirls-learning-Podcast-ergreh
+    link2-platform: Spotify
+
+  - title: "#ASK&shy;podcast" 
+    image-url: assets/img/media-page/askpodcast-cover.jpg
+    by-external-name: "#ASKnet member Romeo Lomoro"
+    by-external-link: https://lead.asknet.community/profiles/Romeo-Lomora-Ronald/
+    text: This is where technology meets community, and innovation solves problems. Join us as we delve into the world of open technology and explore the impact it has on communities in South Sudan and Uganda. Through the eyes and voices of local organizations, community leaders, and individuals, we bring you the stories of change-makers who are using technology to create a better future for their communities. <br><br> <a href="https://www.youtube.com/@_ASKnet" target="_blank">#ASKnet Video Stream Conversations</a>
+    link1-url: https://podcasters.spotify.com/pod/show/ask-podcast6
+    link1-platform: Spotify
+    link2-url: https://www.jiosaavn.com/shows/ask-podcast/2/pV8HqsZcUAI_
+    link2-platform: JioSaavn
+
+  - title: Refutories 
+    image-url: assets/img/media-page/refutories-cover.jpg
+    by-hub-name: Platform Africa
+    by-hub-link: /hubs/platform-africa
+    text: "“Refutories” is a word that emanates from Refugee Stories, telling these through interviews with refugees in the Rhino Camp settlement near Arua, Uganda. Their daily experiences with access to education and the numerous struggles faced living in the refugee settlement, the podcast looks at issues ranging from sex education to the many cultural aspects displaced people must face on a daily basis."
+    link1-url: https://on.soundcloud.com/QAbKZCdG9wY34Nos6
+    link1-platform: SoundCloud
+  
+  videos:
+  - title: E-Waste Awareness
+    image-url: assets/img/media-page/ewa-cover.png
+    by-hub-name: Community Creativity 4 Development
+    by-hub-link: /hubs/cc4d
+    text: Highlighting refugee innovation in tackling the problem of e-waste management through training and awareness on repair, reuse, and upcycling projects the video was produced in support of the global International Repair Day.
+    link1-url: https://www.youtube.com/watch?v=Zt4bFndoXM0
+    link1-platform: YouTube
+
+    # Template: 
+      # - title: Refugee Youth Podcast
+      #   image-url: assets/img/media-page/ryp-logo.jpg
+      #   by-hub-name: Youth Empowerment Foundation
+      #   by-hub-link: /hubs/yef        # refers to the name of the hub file, e.g. yef.md
+      #   by-external-name:             # if it's not a hub but something else and the link should go to an external site. delete this and the next line if not applicable. If applicable, delete the two lines above.
+      #   by-external-link: 
+      #   text: A series dedicated to sharing the stories and experiences of refugees living in Northern Uganda. Produced and hosted by young refugees in the Pagirinya refugee settlement near Adjumani, Uganda experiences and stories are shared with the aim of educating, informing, and strengthening resilience within the community.
+      #   link1-url: https://on.soundcloud.com/RMwXEqY6LbAseCBx8      # one or two links can be there per media-item. if just one link, delete the "link2-..." lines
+      #   link1-platform: SoundCloud
+      #   link2-url: https://on.soundcloud.com/RMwXEqY6LbAseCBx8
+      #   link2-platform: SoundCloud

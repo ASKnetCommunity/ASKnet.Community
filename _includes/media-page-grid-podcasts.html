@@ -1,0 +1,23 @@
+<div class="row shuffle-wrapper" style="margin-right: -1.5rem;">
+  {% for media in site.data.settings.media-items.podcasts %}
+    <div class="col-lg-6 p-0 shuffle-item">
+      <div class="{% comment %} col-md-4 {% endcomment %} card mr-4 mb-4">
+        <div class="card-body">
+          <img src="{{ site.baseurl }}/{{ media.image-url }}" alt="" class="img-fluid d-block item-logo mb-1" />
+          <h3 class="card-title">{{ media.title }}</h3>
+          {% if media.by-hub-name %}<p>— by <a href="{{ site.baseurl }}{{ media.by-hub-link }}">{{ media.by-hub-name }}</a></p>{% endif %}
+          {% if media.by-external-name %}<p>— by <a href="{{ media.by-external-link }}" target="_blank">{{ media.by-external-name }}</a></p>{% endif %}
+          <p class="card-text">{{ media.text }} </p>
+        </div>
+        <div class="card-footer text-muted text-center">
+          {% if media.link1-url %}
+            <a class="btn btn-sm btn-primary m-1 py-2 px-3" href="{{ media.link1-url }}" target="_blank"><b>Listen</b><br>on {{ media.link1-platform }}</a> 
+          {% endif %}
+          {% if media.link2-url %}
+            <a class="btn btn-sm btn-primary m-1 py-2 px-3" href="{{ media.link2-url }}" target="_blank"><b>Listen</b><br>on {{ media.link2-platform }}</a> 
+          {% endif %}
+        </div>    
+      </div>
+    </div>
+  {% endfor %}
+</div>

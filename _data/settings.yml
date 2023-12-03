@@ -32,7 +32,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 hero:
   hero-title: "Welcome to #ASKnet"
-  hero-subtitle: The ACCESS to SKILLS & KNOWLEDGE Network
+  hero-subtitle: The ACCESS to SKILLS & KNOWLEDGE network
   hero-button-text: LEARN MORE
   hero-button-link: "#about"
 
@@ -85,7 +85,7 @@ services:
 #-------------------------------
 # Member Hubs Section
 
-hub-section-title: "#ASKnet Members <div style=\"font-weight: normal;\">(November 2023)</div>"
+hub-section-title: "#ASKnet members <div style=\"font-weight: normal;\">(November 2023)</div>"
 hub-section-description: |
   The member organizations have a community-led focus and contribute to strengthening civil society structures in South Sudan, while creating a basis for strengthened communication and cooperation, especially between communities of refugees in neighbouring countries together with those in South Sudan. 
  
@@ -141,7 +141,7 @@ timeline:
       url: 
     - title: "Community Practices"
       year: "2019"
-      desc: "Six ‚pioneer‘ hubs, all legally registered organizations, form the first collective #ASKnet community. In collaboration with the Global Innovation Gathering (GIG) with members coming together from 5 continents, DOTS, the first international #ASKnet summit was held in Nakuru, Kenya."
+      desc: "Six ‚pioneer‘ hubs, all legally registered organizations, form the first collective #ASKnet community. In collaboration with the Global Innovation Gathering (GIG) with members coming together from 5 continents, DOTS, the first international #ASKsummit was held in Nakuru, Kenya."
       image: assets/img/timeline/2019.jpg
       alt: 
       url:

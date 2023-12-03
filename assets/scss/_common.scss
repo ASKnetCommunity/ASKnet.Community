@@ -28,11 +28,7 @@ body {
 ol,
 ul {
   // list-style-type: none;
-  // margin: 0px;
-}
-
-li {
-  margin-bottom: 0.5rem;
+  margin: 0px;
 }
 
 img {
@@ -92,6 +88,14 @@ a.text-dark{
     margin-top: 0;
     text-transform:uppercase;
     font-weight: bold;
+  }
+  &#timeline-section {
+    @media (min-width: 992px) {
+      padding-bottom: 200px;
+    }
+    @media (min-width: 1200px) {
+      padding-bottom: 140px;
+    }    
   }
 }
 
@@ -219,7 +223,7 @@ a.text-dark{
   font-style: italic;
   font-size: 40px;
   @include desktop {
-    margin-top: 250px;
+    margin-top: 140px;
     font-size: 22px;
   }
 }
@@ -289,6 +293,11 @@ a.text-dark{
       border: 0;
     }
   }
+}
+
+.client-logo-slider img {
+  height: 100px;
+  object-fit: contain;
 }
 /* /slick slider */
 

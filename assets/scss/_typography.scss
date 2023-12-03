@@ -45,8 +45,9 @@ h1,h2,h3,h4,h5,h6 {
 
 h1, .h1{
   font-size: 80px;
+  word-wrap: anywhere;
   @include desktop {
-    font-size: 45px;
+    font-size: 38px;
   }
 }
 
@@ -59,7 +60,10 @@ h2, .h2{
 }
 
 h3, .h3{
-  font-size: 40px;
+  font-size: 32px;
+  @include desktop {
+    font-size: 28px;
+  }
 }
 
 h4, .h4{

@@ -3,6 +3,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  p {
+    color: $white;
+  }
 }
 
 .its-a-trap { //this makes the honeypot input fields invisible (they are used to fool spam bots)

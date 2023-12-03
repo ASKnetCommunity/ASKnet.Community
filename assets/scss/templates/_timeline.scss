@@ -1,5 +1,5 @@
 section#timeline-section {
-  background: url(../../assets/img/tile-light-ochre2.jpg);
+  background: url(../../assets/img/tile-light-purple2.jpg);
 }
 
 // Styling for the timeline section
@@ -7,6 +7,8 @@ section#timeline-section {
   position: relative;
   padding: 0;
   list-style: none;
+  margin-right: -10px;
+  margin-left: -10px;
   &:before {
     position: absolute;
     top: 0;
@@ -119,7 +121,7 @@ section#timeline-section {
 .timeline-body p {
   font-size: 1.1rem !important;  
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {     // if the texts of the timeline items would get shorter, this could be changed back to min-width: 768px, which would have the effect that already at a width of 768px the timeline would go into the left-right mode 
   .timeline {
     &:before {
       left: 50%;
@@ -181,7 +183,7 @@ section#timeline-section {
     > li {
       min-height: 170px;
       .timeline-panel {
-        padding: 0 20px 20px 100px;
+        padding: 0 20px 20px 20px;
       }
       .timeline-image {
         width: 170px;
@@ -192,7 +194,7 @@ section#timeline-section {
         }
       }
       &.timeline-inverted > .timeline-panel {
-        padding: 0 100px 20px 20px;
+        padding: 0 20px 20px 20px;
       }
     }
   }

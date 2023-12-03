@@ -1,16 +1,19 @@
 .navigation{
-  padding: 40px 130px;
+  padding: 40px 40px 20px 40px;
+  background-color: rgba($primary-color, 0.5);
   transition: .3s ease;
   &.nav-bg {
-    background-color: $secondary-color;
-    padding: 15px 100px;
+    background-color: rgba($primary-color, 0.8);
+    padding: 15px 40px;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     @include desktop {
       padding: 15px 20px;
     }
   }
   @include desktop {
     padding: 20px;
-    background: $secondary-color;
+    background: $primary-color;
   }
 }
 
@@ -25,10 +28,19 @@
       font-weight: bold;
     }
   }
+  .navbar-brand {
+    background-color: $secondary-color;
+    img {
+      height: 40px;
+      @include desktop {
+        height: 30px;
+      }
+    }
+  }
 }
 
 .navbar-dark .navbar-nav .nav-link{
-  color: $primary-color;
+  color: lighten($secondary-color, 35);
 }
 
 .jump-mark {

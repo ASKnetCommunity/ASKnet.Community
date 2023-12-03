@@ -24,13 +24,6 @@ CC4D aims at connecting communities while also finding solutions to protect the 
 
 CC4D is implementing Co-funded electronic waste management project through repair café events (mobile repairs and maintenance of electronics) mobile digital literacy skills training programs, ICT mentorship for women and girls. CC4D is a member of the #ASKnet community (Access to Skills Knowledge and Network), Global Innovation Gathering (GIG), Africa Open Science Hardware (AfricaOSH), Africa Makers Space Network , Restarters community and the Global Open Science Hardware (GOSH).
 
-![CC4D]({{ site.baseurl }}/assets/img/hubs/06-content-2.jpg)
-
-![CC4D]({{ site.baseurl }}/assets/img/hubs/06-content-3.jpg)
-
-![CC4D]({{ site.baseurl }}/assets/img/hubs/06-content-4.jpg)
-
-![CC4D]({{ site.baseurl }}/assets/img/hubs/06-content-5.jpg)
 
 ![CC4D]({{ site.baseurl }}/assets/img/hubs/06-content-6.jpg)
 

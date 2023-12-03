@@ -1,5 +1,8 @@
 .contact-section {
   background: url(../../assets/img/contact.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   p {
     color: $white;
   }

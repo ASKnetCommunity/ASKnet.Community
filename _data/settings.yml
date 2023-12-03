@@ -85,8 +85,10 @@ services:
 #-------------------------------
 # Member Hubs Section
 
-hub-section-title: "#ASKnet members <div style=\"font-weight: normal;\">(November 2023)</div>"
+hub-section-title: "#ASKnet members <div class=\"h4\" style=\"font-weight: normal;\">(November 2023)</div>"
 hub-section-description: |
+  
+
   The member organizations have a community-led focus and contribute to strengthening civil society structures in South Sudan, while creating a basis for strengthened communication and cooperation, especially between communities of refugees in neighbouring countries together with those in South Sudan. 
  
   - CC4D - Community Creativity for Development (Rhino Camp, Uganda)
@@ -229,7 +231,7 @@ client-slider-items:
   - logo: assets/img/hubs/06-CC4D-asknet-logo.png
     url: https://cc4d.tech/
 
-  - logo: assets/img/hubs/07-mamara-logo.jpg
+  - logo: assets/img/hubs/07-mamara-sakit-logo.jpg
     url: https://mamarasakitvillage.org/
 
   - logo: assets/img/hubs/08-CECI-Uganda-Logo.png
@@ -238,7 +240,7 @@ client-slider-items:
   - logo: assets/img/hubs/09-CIC-logo.jpg
     url: https://www.facebook.com/profile.php?id=100076026173627
 
-  - logo: assets/img/hubs/10-koneta-logo.png
+  - logo: assets/img/hubs/10-koneta-hub-logo.png
     url: https://konetahub.org/
 
 #-------------------------------
@@ -246,11 +248,16 @@ client-slider-items:
 
 contact-title: Contact Info
 contact-text: |
-  For general information about the network please contact our #ASKnet – Network Coordination in Juba by email: <a href="mailto:coordinator@asknet.community">coordinator@asknet.community</a>.
-  
-  #ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners.
-  
-  #ASKnet  2022-2025 is funded by the German Ministry of Economic Development and Cooperation (BMZ).
+  <p>For general information about the network please contact our #ASKnet – Network Coordination in Juba by email: <script language="JavaScript" type="text/javascript">
+  var part1 = "coordinator";
+  var part2 = Math.pow(2,6);
+  var part3 = String.fromCharCode(part2);
+  var part4 = "asknet.community";
+  var part5 = part1 + String.fromCharCode(part2) + part4;
+  document.write("<a href=\"" + "mai" + "lto" + ":" + part5 + "\">" + part1 + part3 + part4 + "</a>");
+  </script></p>
+  <p>#ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners.</p>
+  <p>#ASKnet  2022-2025 is funded by the German Ministry of Economic Development and Cooperation (BMZ).</p>
 
 contact-email: coordinator@asknet.community
 formspree-path: f/myylarkr

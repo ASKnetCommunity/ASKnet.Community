@@ -223,7 +223,7 @@ a.text-dark{
   font-style: italic;
   font-size: 40px;
   @include desktop {
-    margin-top: 250px;
+    margin-top: 140px;
     font-size: 22px;
   }
 }
@@ -293,6 +293,11 @@ a.text-dark{
       border: 0;
     }
   }
+}
+
+.client-logo-slider img {
+  height: 100px;
+  object-fit: contain;
 }
 /* /slick slider */
 

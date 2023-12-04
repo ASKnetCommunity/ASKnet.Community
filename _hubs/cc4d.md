@@ -12,7 +12,7 @@ social-media:
   platforms:  # icon codes can be found here: https://fontawesome.com/v5/search?o=r&m=free
   - { fa-icon-code: "fa-twitter", url: "https://twitter.com/comcreative4d" }
   - { fa-icon-code: "fa-youtube", url: "https://www.youtube.com/@comcreative4d" }
-  - { fa-icon-code: "fa-facebook-f", url: "https://www.facebook.com/CC4D.Uganda/" }
+  - { fa-icon-code: "fa-facebook-f", url: "https://www.facebook.com/CC4D.tech" }
 
 caption:
   title: Community Creativity For Development (CC4D)

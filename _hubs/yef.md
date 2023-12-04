@@ -3,7 +3,7 @@ layout: hub
 
 title: Youth Empowerment Foundation
 subtitle: The Youth Empowerment Foundation (YEF) is a community-oriented innovation hub in the Adjumani district, Uganda.
-image: assets/img/hubs/05-youth-empowerment-yef-asknet-full.jpg
+image: assets/img/hubs/05-youth-empowerment-yef-asknet-full.jpeg
 
 keyphrase: YEF strives to build conflict-free communities through advocacy and by providing access to information and skills that enable individuals to create positive change through their engagement with media and technology.
 location:  Pagirinya, Adjumani, Uganda
@@ -20,7 +20,7 @@ social-media:
 caption:
   title: Youth Empowerment Foundation
   subtitle: Pagirinya, Adjumani, Uganda
-  thumbnail: assets/img/hubs/05-youth-empowerment-yef-asknet-thumbnail.jpg
+  thumbnail: assets/img/hubs/05-youth-empowerment-yef-asknet-thumbnail.jpeg
 ---
 
 YEF works together with the community of Adjumani and displaced people in the Pagirinya refugee settlement to addresses local issues of unemployment and gender-based violence. We aim to do this through trainings for youth that focus on open technologies and media skills, entrepreneurship, peacebuilding, and attitude change.
@@ -28,5 +28,5 @@ YEF works together with the community of Adjumani and displaced people in the Pa
 
 YEF was founded in the Pagirinya refugee settlement in Uganda in 2017 in order to support the trauma-prone and vulnerable refugee communities. YEF has since grown and today includes design-thinkers, information technicians, and storytellers who work together to engage and empower their communities through the power of media, education, and technology. We want to build more equitable, informed, resilient refugees societies and work to give them the tools, training opportunities, and access to  knowledge and resources needed to battle illiteracy and mitigate poverty.
 
-![Youth Empowerment Foundation]({{ site.baseurl }}/assets/img/hubs/05-youth-empowerment-yef-asknet-content-1.jpg)
-![Youth Empowerment Foundation]({{ site.baseurl }}/assets/img/hubs/05-youth-empowerment-yef-asknet-content-2.jpg)
+![Youth Empowerment Foundation]({{ site.baseurl }}/assets/img/hubs/05-youth-empowerment-yef-asknet-content-1.jpeg)
+![Youth Empowerment Foundation]({{ site.baseurl }}/assets/img/hubs/05-youth-empowerment-yef-asknet-content-2.jpeg)

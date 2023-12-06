@@ -6,7 +6,7 @@ image: assets/img/hubs/03-junub-open-space-juba-asknet-full.jpg
 
 keyphrase: Together, we can find new and creative ways to ensure a secure livelihood for all.
 location: Juba, South Sudan
-logo-file-name: /assets/img/hubs/03-junub-open-space-juba-asknet-logo.png
+logo-file-name: 03-junub-open-space-juba-asknet-logo.png
 social-media:
   website-url:  https://junubos.org/
   platforms:  # icon codes can be found here: https://fontawesome.com/v5/search?o=r&m=free

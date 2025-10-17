@@ -12,11 +12,11 @@
   
   <!-- ** Plugins Needed for the Project ** -->
   {% for css in site.data.plugins.css %}
-  <link rel="stylesheet" href="{{ css | relative_url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ css | relative_url }}">
   {% endfor %}
 
   <!-- Main Stylesheet -->
-  <link href="{{ 'assets/scss/style.css' }}" rel="stylesheet">
+  <link href="{{ site.baseurl }}{{ '/assets/scss/style.css' }}" rel="stylesheet">
 
   <!--Favicon-->
   <link rel="shortcut icon" href="{{ '/assets/img/favicon.png' | relative_url }} " type="image/x-icon">

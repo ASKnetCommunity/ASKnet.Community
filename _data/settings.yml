@@ -2,7 +2,7 @@
 # General Site Settings
 
 title: '#ASKnet'
-logo: assets/img/asknet-logo.png
+logo: /assets/img/asknet-logo.png
 author: '#ASKnet'
 description: "Access to Skills & Knowledge network"
 email: coordinator@asknet.community

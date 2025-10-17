@@ -139,7 +139,8 @@
   border-radius: inherit;
   top: 0;
   left: 0;
-  background: rgba($color: $primary-color, $alpha: .8);
+  background: rgba($color: $primary-color, $alpha: 0.6);
+  mix-blend-mode: color;
   opacity: 0;
   visibility: hidden;
   transition: .3s ease;

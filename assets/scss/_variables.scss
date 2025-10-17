@@ -5,7 +5,7 @@ $third-color: #EEE7D4;
 $fourth-color: #C5A14B;
 $link-color: $fourth-color; // #A46131;
 $link-hover-color: lighten($color: $fourth-color, $amount: 10);
-$text-color: #4c4c4c;
+$text-color: $primary-color;
 $text-color-dark: #000;
 $text-color-light: #999;
 $body-color: #fff;

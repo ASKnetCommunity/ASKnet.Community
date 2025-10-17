@@ -35,6 +35,9 @@ p, .paragraph {
   }
 }
 
+.text-muted {
+  color: rgba($color: $primary-color, $alpha: .6) !important;
+}
 
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;

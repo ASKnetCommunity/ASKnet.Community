@@ -5,7 +5,7 @@ thumbnail: assets/img/stories/planting-seeds-thumbnail.jpg
 image: 
 ---
 
-# Planting seeds for the future
+# Planting Seeds for the Future
 
 The **Reliable Refugee Storytelling Association (RRSA)** sits in the middle of the community, in a small hut in Bidi Bidi, Northern Uganda, one of the world’s largest refugee settlements, serving as a gathering place for storytellers, listeners, peacemakers, environmental caretakers, and those seeking to make sense of displacement through narrative. 
 
@@ -25,15 +25,25 @@ Climate change affects everyone. It changes how much rain falls, how crops grow 
 
 By placing young people at the centre of the effort we are building local knowledge and long term responsibility for the landscape. We see youths as more than beneficiaries. They are local leaders, educators and stewards. When young people plant trees and share what they learn with neighbors they create a ripple effect. Small actions by many people become a visible improvement. The seedlings become tools for learning, income generation and for restoring the local environment.
 
-![](assets/img/stories/planting-seeds-climateresilience.jpg)  
-*Image: Local youths and a woman arranging young tree seedlings in small black polybags on red soil, ready for planting.* 
+<figure class="text-center">
+  <img src="{{ '/assets/img/stories/planting-seeds-climateresilience.jpg' | relative_url }}" class="img-fluid rounded" alt="climateresilience">
+  <!-- ![climateresilience]({{ '/assets/img/stories/planting-seeds-climateresilience.jpg' | relative_url }}){: .img-fluid .rounded} -->
+  <figcaption class="mt-2 text-muted">
+    Image: Local youths and a woman arranging young tree seedlings in small black polybags on red soil, ready for planting.
+  </figcaption>
+</figure>
 
 On September 9th 2025, Reliable Refugee Storytellers Association distributed more than 500 tree seedlings to young people in Bidibidi Refugee Settlement Zone 1. The seedlings included guava, mango, neem, teak and orange. The seeding focused on youths who will plant and care for the trees in community spaces, home gardens and shared plots.
 
 Reliable Refugee Storytellers Association organized a distribution event and short practical briefing. Youth participants received seedlings and simple guidance on planting, watering and early care. The focus was on species that deliver immediate and long term benefits. Guava and mango will provide fruit, neem has medicinal and pest control uses, teak is a long term timber option and orange trees offer both fruit and shade.
 
-![][image2]  
-*Image: Youths plant 500+ tree seedlings in Bidibidi to protect the environment*
+<figure class="text-center">
+  <img src="{{ '/assets/img/stories/planting-seeds-climateaction-youth.jpg' | relative_url }}" class="img-fluid rounded" alt="climateaction-youth">
+  <!-- ![climateaction-youth]({{ '/assets/img/stories/planting-seeds-climateaction-youth.jpg' | relative_url }}){: .img-fluid .rounded} -->
+  <figcaption class="mt-2 text-muted">
+    Image: Youths plant 500+ tree seedlings in Bidibidi to protect the environment.
+  </figcaption>
+</figure>
 
 ### Key Components and methods for climate action:
 
@@ -49,13 +59,14 @@ RRSA’s founding members recognised the absence of platforms for authentic refu
 
 In 2023, Reliable Refugee Storytellers Association (RRSA) embarked on an important journey to strengthen the voices of refugees through storytelling and radio presentation training. Workshops introducing the basics of podcasting and audio storytelling have helped the RRSA team sharpen its skills and refine its craft, sparking new confidence and skills. Participants learned the art of crafting compelling stories and the techniques of radio presentation. 
 
-“The storytelling training has improved my writing skills and has also made me be cautious while reporting not to do harm because stories are powerful if told wrongly can destroy.” Christine Onzia Wani, Freelance Journalist  
-(Quote source: [https://reliablerefugeesa.org/](https://reliablerefugeesa.org/))
+> “The storytelling training has improved my writing skills and has also made me be cautious while reporting not to do harm because stories are powerful if told wrongly can destroy.” <br>
+> — Christine Onzia Wani, Freelance Journalist  
+> (Quote source: [https://reliablerefugeesa.org/](https://reliablerefugeesa.org/))
 
 The training emphasized how to prepare for podcast recordings, manage the technical   
 side of editing, and publish polished productions ready to reach wide audiences. The association is moving from telling stories informally to producing and sharing community media for listeners beyond Bidi Bidi.
 
-# Reflections & Next Steps
+## Reflections & Next Steps
 
 This grassroots association has the potential to become a lighthouse for community-led storytelling, peacebuilding and environmental protection within refugee settlements.
 

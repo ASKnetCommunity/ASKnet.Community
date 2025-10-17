@@ -32,11 +32,11 @@
 
 <!-- JS Plugins -->
 {% for js in site.data.plugins.js %}
-<script src="{{ site.baseurl }}{{ js | relative_url }}"></script>
+<script src="{{ js | relative_url }}"></script>
 {% endfor %}
 
 <!-- Main Script -->
-<script src="{{ site.baseurl }}{{ '/assets/js/script.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 
 <!-- Contact form JavaScript -->
 <script src="{{ site.baseurl }}/assets/js/contact_me.js"></script>

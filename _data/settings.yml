@@ -172,6 +172,16 @@ timeline:
   #   link: "https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-timeline-event&template=new-timeline-event.yml&title=Add+Timeline+Event%3A+"
 
 #-------------------------------
+# Highlights Section
+
+highlights-title: "Highlights"
+
+#-------------------------------
+# Stories Section
+
+stories-title: "Stories"
+
+#-------------------------------
 # LEAD Section
 
 lead-title: "#ASKlead"

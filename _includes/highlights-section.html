@@ -1,0 +1,30 @@
+<section id="highlights-section" class="section bg-primary">
+  <div id="highlights" class="jump-mark"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center">{{ site.data.settings.highlights-title}}</h2>  
+        {% comment %} {{ site.data.settings.hub-section-description | markdownify }}           {% endcomment %}
+      </div>
+    </div>
+    <div class="row shuffle-wrapper">
+      {% for highlight in site.highlights %}
+      <div class="col-md-4 col-sm-6 mb-4 shuffle-item">
+        <div class="position-relative hover-wrapper">
+          <img src="{{ site.baseurl }}/{{ highlight.thumbnail }}" alt="hub-alt" class="img-fluid w-100 d-block" />
+          <a class="hover-overlay" href="{{ site.baseurl }}{{ highlight.url }}">  {% comment %}  {% endcomment %}
+            {% comment %} <div class="hover-content">
+              <i class=" fas fa-plus fa-3x"></i>     
+            </div> {% endcomment %}
+          </a>
+        </div>
+        <div class="caption">
+          <h4>{{ highlight.title }}</h4>
+          <p class="text-muted">{{ highlight.subtitle }}</p>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>

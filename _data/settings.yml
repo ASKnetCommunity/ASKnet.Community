@@ -11,13 +11,23 @@ address:
 screenshot: https://raw.githubusercontent.com/ASKnetCommunity/ASKnet.Community/51b8d4f7a3a772eb2a55968b721b98bb657db161/screenshot.png
 
 menu:
-- {name: About, link: '/#about'}
-- {name: Members, link: '/#members'}
-- {name: Our Story, link: '/#timeline'}
-- {name: Experts, link: '/#lead'}
-- {name: Resources, link: '/#resources'}
-- {name: Media, link: '/media'}
-- {name: Contact, link: '/#contact'}
+- name: About
+  link: '/#about'
+- name: Members
+  link: '/#members'
+- name: Our Story
+  link: '/#timeline'
+- name: Experts
+  link: '/#lead'
+- name: Resources
+  link: ''
+  sub: 
+    - name: Highlights
+      link: '/#highlights'
+    - name: Member Stories
+      link: '/#stories'
+- name: Contact
+  link: '/#contact'
 
 
 
@@ -179,7 +189,7 @@ highlights-title: "Highlights"
 #-------------------------------
 # Stories Section
 
-stories-title: "Stories"
+stories-title: "Member Stories"
 
 #-------------------------------
 # LEAD Section

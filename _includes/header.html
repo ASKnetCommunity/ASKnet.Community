@@ -14,13 +14,24 @@
 
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto align-items-center">
-        <li class="nav-item active">
+        <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
           <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
         </li>
         {% for link in site.data.settings.menu %}
-          <li class="nav-item {{ class }}">
-            <a class="nav-link" href="{{ site.baseurl }}{{ link.link }}">{{ link.name }}</a>
-          </li>
+          {% if link.sub %}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" id="dropdownMenuLink" aria-expanded="false">{{ link.name }}</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                {% for sublink in link.sub %}
+                  <a class="dropdown-item my-2" href="{{ site.baseurl }}{{ sublink.link }}">{{ sublink.name }}</a>
+                {% endfor %}
+              </div>
+            </li>
+          {% else %}
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="{{ site.baseurl }}{{ link.link }}">{{ link.name }}</a>
+            </li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>

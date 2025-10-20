@@ -23,6 +23,7 @@
       font-family: $primary-font;
       text-transform: uppercase;
       padding: 15px;
+      color: $white;
     }
     &.active{
       font-weight: bold;
@@ -39,9 +40,17 @@
   }
 }
 
-.navbar-dark .navbar-nav .nav-link{
-  color: lighten($secondary-color, 35);
+.dropdown-menu {
+  background-color: $primary-color;
+  .dropdown-item {
+    color: rgba($white, 0.8);
+    &:hover {
+      background-color: #ffffff00;
+      color: rgba($white, 0.65);
+    }
+  }
 }
+
 
 .jump-mark {
   height: 0;

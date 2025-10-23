@@ -11,10 +11,8 @@ blockquote > p {
   display: inline-block;
   padding: 10px 20px;
   background: rgba($color: $secondary-color, $alpha: .5);
-  border-left: 2px solid $primary-color;
+  border-left: 2px solid rgba($color: $primary-color, $alpha: .4);
   font-style: italic;
-  font-size: 22px;
-  line-height: inherit;
 }
 
 .content {

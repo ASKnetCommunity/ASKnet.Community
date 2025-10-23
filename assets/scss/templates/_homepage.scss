@@ -85,17 +85,18 @@
 }
 
 .shuffle-wrapper {
-  margin:40px 0;
+  margin: 40px -15px;
 }
 
 /* shuffle item */
 
 .shuffle-item {
+  margin-bottom: 30px;
 
   .caption {
     text-align: center;
     background: $white;
-    padding: 20px 10px;
+    padding: 20px 20px;
 
     p {
       margin-bottom: 0px;

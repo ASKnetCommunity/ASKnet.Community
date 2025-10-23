@@ -3,8 +3,8 @@ $primary-color: #30002A; // #DFAF5F;
 $secondary-color: #efe2f3; // #8F747F; "old" purple
 $third-color: #EEE7D4;
 $fourth-color: #C5A14B;
-$link-color: $fourth-color; // #A46131;
-$link-hover-color: lighten($color: $fourth-color, $amount: 10);
+$link-color: darken($color: $fourth-color, $amount: 10); // #A46131;
+$link-hover-color: $fourth-color;
 $text-color: $primary-color;
 $text-color-dark: #000;
 $text-color-light: #999;

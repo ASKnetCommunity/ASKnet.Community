@@ -32,6 +32,9 @@ p, .paragraph {
     @include desktop {
       font-size: 1.1rem;
     }
+    li {
+      margin-bottom: 1rem;
+    }
   }
 }
 

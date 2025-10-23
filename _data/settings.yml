@@ -17,15 +17,15 @@ menu:
   link: '/#members'
 - name: Our Story
   link: '/#timeline'
-- name: Experts
-  link: '/#lead'
 - name: Resources
   link: ''
   sub: 
-    - name: Highlights
-      link: '/#highlights'
+    - name: About Open Educational Resources
+      link: '/oer'
+    - name: '#ASKnet Highlights'
+      link: '/highlights'
     - name: Member Stories
-      link: '/#stories'
+      link: '/member-stories'
 - name: Contact
   link: '/#contact'
 

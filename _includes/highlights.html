@@ -1,10 +1,11 @@
 
 <div class="row shuffle-wrapper">
-  {% for highlight in site.highlights %}
+  {% assign sorted_highlights = site.highlights | sort: "order" %}
+  {% for highlight in sorted_highlights %}
     <div class="col-md-6 mb-4 shuffle-item">
       <div class="position-relative hover-wrapper">
         <img src="{{ site.baseurl }}/{{ highlight.thumbnail }}" alt="hub-alt" class="img-fluid w-100 d-block" />
-        <a class="hover-overlay" href="{{ site.baseurl }}{{ highlight.url }}">  {% comment %}  {% endcomment %}
+        <a class="hover-overlay" href="{{ site.baseurl }}{{ highlight.url }}">  
         </a>
       </div>
       <a href="{{ site.baseurl }}{{ highlight.url }}">

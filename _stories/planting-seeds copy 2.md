@@ -1,8 +1,8 @@
 ---
-title: Planting Seeds for the Future
-subtitle: Authoring Member Hub
-thumbnail: assets/img/stories/planting-seeds-thumbnail.jpg
-order: 1
+title: Seeding Plants for the Present
+subtitle: the hub that hubbs
+thumbnail: assets/img/resources/solar-charger.jpg
+image: 
 ---
 
 # Planting Seeds for the Future

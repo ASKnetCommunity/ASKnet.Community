@@ -1,0 +1,83 @@
+.media-page {
+  .btn {
+    text-transform: none;
+    font-weight: 400;
+  }
+  img.item-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    float: right;  
+    margin-left: 10px;
+    border-radius: 3px;  
+    border: 1px solid rgba($black, 0.5);
+  }
+  .card a {
+    color: lighten($primary-color, 10%);
+    &:hover {
+      color: lighten($primary-color, 30%);
+    }
+  }
+  h2 {
+    margin-top: 40px;
+  }
+}
+
+.asksites {
+  // background: 
+  //   linear-gradient(rgba($fourth-color, 0.7), rgba($fourth-color, 0.7)), 
+  //   linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), 
+  //   url("../../assets/img/stories/RRSA_03_ASKnetcommunitytraining.jpg");
+  background: 
+    linear-gradient(rgba($primary-color, 0.5), rgba($primary-color, 0.5)),
+    linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+    url("../../assets/img/stories/RRSA_03_ASKnetcommunitytraining.jpg");
+  background-blend-mode: color, normal, normal;  
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  &.color-2 {
+    background: 
+      linear-gradient(rgba($fourth-color, 0.3), rgba($fourth-color, 0.3)), 
+      linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), 
+      url("../../assets/img/stories/RRSA_03_ASKnetcommunitytraining.jpg");
+    background-blend-mode: color, normal, normal;    
+  background-size: cover;
+  background-position: center;
+  }
+  .col-md-8 {
+    min-height: 210px;
+  }
+}
+.asksites + div {  //select the div immediately after .asksites element
+  background:   
+    linear-gradient(rgba($primary-color, 0.2), rgba($primary-color, 0.2)), 
+    linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  background-blend-mode: hard-light, normal;
+}
+.asksites.color-2 + div { 
+  background:   
+    linear-gradient(rgba($fourth-color, 0.4), rgba($fourth-color, 0.4)), 
+    linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  background-blend-mode: normal, normal;
+}  
+
+
+.asksites h2, .asksites p {    //////////////////////////////////////////////////
+  position: relative; /* nötig, damit das Pseudo-Element sich daran orientiert */
+  display: table; /* sorgt dafür, dass das Overlay den Inhalt umschließt */
+  z-index: 0; /* Text bleibt über dem Overlay */
+}
+
+.asksites h2::before, .asksites p::before  {
+  content: "";
+  position: absolute;
+  inset: -5px; /* top: 0; right: 0; bottom: 0; left: 0 */
+  background: rgba(255, 255, 255, 0); /* leicht transparente Schicht */
+  backdrop-filter: blur(20px); /* eigentlicher Blur-Effekt */
+  -webkit-backdrop-filter: blur(20px); /* Safari-Unterstützung */
+  z-index: -1; /* sorgt dafür, dass es *hinter* dem Text liegt */
+  border-radius: 0.5rem; /* optional, für weichere Kanten */
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}

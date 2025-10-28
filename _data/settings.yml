@@ -26,6 +26,8 @@ menu:
       link: '/highlights'
     - name: Member Stories
       link: '/member-stories'
+    - name: '#ASKnet Platforms'
+      link: '/asknet-platforms'
 - name: Contact
   link: '/#contact'
 

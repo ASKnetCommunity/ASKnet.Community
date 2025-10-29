@@ -1,8 +1,8 @@
 ---
 title: Seeding Plants for the Present
-subtitle: the hub that hubbs
+subtitle: the hubby hub
 thumbnail: assets/img/resources/solar-charger.jpg
-image: 
+order: 3
 ---
 
 # Planting Seeds for the Future

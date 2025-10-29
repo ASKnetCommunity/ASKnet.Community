@@ -53,20 +53,3 @@ platforms:
   </div>
 {% endfor %}
 
-
-
-
-<div class="row align-items-end mb-0 p-5 asksites">
-  <div class="col-md-8 p-0">
-    <h2 class="mb-3">#ASKtext</h2>
-    <p class="mb-0">something to try something out</p>
-  </div>
-  <div class="col-md-4 text-md-right text-center mt-4 mt-md-0">
-    <a href="#" class="btn btn-primary btn-lg m-0" target="_blank">Visit <i class="fas fa-external-link-alt"></i></a>
-  </div>
-</div>
-<div class="row p-5 mt-0">
-  <p class="">
-    something to try something out and something to try something out and something to try something out and something to try something out and something to try something out and something to try something out and something to try something out and something to try something out 
-  </p>
-</div>

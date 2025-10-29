@@ -2,6 +2,7 @@
 layout: page
 title: Media
 css-id: media-page
+permalink: media
 ---
 
 # #ASKnet Media Productions

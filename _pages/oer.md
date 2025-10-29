@@ -24,7 +24,7 @@ Dive right in or continue on this page with the introduction
 <div class="row shuffle-wrapper">
   <div class="col-md-4 col-sm-6 mb-4 shuffle-item">
     <div class="position-relative hover-wrapper"> 
-      <img src="/assets/img/stories/planting-seeds-thumbnail.jpg" alt="chapter-1" class="img-fluid w-100 d-block"> 
+      <img src="{{ site.baseurl }}/assets/img/stories/planting-seeds-thumbnail.jpg" alt="chapter-1" class="img-fluid w-100 d-block"> 
       <a class="hover-overlay" href="chapter-1/"> </a>
     </div><a href="chapter-1/">
       <div class="caption">
@@ -35,7 +35,7 @@ Dive right in or continue on this page with the introduction
   </div>
   <div class="col-md-4 col-sm-6 mb-4 shuffle-item">
     <div class="position-relative hover-wrapper"> 
-      <img src="/assets/img/resources/solar-charger.jpg" alt="chapter-2" class="img-fluid w-100 d-block"> 
+      <img src="{{ site.baseurl }}/assets/img/resources/solar-charger.jpg" alt="chapter-2" class="img-fluid w-100 d-block"> 
       <a class="hover-overlay" href="chapter-2/"> </a>
     </div><a href="chapter-2/">
       <div class="caption">
@@ -46,7 +46,7 @@ Dive right in or continue on this page with the introduction
   </div>
   <div class="col-md-4 col-sm-6 mb-4 shuffle-item">
     <div class="position-relative hover-wrapper"> 
-      <img src="/assets/img/resources/solar-charger.jpg" alt="chapter-2" class="img-fluid w-100 d-block"> 
+      <img src="{{ site.baseurl }}/assets/img/resources/solar-charger.jpg" alt="chapter-2" class="img-fluid w-100 d-block"> 
       <a class="hover-overlay" href="chapter-3/"> </a>
     </div><a href="chapter-3/">
       <div class="caption">

@@ -58,14 +58,26 @@ social:
 # About Section
 
 about-title: "#ASKnet<br />The Access to Skills & Knowledge network"
-about-description: "#ASKnet is a cross-border consortium of community driven organizations with an aim to build a transformative and sustainable open society and a professional media skills ecosystem. The network provides access to a range of open source knowledge and information, media and IT related training as well as community oriented hands-on skills."
+about-description: "#ASKnet is a cross-border consortium of community driven organizations. The network provides access to a range of open source knowledge and information, media and IT related training as well as community oriented hands-on skills."
 about:
 - {name: '#ASKnet is a network of hubs and community members,', icon: 'fas fa-project-diagram' }
 - {name: 'founded by young South Sudanese innovators,', icon: 'fas fa-lightbulb' }
 - {name: 'governed by a Steering Committee drawn from all of its member organizations,', icon: 'fas fa-users' }
 - {name: 'to build a transformative and sustainable media development ecosystem.', icon: 'fas fa-photo-video' }
-about-description-2: "The nine members of #ASKnet address local community challenges, support empowerment with knowledge and skills, inspire regional innovation and creativity, and engage peacebuilding and community empowerment among all members of society."
-about-description-3: "#ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners. The project in the period of 2022-2025 is funded by the German Ministry of Economic Development and Cooperation (BMZ)."
+about-description-2: | 
+  ### Vision 
+
+  A connected, creative, and open society where knowledge flows freely, empowering communities to shape their own futures by building a transformative and sustainable media ecosystem.
+
+  ### Mission
+
+  #ASKnet builds bridges between media, technology, and community action. We strengthen youth-led innovation, share open knowledge, and grow local capacity through peer to peer training, open tech innovation, collaboration, and creativity across borders.
+
+  ### Who We Are
+
+  Born from a network of South Sudanese innovators, #ASKnet links community hubs and changemakers across the region. Together, we use media, technology, and peer learning to solve local challenges, create livelihoods, and amplify community voices.
+
+  Supported by r0g_agency (Berlin) and Hive Colab (Kampala), with funding from the German Federal Ministry for Economic Cooperation and Development (BMZ), 2022–2025.
 about-profile-button-title: "Our Organizational Framework"
 
 

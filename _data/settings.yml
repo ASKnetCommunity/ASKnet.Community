@@ -109,23 +109,25 @@ focus-areas:
 #-------------------------------
 # Member Hubs Section
 
-hub-section-title: "#ASKnet members <div class=\"h4\" style=\"font-weight: normal;\">(November 2023)</div>"
+hub-section-title: "Members <div class=\"h4\" style=\"font-weight: normal;\">(November 2025)</div>"
 hub-section-description: |
-  
-
-  The member organizations have a community-led focus and contribute to strengthening civil society structures in South Sudan, while creating a basis for strengthened communication and cooperation, especially between communities of refugees in neighbouring countries together with those in South Sudan. 
+  The member organizations have a community-led focus and contribute to strengthening civil society structures in South Sudan, while creating a basis for strengthened communication and cooperation, especially between communities of refugees in neighbouring countries together with those in South Sudan.
  
-  - CC4D - Community Creativity for Development (Rhino Camp, Uganda)
-  - CECI - Community Empowerment For Creative Innovation (Koboko, Uganda)
-  - CIC - Creative Innovation Center (Rhino Camp, Uganda)
-  - GoGirls ICT Initiative (Juba, South Sudan)
-  - Junub Open Space (Juba, South Sudan)
-  - Koneta Hub (Juba, South Sudan)
-  - Ma'Mara Sakit (Juba, South Sudan)
-  - Platform Africa (Rhino Camp, Uganda)
-  - YEF - Youth Empowerment Foundation (Adjumani / Pagirinya, Uganda)
+  * CC4D - Community Creativity for Development (Rhino Camp, Uganda)  
+  * CECI - Community Empowerment For Creative Innovation (Koboko, Uganda)  
+  * CIC - Creative Innovation Center (Rhino Camp, Uganda)  
+  * CSCOV - The Center for Strengthening Community Voices (Wau, South Sudan)  
+  * GoGirls ICT Initiative (Juba, South Sudan)  
+  * Junub Open Space (Juba, South Sudan)  
+  * KVA - Kiryandongo Video Advocates (Bweyale, Uganda)   
+  * Koneta Hub (Juba, South Sudan)  
+  * Ma‘Mara Sakit Village (Juba, South Sudan)  
+  * Nexus Youths Initiative Uganda (Adjumani, Uganda)  
+  * Platform Africa (Rhino Camp, Uganda)  
+  * RRSA -  Reliable Refugee Storytelling Association (Bidi Bidi, Uganda)   
+  * YEF - Youth Empowerment Foundation (Adjumani / Pagirinya, Uganda)
 
-hub-section-contact: "Are you interested to become a member? Get in contact with us!"
+hub-section-contact: "Are you interested in becoming a member? Get in contact with us!"
 
 #-------------------------------
 # Timeline Section

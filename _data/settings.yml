@@ -82,26 +82,26 @@ about-profile-button-title: "Our Organizational Framework"
 
 
 #-------------------------------
-# Services Section
+# focus-areas Section
 
-services-title: Services
-services:
+focus-areas-title: Focus Areas
+focus-areas:
 - {
-    name: Community,
+    name: Community Empowerment,
     icon: fas fa-users,
-    description: 'We bring together people and ideas to help build resilient environments for strong knowledge exchange within numerous communities - in towns, villages, and local neighborhoods, including within refugee or IDP settlements. We strive to harness and make public the collective knowledge and skills of local experts, refugees, activists, and CSOs to deepen local impact and create opportunities for mutual support and collaboration.',
+    description: 'We connect people and ideas to build resilient, knowledge-sharing communities, from towns and villages to refugee settlements.',
     active: # Add true to select section
   }
 - {
-    name: Media Development,
+    name: Media for Democracy,
     icon: fas fa-laptop,
-    description: '#ASKnet contributes to create an environment where the media plays a constructive role in fostering democracy, accountability, and public participation. Education about media literacy is crucial and involves helping individuals critically evaluate and understand the media they consume, discerning reliable information from misinformation.',
+    description: 'We foster media literacy and storytelling that strengthen accountability, civic engagement, and peacebuilding.',
     active: # Add true to select section
   }
 - {
-    name: Open Access,
+    name: Open Culture,
     icon: fab fa-osi,
-    description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
+    description: 'We champion open access to tools, resources, and skills. Sharing knowledge creates pathways to new opportunities, entrepreneurship, livelihood, equality and collaboration.',
     active: # Add true to select section
   }
 

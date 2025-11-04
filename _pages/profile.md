@@ -1,6 +1,7 @@
 ---
 layout: page
 title: '#ASKnet Profile'
+permalink: profile
 ---
 
 # Organizational Framework
@@ -9,26 +10,28 @@ The community-based media and life skills organizations have joined together to 
 
 ## #ASKnet Members 
 
-(November 2023)
+(November 2025)
 
 - **CC4D** - Community Creativity for Development (Rhino Camp, Uganda)
 - **CECI** - Community Empowerment For Creative Innovation (Koboko, Uganda)
 - **CIC** - Creative Innovation Center (Rhino Camp, Uganda)
+- **CSCOV** - The Center for Strengthening Community Voices (Wau, South Sudan)  
 - **GoGirls ICT** Initiative (Juba, South Sudan)
 - **Junub Open Space** (Juba, South Sudan)
+- **KVA** - Kiryandongo Video Advocates (Bweyale, Uganda)   
 - **Koneta Hub** (Juba, South Sudan)
-- **Ma‘Mara Sakit** (Juba, South Sudan)
+- **Ma‘Mara Sakit Village** (Juba, South Sudan)
+- **Nexus Youths Initiative Uganda** (Adjumani, Uganda)  
 - **Platform Africa** (Rhino Camp, Uganda)
+- **RRSA** -  Reliable Refugee Storytelling Association (Bidi Bidi, Uganda)   
 - **YEF** - Youth Empowerment Foundation (Adjumani / Pagirinya, Uganda)
+
 
 <br>
 
 ## Membership and Steering Committee
 
-An organization must be community-driven, nonpartisan, and politically neutral in order to be accepted into the network.
-Institutions wishing to join should submit an application to the network coordination office for assessment together with
-a current Certificate of Registration from the Relief and Rehabilitation Commission or other appropriate authorities and a
-copy of the organization‘s mandate.
+An organization must be community-driven, nonpartisan, and politically neutral in order to be accepted into the network. Institutions wishing to join should submit an application to the network coordination office for assessment together with a current Certificate of Registration from the Relief and Rehabilitation Commission or other appropriate authorities and a copy of the organization‘s mandate.
 
 #ASKnet is governed by a **Steering Committee** (SC) drawn from member organizations, with the **Network Coordination Office** (NCO) facilitating executive operations and an advisory body that oversees progress and strategic alignment of the consortium.
 

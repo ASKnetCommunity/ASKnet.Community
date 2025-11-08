@@ -311,7 +311,7 @@ contact-text: |
   document.write("<a href=\"" + "mai" + "lto" + ":" + part5 + "\">" + part1 + part3 + part4 + "</a>");
   </script></p>
   <p>#ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners.</p>
-  <p>#ASKnet  2022-2025 is funded by the German Ministry of Economic Development and Cooperation (BMZ).</p>
+  <p>#ASKnet 2022-2025 is funded by the German Ministry for Economic Development and Cooperation (BMZ).</p>
 
 contact-email: coordinator@asknet.community
 formspree-path: f/myylarkr

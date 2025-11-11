@@ -22,12 +22,14 @@ menu:
   sub: 
     - name: About Open Educational Resources
       link: '/oer'
-    - name: '#ASKnet Highlights'
-      link: '/highlights'
-    - name: Member Stories
-      link: '/member-stories'
     - name: '#ASKnet Platforms'
       link: '/asknet-platforms'
+    - name: '#ASKnet Tools'
+      link: '/tools'
+    # - name: '#ASKnet Highlights'
+    #   link: '/highlights'
+    - name: '#ASKnet Member Stories'
+      link: '/member-stories'
 - name: Contact
   link: '/#contact'
 
@@ -112,21 +114,6 @@ focus-areas:
 hub-section-title: "Members <div class=\"h4\" style=\"font-weight: normal;\">(November 2025)</div>"
 hub-section-description: |
   The member organizations have a community-led focus and contribute to strengthening civil society structures in South Sudan, while creating a basis for strengthened communication and cooperation, especially between communities of refugees in neighbouring countries together with those in South Sudan.
- 
-  * CC4D - Community Creativity for Development (Rhino Camp, Uganda)  
-  * CECI - Community Empowerment For Creative Innovation (Koboko, Uganda)  
-  * CIC - Creative Innovation Center (Rhino Camp, Uganda)  
-  * CSCOV - The Center for Strengthening Community Voices (Wau, South Sudan)  
-  * GoGirls ICT Initiative (Juba, South Sudan)  
-  * Junub Open Space (Juba, South Sudan)  
-  * KVA - Kiryandongo Video Advocates (Bweyale, Uganda)   
-  * Koneta Hub (Juba, South Sudan)  
-  * Ma‘Mara Sakit Village (Juba, South Sudan)  
-  * Nexus Youths Initiative Uganda (Adjumani, Uganda)  
-  * Platform Africa (Rhino Camp, Uganda)  
-  * RRSA -  Reliable Refugee Storytelling Association (Bidi Bidi, Uganda)   
-  * YEF - Youth Empowerment Foundation (Adjumani / Pagirinya, Uganda)
-
 hub-section-contact: "Are you interested in becoming a member? Get in contact with us!"
 
 #-------------------------------
@@ -215,15 +202,6 @@ timeline:
   #   title: "Add new training, event, or project!"
   #   link: "https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-timeline-event&template=new-timeline-event.yml&title=Add+Timeline+Event%3A+"
 
-#-------------------------------
-# Highlights Section
-
-highlights-title: "Highlights"
-
-#-------------------------------
-# Stories Section
-
-stories-title: "Member Stories"
 
 #-------------------------------
 # LEAD Section
@@ -282,7 +260,7 @@ client-slider-items:
   - logo: assets/img/hubs/05-youth-empowerment-yef-asknet-logo.png
     url: https://yef-uganda.org/
 
-  - logo: assets/img/hubs/06-CC4D-asknet-logo.png
+  - logo: assets/img/hubs/06-CC4D-asknet-logo.jpg
     url: https://cc4d.tech/
 
   - logo: assets/img/hubs/07-mamara-sakit-logo.jpg

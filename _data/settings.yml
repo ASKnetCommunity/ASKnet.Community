@@ -278,11 +278,14 @@ client-slider-items:
   - logo: assets/img/hubs/CSCOV-logo.jpg
     url: https://cscov-ss.org/
 
-  - logo: assets/img/hubs/KVA-logo.jpg
+  - logo: assets/img/hubs/KVA-logo.png
     url: https://www.kvadvocates.org
 
   - logo: assets/img/hubs/Nexus-logo.jpg
     url: 
+
+  - logo: assets/img/hubs/RRSA-logo.jpg
+    url: https://www.reliablerefugeesa.org/
 
 #-------------------------------
 # Contact-Section

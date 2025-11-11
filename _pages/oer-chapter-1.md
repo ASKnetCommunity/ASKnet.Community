@@ -56,27 +56,25 @@ Together with the community of young makers that we have been working with for s
 
 The  #OHG gives examples of hands-on skills possibilities and projects applying open hardware methodologies, introduces to resources and is as a tangible tool in the form of a rugged A1 poster for trainers, tinkerers and facilitators. Get the #OHG for anyone interested in exploring open technologies in a very practical way. Here are some practical OER examples from the guide.
 
-*here I would prefer to have a graphical  box/ visula  solution combining source , text and picture for the three examples*
+{% include res-box.html 
+  title="Open Source Ecology"
+  url="http://opensourceecology.org/"
+  text="Open Source Blueprints for Civilization. Build Yourself.
+  
+  Open source industrial machines can be made for a fraction of commercial costs, designs shared online free, to create an open source economy which increases innovation by open collaboration."
+  src="/assets/img/oer/chapter-1/image3.jpg" 
+  caption="Open Source Ecology, Global Village Construction Set" %}
 
-<!-- <div class="card-body"> <img src="/assets/img/media-page/ryp-logo.jpg" alt="" class="img-fluid d-block item-logo mb-1"><h3 class="card-title">Refugee Youth Podcast</h3><p>— by <a href="/hubs/yef">Youth Empowerment Foundation</a></p><p class="card-text">A series dedicated to sharing the stories and experiences of refugees living in Northern Uganda. Produced and hosted by young refugees in the Pagirinya refugee settlement near Adjumani, Uganda experiences and stories are shared with the aim of educating, informing, and strengthening resilience within the community.</p></div>
- -->
-<div class="card-body">
-<h3 class="card-title">OPEN SOURCE ECOLOGY  </h3>
-[http://opensourceecology.org/](http://opensourceecology.org/) Open Source Blueprints for Civilization. Build Yourself.  
-Open source industrial machines can be made for a fraction of commercial costs, designs shared online free, to create an open source economy which increases innovation by open collaboration. 
+{% include res-box.html 
+  title="Paper-Duino"
+  url="https://paperpcb.dernulleffekt.de/doku.php?id=arduino_clones:arduino_clones_main"
+  text="Paper PCBs are Printed Circuit Boards (PCB) based on paper print outs combined with copper strip boards. With these boards one can easily build and modify real electronic circuits that could be used in any devices and applications. A compilation of Arduino clones CC-BY-SA 4.0 Int. by Wolfgang Spahn."
+  src="/assets/img/oer/chapter-1/image4.jpg" 
+  caption="Paper Duino by W. Spahn" %}
 
-{% include image.html src="/assets/img/oer/chapter-1/image3.jpg" caption="Open Source Ecology, Global Village Construction Set" %}
-</div>
-
-PAPER-DUINO   
-[https://paperpcb.dernulleffekt.de/doku.php?id=arduino_clones:arduino_clones_main](https://paperpcb.dernulleffekt.de/doku.php?id=arduino_clones:arduino_clones_main)   
-Paper PCBs are Printed Circuit Boards (PCB) based on paper print outs combined with copper strip boards. With these boards one can easily build and modify real electronic circuits that could be used in any devices and applications. A compilation of Arduino clones CC-BY-SA 4.0 Int. by Wolfgang Spahn.
-
-{% include image.html src="/assets/img/oer/chapter-1/image4.jpg" caption="Paper Duino by W. Spahn" %}
-
-SALVAGE GARDEN   
-[https://salvage.garden/what-we-do/](https://salvage.garden/what-we-do/)   
-Community Makerspace Singapore, SEA, and globally focused on Assistive Tech, low-cost bespoke solutions for persons with disabilities, and openSourced hardware. It  is a volunteer-led community space founded on the principle of "People-first design”. 
-
-{% include image.html src="/assets/img/oer/chapter-1/image5.jpg" caption="Salvage Garden: Braille Printing" %}
-
+{% include res-box.html 
+  title="Salvage Garden"
+  url="https://salvage.garden/what-we-do/"
+  text='Community Makerspace Singapore, SEA, and globally focused on Assistive Tech, low-cost bespoke solutions for persons with disabilities, and openSourced hardware. It is a volunteer-led community space founded on the principle of "People-first design”.'
+  src="/assets/img/oer/chapter-1/image5.jpg" 
+  caption="Salvage Garden: Braille Printing" %}

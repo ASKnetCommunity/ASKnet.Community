@@ -1,3 +1,12 @@
+.res-box {
+  text-align: center;
+  background: $white;
+  padding: 20px 20px;
+  font-size: 1.1rem;
+  display: inline-block;
+}
+
+
 /* skills */
 .progress-wrapper {
   height: 130px;
@@ -106,6 +115,7 @@
   }
 
 }
+
 
 .shuffle-wrapper .shuffle-item img, #grid-add-item {
   width: 100%;

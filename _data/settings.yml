@@ -275,6 +275,12 @@ client-slider-items:
   - logo: assets/img/hubs/10-koneta-hub-logo.png
     url: https://konetahub.org/
 
+  - logo: assets/img/hubs/CSCOV-logo.jpg
+    url: https://cscov-ss.org/
+
+  - logo: assets/img/hubs/KVA-logo.jpg
+    url: https://www.kvadvocates.org
+
 #-------------------------------
 # Contact-Section
 

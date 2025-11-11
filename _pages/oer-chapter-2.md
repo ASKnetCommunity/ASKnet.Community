@@ -4,6 +4,8 @@ title: 'Open Culture in #ASKnet: Access, Collaboration, and Shared Knowledge'
 permalink: /oer/chapter-2
 ---
 
+<a class="btn btn-sm btn-primary" href="{{ site.baseurl }}{% link _pages/oer.md %}"><i class="fas fa-chevron-left"></i> back</a>
+
 # Open Culture in #ASKnet: Access, Collaboration, and Shared Knowledge
 
 In the #ASKnet community, OER are not abstract ideals. They are living, breathing stories and ecosystems of knowledge in the lives and projects of everyday innovators, told through community repair cafes, media kits, open learning guides, solar harvest dryers, and educational storytelling cards that amplify local voices. 

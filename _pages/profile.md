@@ -4,6 +4,8 @@ title: '#ASKnet Profile'
 permalink: profile
 ---
 
+<a class="btn btn-sm btn-primary" href="{{ site.baseurl }}{% link index.html %}#about"><i class="fas fa-chevron-left"></i> back</a>
+
 # Organizational Framework
 
 The community-based media and life skills organizations have joined together to create a formal network that provides them with a platform for exchange and represents their interests at national, regional and international levels in culture, policy creation and economic development. A group of committed individuals representing the member organizations manages the network and ensures its sustainable growth.

@@ -4,8 +4,9 @@ title: 'Open Culture in #ASKnet: Access, Collaboration, and Shared Knowledge'
 permalink: /oer/chapter-3
 ---
 
-# Open Culture in #ASKnet: Access, Collaboration, and Shared Knowledge
+<a class="btn btn-sm btn-primary" href="{{ site.baseurl }}{% link _pages/oer.md %}"><i class="fas fa-chevron-left"></i> back</a>
 
+# Open Culture in #ASKnet: Access, Collaboration, and Shared Knowledge
 
 ## Imagine the Future of OER
 

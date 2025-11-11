@@ -16,7 +16,7 @@ social-media:
   - { fa-icon-code: "fa-facebook-f", url: "https://www.facebook.com/CC4D.Uganda/" }
 
 caption:
-  title: Community Creativity For Development (CC4D)
+  title: Community Creativity 4 Development (CC4D)
   subtitle: Rhino Camp, Uganda
   thumbnail: assets/img/hubs/06-CC4D-Asknet-thumbnail.jpg
 ---

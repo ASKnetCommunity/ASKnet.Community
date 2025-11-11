@@ -14,11 +14,13 @@ layout: default
         <p class="mx-auto">{{ page.subtitle }}</p>
         <div class="content">
           <img src="{{ page.image | relative_url }}" class="img-fluid rounded mx-auto mb-4 d-block" alt="{{page.title}}">
-          <div class="card">
-            <div class="card-body mb-0 pb-0">
-              {{ page.keyphrase | markdownify }}
+          {% if page.keyphrase %}
+            <div class="card">
+              <div class="card-body mb-0 pb-0">
+                {{ page.keyphrase | markdownify }}
+              </div>
             </div>
-          </div>
+          {% endif %}
           <div class="row align-items-center">
             <div class="col-md-5 col-12 mb-0 logo">
               <img src="{{ site.baseurl }}/assets/img/hubs/{{ page.logo-file-name }}" alt="{{ page.title }} Logo">

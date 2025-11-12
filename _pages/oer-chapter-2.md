@@ -62,24 +62,28 @@ These open learning modules created by the #ASKnet members are available on the 
 
 {% include res-box.html 
   title="#ASKnet Open Learning Guide"
-  url="LINK_TO_OLG_ON_WEBSITE"
+  url="/assets/docs/ASKnet_OLG_2024_web.pdf"
   text="A rugged poster listing resources on Open Educational Resources around the topics of online literacy, technology, and DIY communities."
+  button="download"
 %}
 
 {% include res-box.html 
   title="#ASKnet Open Hardware Guide"
-  url="LINK_TO_OHG_ON_WEBSITE"
+  url="/assets/docs/ASKnet_OHG_2024_web.pdf"
   text="This guide provides examples of hands-on skills, possibilities, and projects that apply open hardware methodologies for trainers, tinkerers, and facilitators."
+  button="download"
 %}
 
 {% include res-box.html 
   title="#ASKnet Open Source Documentation Guide"
-  url="LINK_TO_ODG_ON_WEBSITE"
+  url="/assets/docs/ASKnet_OSDG_web.pdf"
   text="#OSD provides easy guidance to increase the impact and innovative capacities of collaborative projects and is a door to new creative opportunities."
+  button="download"
 %}
 
 {% include res-box.html 
   title="#ASKnet Open Training Guide"
-  url="LINK_TO_OTG_ON_WEBSITE"
+  url="/assets/docs/ASKnet_OTG_web.pdf"
   text="#OTG can be used by anyone to facilitate easier Access to Skills and Knowledge and  run your own training, wherever you may be."
+  button="download"
 %}

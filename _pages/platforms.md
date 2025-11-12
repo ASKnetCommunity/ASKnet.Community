@@ -17,13 +17,6 @@ platforms:
     subheading: "Collaborate. Communicate. Change"
     url: "https://aggregator.asknet.community/"
     text: 'A collaborative platform connecting #ASKnet’s campaigns, OERs and stories to enhance visibility, coordination, and creativity. Network members use #ASKaggregator to share, amplify, and promote their community social media campaigns in real time. Work together to create change by sharing, tweeting, and posting your stories. Participate online to amplify impact, coordinate action, suggest new campaigns, and spark engagement across borders.'
-  - heading: "#ASKotec"
-    subheading: "build and repair everywhere"
-    url: "https://aggregator.asknet.community/"
-    text: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 ---
 
 <div class="row p-5">
@@ -33,7 +26,7 @@ platforms:
 
 {% for item in page.platforms %}
   {% assign mod = forloop.index0 | modulo: 2 %}
-  <div class="row align-items-end mb-0 p-5 asksites {% if mod == 1 %}color-2{% endif %}">
+  <div class="row align-items-end mb-0 p-5 asksites {{ item.heading | downcase | remove: '#' | remove: ' ' }} {% if mod == 1 %}color-2{% endif %} ">
     <div class="col-md-8 p-0">
       <h2 class="mb-3">{{ item.heading }}</h2>
       <p class="mb-0">{{ item.subheading }}</p>

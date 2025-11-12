@@ -88,26 +88,38 @@ This is why OER matter in the #ASKtraining context. They are not only about shar
 
 ## Resource Box
 
-Open Knowledge Foundation
-https://okfn.org/en/ 
-‘Open knowledge’ is any content, information or data that people are free to use, re-use and redistribute.
+{% include res-box.html 
+  title="Open Knowledge Foundation"
+  url="https://okfn.org/en/"
+  text="‘Open knowledge’ is any content, information, or data that people are free to use, re-use, and redistribute."
+%}
 
-‘The Tech We Want | Read This Before You Build’ https://blog.okfn.org/2025/09/23/our-new-field-guide-the-tech-we-want-read-this-before-you-build/ 
+{% include res-box.html 
+  title="‘The Tech We Want | Read This Before You Build’"
+  url="https://blog.okfn.org/2025/09/23/our-new-field-guide-the-tech-we-want-read-this-before-you-build/"
+  text="A field guide by the Open Knowledge Foundation encouraging responsible and human-centered approaches to building technology."
+%}
 
-Open Hardware Foundation 
-https://openhwfoundation.org/ 
-The OpenHW community brings together hardware and software designers to create open source core designs and related IP, tools, and software for commercial and academic use. 
+{% include res-box.html 
+  title="Open Hardware Foundation"
+  url="https://openhwfoundation.org/"
+  text="The OpenHW community brings together hardware and software designers to create open source core designs and related IP, tools, and software for commercial and academic use."
+%}
 
+{% include res-box.html 
+  title="Tolocar Playbook"
+  url="https://tolocar.org/en/playbook/"
+  text="Supports both emergency relief activities and the development of a participatory innovation ecosystem, an example from Ukraine."
+%}
 
-Tolocar Playbook
-https://tolocar.org/en/playbook/ 
-Supports both the emergency relief activities, and the development of a participatory innovation ecosystem, an example from Ukraine. 
+{% include res-box.html 
+  title="Open Data Handbook"
+  url="https://opendatahandbook.org/"
+  text="The 'what, why, and how' of open data — guides, case studies, and resources for governments and civil society on the legal, social, and technical aspects of open data."
+%}
 
-Open Data Handbook
-https://opendatahandbook.org/ 
-The "what, why & how" of open data! Guides, case studies and resources for government & civil society on the legal, social and technical aspects of open data.
-
-
-Arxiv
-https://arxiv.org/ 
-Free distribution service and an open-access archive for 2.4 million scholarly articles.  
+{% include res-box.html 
+  title="arXiv"
+  url="https://arxiv.org/"
+  text="A free distribution service and open-access archive hosting over 2.4 million scholarly articles."
+%}

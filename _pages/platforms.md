@@ -4,25 +4,19 @@ title: "#ASKnet Platforms"
 permalink: /asknet-platforms
 css-id: 
 platforms: 
-  - heading: "#ASKlead"
-    subheading: "find local experts"
-    url: "https://lead.asknet.community/"
-    text: |
-      LEAD is a directory of #ASKnet experts in your area who are there to provide guidance and assistance. So feel free to reach out to them!
   - heading: "#ASKtraining"
-    subheading: "plan trainings and find training materials"
+    subheading: "Modular Workshop Resources"
     url: "https://training.asknet.community/"
-    text: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    text: 'The #ASKtraining platform is an open, adaptable, and community-driven space designed to compile, share, and streamline workshops, OER and “how-to” guides. By compiling and circulating hands-on knowledge with peer-to-peer sharing resources, this collaborative platform supports the sustainability of activities and local innovation, strengthens open learning networks, and facilitates onboarding of new members and participants.'
 
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  - heading: "#ASKlead"
+    subheading: "Connecting Local Expertise"
+    url: "https://lead.asknet.community/"
+    text: 'The #ASKnet Local Expert Action Directory (LEAD) links skilled community members in media, ICT, and technology with peers, clients, and collaborators for expertise from storytelling and repair to programming and design. Built on Peer-to-peer and ToT programs, LEAD showcases youth-led South Sudanese innovation in action.'
   - heading: "#ASKaggregator"
-    subheading: "social media campaigns of the network members"
+    subheading: "Collaborate. Communicate. Change"
     url: "https://aggregator.asknet.community/"
-    text: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    text: 'A collaborative platform connecting #ASKnet’s campaigns, OERs and stories to enhance visibility, coordination, and creativity. Network members use #ASKaggregator to share, amplify, and promote their community social media campaigns in real time. Work together to create change by sharing, tweeting, and posting your stories. Participate online to amplify impact, coordinate action, suggest new campaigns, and spark engagement across borders.'
   - heading: "#ASKotec"
     subheading: "build and repair everywhere"
     url: "https://aggregator.asknet.community/"

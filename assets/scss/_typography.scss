@@ -24,7 +24,7 @@ p, .paragraph {
   }
 }
 
-.page-content { //select only the ol/ul in the page body, not the ones used for the header menu
+.page-content, .hub-page { //select only the ol/ul in the page body, not the ones used for the header menu
   ol,
   ul {
     font-family: $secondary-font;

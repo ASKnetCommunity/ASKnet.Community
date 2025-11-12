@@ -57,12 +57,15 @@ The #ASKotec (Access to Skills and Knowledge Open Tech Emergency Case) was creat
   text='A resource kit for community trainers, #ASKotec provides everything needed to teach electronics, solar power, and basic ICT skills. Equipped with a broad range of items, including portable, solar-power electronics designed as a light and handy mobile workshop creation set, for remote learning and repair. Empowering people to fix, build, and innovate, especially valuable to communities where access to tools, power and materials is scarce.
 
   **Repair. Reuse. Reimagine**'
-  src="/assets/img/tools/ASKotec_Media_Kit.jpg"  %} 
+  src="/assets/img/tools/ASKotec_Emergency_Kit.jpg"  %} 
 
 {% include res-box.html 
   title="#ASKotec Media Kit – Stories that Connect Communities"
   url="https://askotec.openculture.agency/" 
   text='The #ASKotec Media Kit was born from the #ASKnet network’s need to make media education accessible anywhere, especially without stable power or internet. A modular learning and storytelling toolkit packed with exercises for community media training. The kit combines portable, low-tech tools with open learning guides, helping communities document their stories, share local knowledge, and amplify youth and women’s voices in media for peace, inclusion, and resilience.
     
-  **Open Media. Shared Voices**'
-  src="/assets/img/tools/ASKotec_Emergency_Kit.jpg"  %} 
+  **Open Media. Shared Voices**
+  
+  <a href="/assets/docs/ASKotec_Media_Kit_Introduction_Cards.pdf" class="btn btn-primary btn-sm mt-2">Media Kit: Intro Cards</a> 
+  <a href="/assets/docs/ASKotec_Media_Kit_Quiz_Booklet.pdf" class="btn btn-primary btn-sm mt-2">Media Kit: Quiz Booklet</a> '
+  src="/assets/img/tools/ASKotec_Media_Kit.jpg"  %} 

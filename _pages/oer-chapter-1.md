@@ -78,3 +78,47 @@ The  #OHG gives examples of hands-on skills possibilities and projects applying 
   text='Community Makerspace Singapore, SEA, and globally focused on Assistive Tech, low-cost bespoke solutions for persons with disabilities, and openSourced hardware. It is a volunteer-led community space founded on the principle of "People-first design”.'
   src="/assets/img/oer/chapter-1/image5.jpg" 
   caption="Salvage Garden: Braille Printing" %}
+
+## Resource Box
+
+{% include res-box.html 
+  title=""
+  url=""
+  text=""
+  %}
+
+
+
+
+
+The world’s only Refugee Architecture Library
+https://yef-uganda.org/the-first-refugee-architecture-library-in-uganda/ 
+Hosted by YEF Uganda, focused on art, architecture and design, developed in conjunction with the #ASKnet #ROSHOP project to build a responsive modular community space.
+
+make-a-thek in public libraries 
+https://www.makeathek.eu/ 
+The initiative brings modular, easy-to-replicate makerspaces into public libraries, offering open access to innovative and circular approaches to making and design.
+
+On the free sharing of all human knowledge
+https://arstechnica.com/science/2016/06/what-is-open-access-free-sharing-of-all-human-knowledge/ In the not-too-distant future it will be possible to have a local copy of every academic paper ever written if they wish to.
+
+
+Sudan & South Sudan Open Archive 
+https://riftvalley.net/projects/sudan-and-south-sudan/sudan-open-archive/
+
+South Sudan Open Data Portal - Bureau of Statistics
+https://southsudan.opendataforafrica.org/ 
+
+
+Open Educational Resources in Africa 
+https://docs.edtechhub.org/lib/V44Z75Z3 
+Curated Resource List – Evidence Library – The EdTech Hub 
+
+OER in the Global South
+https://idrc-crdi.ca/en/books/adoption-and-impact-oer-global-south 
+Research on OER to improve access, enhance quality, and reduce the cost of education in the Global South. 
+
+
+GOSH Manifesto (Global Open Science)
+https://openhardware.science/gosh-manifesto/ 
+The Global Open Science Hardware movement seeks to reduce barriers between diverse creators and users of scientific tools to support the pursuit and growth of knowledge.  

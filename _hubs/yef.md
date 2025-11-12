@@ -18,7 +18,7 @@ social-media:
 caption:
   title: Youth Empowerment Foundation (YEF)
   subtitle: Pagirinya, Adjumani, Uganda
-  thumbnail: assets/img/hubs/05-youth-empowerment-yef-asknet-thumbnail.jpg
+  thumbnail: assets/img/hubs/05-youth-empowerment-yef-asknet-thumbnail.jpeg
 ---
 
 Youth Empowerment Foundation (YEF) works with the community of Adjumani and displaced people in the Pagirinya Refugee Settlement to address local challenges such as unemployment and gender-based violence. 

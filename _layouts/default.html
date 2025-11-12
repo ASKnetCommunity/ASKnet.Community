@@ -6,7 +6,7 @@ layout: compress
 
 {% include head.html %}
 
-<body{% if page.layout == "page" %} class="page-layout"{% endif %}>
+<body{% if page.layout == "page" or page.layout == "story" %} class="page-layout"{% endif %}>
 
   {% include header.html %}
 

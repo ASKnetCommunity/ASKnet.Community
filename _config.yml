@@ -57,7 +57,7 @@ defaults:
       path: ""
       type: stories
     values:
-      layout: page
+      layout: story
 
 # Exclude from processing.
 exclude:

@@ -115,7 +115,7 @@ This is why OER matter in the #ASKtraining context. They are not only about shar
 {% include res-box.html 
   title="Open Data Handbook"
   url="https://opendatahandbook.org/"
-  text="The 'what, why, and how' of open data — guides, case studies, and resources for governments and civil society on the legal, social, and technical aspects of open data."
+  text="The **'what, why, and how'** of open data — guides, case studies, and resources for governments and civil society on the legal, social, and technical aspects of open data."
 %}
 
 {% include res-box.html 

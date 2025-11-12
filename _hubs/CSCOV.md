@@ -22,4 +22,7 @@ CSCOV empowers women by supporting their livelihoods through access to markets, 
 
 In our peacebuilding work, CSCOV promotes good governance, transparency, and accountability by empowering communities to be active agents of change. CSCOV strengthens institutional culture for responsible resource management while advancing access to justice and human rights through legal aid and public education. To foster social cohesion, CSCOV facilitates dialogue between political leaders and local communities, ensuring women’s meaningful participation, and organizes inter-communal peace dialogues and trainings that support reconciliation and inclusive, sustainable peace in South Sudan.
 
-{% include image.html src="/assets/img/hubs/CSCOV-1.jpg" %}
+{% include image.html src="/assets/img/hubs/CSCOV-image2.jpg" %}
+
+{% include image.html src="/assets/img/hubs/CSCOV-image4.png" %} 
+

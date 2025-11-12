@@ -3,6 +3,6 @@
 <figure class="text-center">
   <img src="{{ src }}" alt="{{ caption }}" class="img-fluid rounded">
   {% if caption and caption != "" %}
-    <figcaption class="mt-2 text-muted">{{ caption | markdownify }}</figcaption>
+    <figcaption class="mt-2 text-muted">{{ caption }}</figcaption>
   {% endif %}
 </figure>

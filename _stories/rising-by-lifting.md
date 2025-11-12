@@ -59,5 +59,5 @@ CSCOV, with support from the Women’s International Peace Centre, hosted a two-
 
 Co-facilitated with UNMISS, this dialogue brought together political parties, civil society, and community leaders to promote unity, civic space, and peaceful democratic transition.
 
-{% include image.html src="/assets/img/stories/rising-by-lifting/image3.jpg" caption="CSCOV co-facilitated a political stakeholders dialogue organized by the United Nations Mission in South Sudan #UNMISS in Raja County Of Western Bahr El Ghazal State, June 2023<br>[link to source](https://cscov-ss.org/2023/08/04/cscov-co-facilitated-a-political-stakeholders-dialogue-organized-by-unmiss-in-raja-county-of-western-bahr-el-ghazal-state/)" %}
+{% include image.html src="/assets/img/stories/rising-by-lifting/image3.jpg" caption='CSCOV co-facilitated a political stakeholders dialogue organized by the United Nations Mission in South Sudan #UNMISS in Raja County Of Western Bahr El Ghazal State, June 2023' %} <figcaption class="mt-2 mx-auto text-muted"><a href="https://cscov-ss.org/2023/08/04/cscov-co-facilitated-a-political-stakeholders-dialogue-organized-by-unmiss-in-raja-county-of-western-bahr-el-ghazal-state/">link to source</a></figcaption>
 

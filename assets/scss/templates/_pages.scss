@@ -38,6 +38,8 @@
       linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), 
       var(--bg-image);
     background-blend-mode: color, normal, normal;    
+    background-size: cover;
+    background-position: top;
   }
   .col-md-8 {
     min-height: 210px;

@@ -82,43 +82,49 @@ The  #OHG gives examples of hands-on skills possibilities and projects applying 
 ## Resource Box
 
 {% include res-box.html 
-  title=""
-  url=""
+  title="The world’s only Refugee Architecture Library"
+  url="https://yef-uganda.org/the-first-refugee-architecture-library-in-uganda/"
+  text="Hosted by YEF Uganda, focused on art, architecture, and design. Developed in conjunction with the #ASKnet #ROSHOP project to build a responsive modular community space."
+%}
+
+{% include res-box.html 
+  title="make-a-thek in public libraries"
+  url="https://www.makeathek.eu/"
+  text="The initiative brings modular, easy-to-replicate makerspaces into public libraries, offering open access to innovative and circular approaches to making and design."
+%}
+
+{% include res-box.html 
+  title="On the free sharing of all human knowledge"
+  url="https://arstechnica.com/science/2016/06/what-is-open-access-free-sharing-of-all-human-knowledge/"
+  text="In the not-too-distant future, it will be possible to have a local copy of every academic paper ever written if they wish to."
+%}
+
+{% include res-box.html 
+  title="Sudan & South Sudan Open Archive"
+  url="https://riftvalley.net/projects/sudan-and-south-sudan/sudan-open-archive/"
   text=""
-  %}
+%}
 
+{% include res-box.html 
+  title="South Sudan Open Data Portal – Bureau of Statistics"
+  url="https://southsudan.opendataforafrica.org/"
+  text=""
+%}
 
+{% include res-box.html 
+  title="Open Educational Resources in Africa"
+  url="https://docs.edtechhub.org/lib/V44Z75Z3"
+  text="Curated Resource List – Evidence Library – The EdTech Hub"
+%}
 
+{% include res-box.html 
+  title="OER in the Global South"
+  url="https://idrc-crdi.ca/en/books/adoption-and-impact-oer-global-south"
+  text="Research on Open Educational Resources (OER) to improve access, enhance quality, and reduce the cost of education in the Global South."
+%}
 
-
-The world’s only Refugee Architecture Library
-https://yef-uganda.org/the-first-refugee-architecture-library-in-uganda/ 
-Hosted by YEF Uganda, focused on art, architecture and design, developed in conjunction with the #ASKnet #ROSHOP project to build a responsive modular community space.
-
-make-a-thek in public libraries 
-https://www.makeathek.eu/ 
-The initiative brings modular, easy-to-replicate makerspaces into public libraries, offering open access to innovative and circular approaches to making and design.
-
-On the free sharing of all human knowledge
-https://arstechnica.com/science/2016/06/what-is-open-access-free-sharing-of-all-human-knowledge/ In the not-too-distant future it will be possible to have a local copy of every academic paper ever written if they wish to.
-
-
-Sudan & South Sudan Open Archive 
-https://riftvalley.net/projects/sudan-and-south-sudan/sudan-open-archive/
-
-South Sudan Open Data Portal - Bureau of Statistics
-https://southsudan.opendataforafrica.org/ 
-
-
-Open Educational Resources in Africa 
-https://docs.edtechhub.org/lib/V44Z75Z3 
-Curated Resource List – Evidence Library – The EdTech Hub 
-
-OER in the Global South
-https://idrc-crdi.ca/en/books/adoption-and-impact-oer-global-south 
-Research on OER to improve access, enhance quality, and reduce the cost of education in the Global South. 
-
-
-GOSH Manifesto (Global Open Science)
-https://openhardware.science/gosh-manifesto/ 
-The Global Open Science Hardware movement seeks to reduce barriers between diverse creators and users of scientific tools to support the pursuit and growth of knowledge.  
+{% include res-box.html 
+  title="GOSH Manifesto (Global Open Science)"
+  url="https://openhardware.science/gosh-manifesto/"
+  text="The Global Open Science Hardware (GOSH) movement seeks to reduce barriers between diverse creators and users of scientific tools to support the pursuit and growth of knowledge."
+%}

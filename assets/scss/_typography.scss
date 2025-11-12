@@ -24,7 +24,7 @@ p, .paragraph {
   }
 }
 
-.page-content { //select only the ol/ul in the page body, not the ones used for the header menu
+.page-content, .hub-page { //select only the ol/ul in the page body, not the ones used for the header menu
   ol,
   ul {
     font-family: $secondary-font;
@@ -32,12 +32,18 @@ p, .paragraph {
     @include desktop {
       font-size: 1.1rem;
     }
+    li {
+      margin-bottom: 1rem;
+    }
   }
 }
 
+.text-muted {
+  color: rgba($color: $primary-color, $alpha: .6) !important;
+}
 
 h1,h2,h3,h4,h5,h6 {
-  color: $text-color-dark;
+  color: $text-color;
   font-family: $primary-font;
   line-height: 1.2;
   font-weight: 700;

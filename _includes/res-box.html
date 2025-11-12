@@ -1,0 +1,28 @@
+<div class="res-box my-4 w-100">
+  <div class="row">
+    <div class="{% if include.src %}col-md-7{% else %}col-12{% endif %} text-left pb-4">
+      <h3 class="mb-3">{{ include.title }}</h3>
+      {{ include.text | markdownify }}
+
+      {% if include.button == "download" %}
+        <a href="{{ include.url | relative_url }}" class="btn btn-primary btn-sm mt-2">Download</a>
+      {% else %}
+        <a href="{{ include.url }}" class="btn btn-primary btn-sm mt-2" target="_blank">Visit <i class="fas fa-external-link-alt"></i></a>
+      {% endif %}
+
+    </div>
+    {% if include.src != nil %}
+      <div class="col-md-5 pb-4">
+        {% assign caption = include.caption | strip %}
+        {% assign src = include.src | prepend: site.baseurl %}
+        <figure class="text-center m-0">
+          <img src="{{ src }}" alt="{{ caption }}" class="img-fluid rounded">
+          {% if caption and caption != "" %}
+            <figcaption class="mt-2 text-muted">{{ caption }}</figcaption>
+          {% endif %}
+        </figure>
+      </div>  
+    {% endif %}
+  </div>  
+</div>
+

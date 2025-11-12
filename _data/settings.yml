@@ -2,7 +2,7 @@
 # General Site Settings
 
 title: '#ASKnet'
-logo: assets/img/asknet-logo.png
+logo: /assets/img/asknet-logo.png
 author: '#ASKnet'
 description: "Access to Skills & Knowledge network"
 email: coordinator@asknet.community
@@ -11,13 +11,27 @@ address:
 screenshot: https://raw.githubusercontent.com/ASKnetCommunity/ASKnet.Community/51b8d4f7a3a772eb2a55968b721b98bb657db161/screenshot.png
 
 menu:
-- {name: About, link: '/#about'}
-- {name: Members, link: '/#members'}
-- {name: Our Story, link: '/#timeline'}
-- {name: Experts, link: '/#lead'}
-- {name: Resources, link: '/#resources'}
-- {name: Media, link: '/media'}
-- {name: Contact, link: '/#contact'}
+- name: About
+  link: '/#about'
+- name: Members
+  link: '/#members'
+- name: Our Story
+  link: '/#timeline'
+- name: Resources
+  link: ''
+  sub: 
+    - name: About Open Educational Resources
+      link: '/oer'
+    - name: '#ASKnet Platforms'
+      link: '/asknet-platforms'
+    - name: '#ASKnet Tools'
+      link: '/tools'
+    # - name: '#ASKnet Highlights'
+    #   link: '/highlights'
+    - name: '#ASKnet Member Stories'
+      link: '/member-stories'
+- name: Contact
+  link: '/#contact'
 
 
 
@@ -46,38 +60,50 @@ social:
 # About Section
 
 about-title: "#ASKnet<br />The Access to Skills & Knowledge network"
-about-description: "#ASKnet is a cross-border consortium of community driven organizations with an aim to build a transformative and sustainable open society and a professional media skills ecosystem. The network provides access to a range of open source knowledge and information, media and IT related training as well as community oriented hands-on skills."
+about-description: "#ASKnet is a cross-border consortium of community driven organizations. The network provides access to a range of open source knowledge and information, media and IT related training as well as community oriented hands-on skills."
 about:
 - {name: '#ASKnet is a network of hubs and community members,', icon: 'fas fa-project-diagram' }
 - {name: 'founded by young South Sudanese innovators,', icon: 'fas fa-lightbulb' }
 - {name: 'governed by a Steering Committee drawn from all of its member organizations,', icon: 'fas fa-users' }
 - {name: 'to build a transformative and sustainable media development ecosystem.', icon: 'fas fa-photo-video' }
-about-description-2: "The nine members of #ASKnet address local community challenges, support empowerment with knowledge and skills, inspire regional innovation and creativity, and engage peacebuilding and community empowerment among all members of society."
-about-description-3: "#ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners. The project in the period of 2022-2025 is funded by the German Ministry of Economic Development and Cooperation (BMZ)."
+about-description-2: | 
+  ### Vision 
+
+  A connected, creative, and open society where knowledge flows freely, empowering communities to shape their own futures by building a transformative and sustainable media ecosystem.
+
+  ### Mission
+
+  #ASKnet builds bridges between media, technology, and community action. We strengthen youth-led innovation, share open knowledge, and grow local capacity through peer to peer training, open tech innovation, collaboration, and creativity across borders.
+
+  ### Who We Are
+
+  Born from a network of South Sudanese innovators, #ASKnet links community hubs and changemakers across the region. Together, we use media, technology, and peer learning to solve local challenges, create livelihoods, and amplify community voices.
+
+  Supported by r0g_agency (Berlin) and Hive Colab (Kampala), with funding from the German Federal Ministry for Economic Cooperation and Development (BMZ), 2022–2025.
 about-profile-button-title: "Our Organizational Framework"
 
 
 #-------------------------------
-# Services Section
+# focus-areas Section
 
-services-title: Services
-services:
+focus-areas-title: Focus Areas
+focus-areas:
 - {
-    name: Community,
+    name: Community Empowerment,
     icon: fas fa-users,
-    description: 'We bring together people and ideas to help build resilient environments for strong knowledge exchange within numerous communities - in towns, villages, and local neighborhoods, including within refugee or IDP settlements. We strive to harness and make public the collective knowledge and skills of local experts, refugees, activists, and CSOs to deepen local impact and create opportunities for mutual support and collaboration.',
+    description: 'We connect people and ideas to build resilient, knowledge-sharing communities, from towns and villages to refugee settlements.',
     active: # Add true to select section
   }
 - {
-    name: Media Development,
+    name: Media for Democracy,
     icon: fas fa-laptop,
-    description: '#ASKnet contributes to create an environment where the media plays a constructive role in fostering democracy, accountability, and public participation. Education about media literacy is crucial and involves helping individuals critically evaluate and understand the media they consume, discerning reliable information from misinformation.',
+    description: 'We foster media literacy and storytelling that strengthen accountability, civic engagement, and peacebuilding.',
     active: # Add true to select section
   }
 - {
-    name: Open Access,
+    name: Open Culture,
     icon: fab fa-osi,
-    description: '#ASKnet embraces the philosophy of open knowledge sharing and encourages its community to openly share their work and invite others to engage and learn from it as a means to break down silos and barriers to learning. This catalyzes collaboration, peer-to-peer exchange, and civic engagement, strengthening and creating paths to new opportunities, entrepreneurship, and further networks of skills and resources.',
+    description: 'We champion open access to tools, resources, and skills. Sharing knowledge creates pathways to new opportunities, entrepreneurship, livelihood, equality and collaboration.',
     active: # Add true to select section
   }
 
@@ -85,23 +111,10 @@ services:
 #-------------------------------
 # Member Hubs Section
 
-hub-section-title: "#ASKnet members <div class=\"h4\" style=\"font-weight: normal;\">(November 2023)</div>"
+hub-section-title: "Members <div class=\"h4\" style=\"font-weight: normal;\">(November 2025)</div>"
 hub-section-description: |
-  
-
-  The member organizations have a community-led focus and contribute to strengthening civil society structures in South Sudan, while creating a basis for strengthened communication and cooperation, especially between communities of refugees in neighbouring countries together with those in South Sudan. 
- 
-  - CC4D - Community Creativity for Development (Rhino Camp, Uganda)
-  - CECI - Community Empowerment For Creative Innovation (Koboko, Uganda)
-  - CIC - Creative Innovation Center (Rhino Camp, Uganda)
-  - GoGirls ICT Initiative (Juba, South Sudan)
-  - Junub Open Space (Juba, South Sudan)
-  - Koneta Hub (Juba, South Sudan)
-  - Ma'Mara Sakit (Juba, South Sudan)
-  - Platform Africa (Rhino Camp, Uganda)
-  - YEF - Youth Empowerment Foundation (Adjumani / Pagirinya, Uganda)
-
-hub-section-contact: "Are you interested to become a member? Get in contact with us!"
+  The member organizations have a community-led focus and contribute to strengthening civil society structures in South Sudan, while creating a basis for strengthened communication and cooperation, especially between communities of refugees in neighbouring countries together with those in South Sudan.
+hub-section-contact: "Are you interested in becoming a member? Get in contact with us!"
 
 #-------------------------------
 # Timeline Section
@@ -117,59 +130,78 @@ timeline:
   # left is the default
   #start_align: "left"
   events:
-    - title: "The jHUB ‘Pioneers’"
+    - title: "The jHUB Pioneers"
       year: "2015"
-      desc: "The program started with a series of community-based media trainings. The participants, hailing from various parts of South Sudan, drafted and signed a Charter of Common Values, launching the Juba Open Knowledge and Innovation Hub (jHUB). Later that year the jHUB community co-created the first #peacehackcamp!"
+      desc: "Community media trainings with participants from around South Sudan drafted and signed a Charter of Common Values, sparking the creation of the Juba Open Knowledge & Innovation Hub (jHUB) and co-creation of the first #peacehackcamp in South Sudan."
       image: assets/img/timeline/2015.jpg
-      alt: 
+      alt:
       url: https://openculture.agency/peacehackcamp-2015/
-    - title: "Migrations, New Horizons"
+    - title: "Migrations & New Horizons"
       year: "2016"
-      desc: 'As armed conflict erupted again in South Sudan, the community scattered, with some members taking refuge in neighboring countries. Hosting of trainings were taken on by partners in Addis Ababa, Nairobi, Kigali, Kampala. The #ASKotec kit was developed and a network of local initiatives that has since evolved into what is now #ASKnet.'
+      desc: 'As conflict spreads, members relocate across East Africa, developing the #ASKotec kit and planting the seeds of today’s #ASKnet.'
       image: assets/img/timeline/2016.jpg
       alt:
-      url: 
-    - title: "New Members"
-      year: "2017"
-      desc: 'A number of new, initially informal organizations were established and launched by former jHUB members, who began sharing various skills with local participants in their specific contexts. These also included refugee settlements such as Rhino Camp in Northern Uganda, and towns in South Sudan such as Bor.'
-      image: assets/img/timeline/2017.jpg
-      alt: 
-      url: 
-    - title: "An Informal Network"
-      year: "2018"
-      desc: "#ASKnet emerges as an informal network as a collaboration of media organizations and local experts starts to grow. A first collective training session, focused on Media, IT, Open Tech innovation and repair culture was held in the Rhino Camp South Sudanese refugee settlement."
-      image: assets/img/timeline/2018.jpeg
-      alt: 
-      url: 
-    - title: "Community Practices"
-      year: "2019"
-      desc: "Six ‚pioneer‘ hubs, all legally registered organizations, form the first collective #ASKnet community. In collaboration with the Global Innovation Gathering (GIG) with members coming together from 5 continents, DOTS, the first international #ASKsummit was held in Nakuru, Kenya."
-      image: assets/img/timeline/2019.jpg
-      alt: 
       url:
-    - title: "Decentralized Actions"
+    - title: "New Members Emerge"
+      year: "2017"
+      desc: 'New informal organisations are established and launched by former jHUB members to create local hubs and teach skills in local contexts and refugee settlements, such as Rhino Camp in Northern Uganda, and towns in South Sudan such as Bor.'
+      image: assets/img/timeline/2017.jpg
+      alt:
+      url:
+    - title: "A Growing Network"
+      year: "2018"
+      desc: "#ASKnet takes shape as an informal collaboration of media makers and open tech innovators across the region. A first collective training session on Media, IT, Open Tech innovation and repair culture held in Rhino Camp South Sudanese refugee settlement."
+      image: assets/img/timeline/2018.jpeg
+      alt:
+      url:
+    - title: "From Hubs to Community"
+      year: "2019"
+      desc: "Six legally registered hubs unite as the first #ASKnet collective; in collaboration with the Global Innovation Gathering (GIG) first international #ASKsummit (DOTS) held in Kenya."
+      image: assets/img/timeline/2019.jpg
+      alt:
+      url:
+    - title: "Decentralized Action"
       year: "2020"
-      desc: "In response to the Covid-19 pandemic, #ASKnet evolves from hosting local trainings to a more decentralized network of online activity. With the online training and mentoring ‚tracks‘ - focusing on organizational development and on digital media and open tech skills, a community of individual #ASKnet experts, as well as formalized media hubs emerged."
+      desc: "In response to COVID-19, #ASKnet shifts to online training and mentoring to connect media and tech hubs across borders with the emerging community of #ASKnet experts."
       image: assets/img/timeline/2020.jpg
-      alt: 
-      url: 
-    - title: "Hub Strengthening"
+      alt:
+      url:
+    - title: "Strengthening Local Impact"
       year: "2021"
-      desc: "#ASKnet hubs increase their own community engagement, with a broad range of media and life skills training, also helping to empower more community members in need of support and attention. The ‚Labmobile‘ at Rhino Camp, and an locally sourced housing prototype at the Pagirinya Refugee Settlement in Uganda join a family of resources and programs established earlier in South Sudan."
+      desc: "Hubs expand community programs and life skills trainings in South Sudan and Uganda. The “Labmobile” is launched at Rhino Camp, and #ROSHOP modular housing prototype at Pagirinya Refugee Settlement in Uganda joins the expanding resources and programs."
       image: assets/img/timeline/2021.jpg
-      alt: 
-      url: 
-    - title: "Founding an International Innovation Consortium"
+      alt:
+      url:
+    - title: "Founding the Consortium"
       year: "2022 / 2023"
-      desc: "Adaptation of the informal international #ASKnet group of hubs into a consortium, with a legal registration in South Sudan. Foundations are laid for an inclusive cross-border and self-governed network of South Sudanese led youth-led media and innovation organizations able and open to bring on more members."
+      desc: "#ASKnet formalizes as an international consortium, a self-governed, inclusive cross-border network of South Sudanese led youth-led media and innovation hubs."
       image: assets/img/timeline/2022.jpg
-      alt: 
-      url: 
+      alt:
+      url:
+    - title: "Expanding Reach"
+      year: "2024"
+      desc: "New partnerships and open culture initiatives strengthen collaboration and OER development across the network, and the launch of the #ASKtraining platform."
+      image: assets/img/timeline/2024.jpg
+      alt:
+      url:
+    - title: "13 Hubs Strong"
+      year: "2025"
+      desc: "#ASKnet grows to 13 member organisations, each advancing local independence and innovation within their communities."
+      image: assets/img/timeline/2025.jpg
+      alt:
+      url:
+    - title: "The Future Is Open"
+      year: "2026"
+      desc: "The network continues to expand, welcoming new communities to co-create, collaborate, and share open knowledge for resilience, empowerment and transformation."
+      image: assets/img/timeline/2026.jpg
+      alt:
+      url:
     # you can enforce the alignment: 
     # align: right
   # end: 
   #   title: "Add new training, event, or project!"
   #   link: "https://github.com/ASKnetCommunity/ASKnet.Community/issues/new?assignees=&labels=content-submit%2Cnew-timeline-event&template=new-timeline-event.yml&title=Add+Timeline+Event%3A+"
+
 
 #-------------------------------
 # LEAD Section
@@ -228,7 +260,7 @@ client-slider-items:
   - logo: assets/img/hubs/05-youth-empowerment-yef-asknet-logo.png
     url: https://yef-uganda.org/
 
-  - logo: assets/img/hubs/06-CC4D-asknet-logo.png
+  - logo: assets/img/hubs/06-CC4D-asknet-logo.jpg
     url: https://cc4d.tech/
 
   - logo: assets/img/hubs/07-mamara-sakit-logo.jpg
@@ -242,6 +274,18 @@ client-slider-items:
 
   - logo: assets/img/hubs/10-koneta-hub-logo.png
     url: https://konetahub.org/
+
+  - logo: assets/img/hubs/CSCOV-logo.jpg
+    url: https://cscov-ss.org/
+
+  - logo: assets/img/hubs/KVA-logo.png
+    url: https://www.kvadvocates.org
+
+  - logo: assets/img/hubs/Nexus-logo.jpg
+    url: https://www.instagram.com/nexusyouthintiativeuganda?igsh=eGR4cXg0aXp3NGV4
+
+  - logo: assets/img/hubs/RRSA-logo.jpg
+    url: https://www.reliablerefugeesa.org/
 
 #-------------------------------
 # Contact-Section
@@ -257,7 +301,7 @@ contact-text: |
   document.write("<a href=\"" + "mai" + "lto" + ":" + part5 + "\">" + part1 + part3 + part4 + "</a>");
   </script></p>
   <p>#ASKnet is supported by r0g_agency (Berlin, Germany) and Hive Colab (Kampala, Uganda) as implementing partners.</p>
-  <p>#ASKnet  2022-2025 is funded by the German Ministry of Economic Development and Cooperation (BMZ).</p>
+  <p>#ASKnet 2022-2025 is funded by the German Ministry for Economic Development and Cooperation (BMZ).</p>
 
 contact-email: coordinator@asknet.community
 formspree-path: f/myylarkr

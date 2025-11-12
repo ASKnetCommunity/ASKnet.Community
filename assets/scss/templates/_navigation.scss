@@ -1,7 +1,9 @@
 .navigation{
   padding: 40px 40px 20px 40px;
-  background-color: rgba($primary-color, 0.5);
-  transition: .3s ease;
+  background-color: rgba($primary-color, 0.8);
+  transition: .8s ease;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   &.nav-bg {
     background-color: rgba($primary-color, 0.8);
     padding: 15px 40px;
@@ -23,6 +25,7 @@
       font-family: $primary-font;
       text-transform: uppercase;
       padding: 15px;
+      color: $white;
     }
     &.active{
       font-weight: bold;
@@ -39,9 +42,19 @@
   }
 }
 
-.navbar-dark .navbar-nav .nav-link{
-  color: lighten($secondary-color, 35);
+.dropdown-menu {
+  background-color: lighten($color: $primary-color, $amount: 10);
+  right: 0;
+  left: unset;
+  .dropdown-item {
+    color: rgba($white, 0.8);
+    &:hover {
+      background-color: #ffffff00;
+      color: rgba($white, 0.65);
+    }
+  }
 }
+
 
 .jump-mark {
   height: 0;

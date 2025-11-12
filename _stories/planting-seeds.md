@@ -1,8 +1,7 @@
 ---
 title: Planting Seeds for the Future
-subtitle: Authoring Member Hub
-thumbnail: assets/img/stories/planting-seeds-thumbnail.jpg
-order: 1
+subtitle: RRSA
+thumbnail: assets/img/stories/planting-seeds/planting-seeds-thumbnail-2.jpg
 ---
 
 # Planting Seeds for the Future
@@ -25,31 +24,13 @@ Climate change affects everyone. It changes how much rain falls, how crops grow 
 
 By placing young people at the centre of the effort we are building local knowledge and long term responsibility for the landscape. We see youths as more than beneficiaries. They are local leaders, educators and stewards. When young people plant trees and share what they learn with neighbors they create a ripple effect. Small actions by many people become a visible improvement. The seedlings become tools for learning, income generation and for restoring the local environment.
 
-<figure class="text-center">
-  <img src="{{ '/assets/img/stories/planting-seeds-climateresilience.jpg' | relative_url }}" class="img-fluid rounded" alt="climateresilience">
-  <figcaption class="mt-2 text-muted">
-    Image: Local youths and a woman arranging young tree seedlings in small black polybags on red soil, ready for planting.
-  </figcaption>
-</figure>
+{% include image.html src="/assets/img/stories/planting-seeds/planting-seeds-climateresilience.jpg" caption="Local youths and a woman arranging young tree seedlings in small black polybags on red soil, ready for planting." %}
 
 On September 9th 2025, Reliable Refugee Storytellers Association distributed more than 500 tree seedlings to young people in Bidibidi Refugee Settlement Zone 1. The seedlings included guava, mango, neem, teak and orange. The seeding focused on youths who will plant and care for the trees in community spaces, home gardens and shared plots.
 
 Reliable Refugee Storytellers Association organized a distribution event and short practical briefing. Youth participants received seedlings and simple guidance on planting, watering and early care. The focus was on species that deliver immediate and long term benefits. Guava and mango will provide fruit, neem has medicinal and pest control uses, teak is a long term timber option and orange trees offer both fruit and shade.
 
-<figure class="text-center">
-  <img src="{{ '/assets/img/stories/planting-seeds-climateaction-youth.jpg' | relative_url }}" class="img-fluid rounded" alt="climateaction-youth">
-  <figcaption class="mt-2 text-muted">
-    Image: Youths plant 500+ tree seedlings in Bidibidi to protect the environment.
-  </figcaption>
-</figure>
-
-### Key Components and methods for climate action:
-
-**Climate information Storytelling**. Translating early warning systems and climate information into simple relatable stories, radio plays and visual media  
-**Community Dialogues**. Storytelling circles where refugees and host communities share lived experiences on deforestation, waste management and water scarcity.  
-**Youth Green Champions**. Training youth storytellers to advocate for tree planting, sustainable farming and plastic reduction through theatre, podcast, and social media.  
-**Cultural Story Archives**. Documenting indigenous ecological knowledge and cultural practices that promote environmental stewardship.  
-**Action Campaigns**. Linking stories to action (Tree planting, clean ups, climate awareness, sports events)
+{% include image.html src="/assets/img/stories/planting-seeds/planting-seeds-climateaction-youth.jpg" caption="Youths plant 500+ tree seedlings in Bidibidi to protect the environment" %}
 
 ## Storytelling Roots
 
@@ -64,9 +45,13 @@ In 2023, Reliable Refugee Storytellers Association (RRSA) embarked on an importa
 The training emphasized how to prepare for podcast recordings, manage the technical   
 side of editing, and publish polished productions ready to reach wide audiences. The association is moving from telling stories informally to producing and sharing community media for listeners beyond Bidi Bidi.
 
+{% include image.html src="/assets/img/stories/planting-seeds/02_Fav_RSSA_06_podcasting_training.jpg" %}
+
 ## Reflections & Next Steps
 
 This grassroots association has the potential to become a lighthouse for community-led storytelling, peacebuilding and environmental protection within refugee settlements.
 
 We believe the best stories are written in collaboration. Whether you’re a donor, creative, organization, or simply passionate about refugee voices, your role matters.  
 Join us in building a future where every displaced voice is heard and empowered.
+
+{% include image.html src="/assets/img/stories/planting-seeds/RRSA_03_ASKnetcommunitytraining.jpg" %}

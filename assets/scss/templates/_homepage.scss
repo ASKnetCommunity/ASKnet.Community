@@ -1,3 +1,12 @@
+.res-box {
+  text-align: center;
+  background: $white;
+  padding: 1.5rem 1.5rem 0rem 1.5rem;
+  font-size: 1.1rem;
+  display: inline-block;
+}
+
+
 /* skills */
 .progress-wrapper {
   height: 130px;
@@ -85,24 +94,28 @@
 }
 
 .shuffle-wrapper {
-  margin:40px 0;
+  margin: 40px -15px;
 }
 
 /* shuffle item */
 
 .shuffle-item {
+  margin-bottom: 30px;
 
   .caption {
     text-align: center;
     background: $white;
-    padding: 20px 10px;
+    padding: 20px 20px;
+    font-size: 1.1rem;
 
     p {
       margin-bottom: 0px;
+      font-size: 1.1rem;
     }
   }
 
 }
+
 
 .shuffle-wrapper .shuffle-item img, #grid-add-item {
   width: 100%;
@@ -129,7 +142,10 @@
       visibility: visible;
     }
   }
+}
 
+.highlights .shuffle-wrapper img {
+  aspect-ratio: 2/1;
 }
 
 .hover-overlay {
@@ -139,7 +155,8 @@
   border-radius: inherit;
   top: 0;
   left: 0;
-  background: rgba($color: $primary-color, $alpha: .8);
+  background: rgba($color: $primary-color, $alpha: 0.6);
+  mix-blend-mode: color;
   opacity: 0;
   visibility: hidden;
   transition: .3s ease;

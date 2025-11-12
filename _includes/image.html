@@ -1,0 +1,8 @@
+{% assign caption = include.caption | strip %}
+{% assign src = include.src | prepend: site.baseurl %}
+<figure class="text-center">
+  <img src="{{ src }}" alt="{{ caption }}" class="img-fluid rounded">
+  {% if caption and caption != "" %}
+    <figcaption class="mt-2 text-muted">{{ caption }}</figcaption>
+  {% endif %}
+</figure>

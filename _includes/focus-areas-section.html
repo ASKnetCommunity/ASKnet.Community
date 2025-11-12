@@ -1,0 +1,26 @@
+{% if site.data.settings.focus-areas %}
+<!-- focus-areas -->
+<section id="focus-areas" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mx-auto mb-5">
+        <h2 class="text-center">{{ site.data.settings.focus-areas-title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% for focus-area in site.data.settings.focus-areas %}
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body {% if focus-area.active %}active-bg-primary{% endif %} text-center px-4 py-5">
+            <i class="{{ focus-area.icon }} icon icon-bg mb-4 d-inline-block"></i>
+            <h4 class="mb-4">{{ focus-area.name }}</h4>
+            <p>{{ focus-area.description }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /focus-areas -->
+{% endif %}

@@ -44,13 +44,7 @@ In the #ASKnet context, open learning is more than access, it’s about transfor
   </div>
 </div>
 
-
-<figure class="text-center">
-  <img src="{{ '/assets/img/oer/01-repair-cafe.jpg' | relative_url }}" class="img-fluid rounded" alt="community repair cafe">
-  <figcaption class="mt-2 text-muted">
-    #ASKnet Open Hardware Guide - Community Repair Cafe
-  </figcaption>
-</figure>
+{% include image.html src="/assets/img/oer/01-repair-cafe.jpg" caption="#ASKnet Open Hardware Guide - Community Repair Cafe" %}
 
 The ability to access reliable, usable Open Educational Resources gives everyone an equal chance to learn. This empowers individuals and communities to build on existing knowledge, share skills that can overcome challenges, and create collaborative resources to solve problems. 
 
@@ -69,12 +63,7 @@ Breaking knowledge free from behind locked paywalls or tied to an institution, O
 > — Dr. Rufus Pollock <br>
 > [https://rufuspollock.com/](https://rufuspollock.com/) 
 
-<figure class="text-center">
-  <img src="{{ '/assets/img/oer/02-solar-charger.jpg' | relative_url }}" class="img-fluid rounded" alt="solar charger testing">
-  <figcaption class="mt-2 text-muted">
-    Solar Charger Testing
-  </figcaption>
-</figure>
+{% include image.html src="/assets/img/oer/02-solar-charger.jpg" caption="Solar Charger Testing" %}
 
 The dissolving of hierarchies around information and access to knowledge are key to Open Educational Resources, as this means that peer-to-peer learning and decolonising the process of sharing knowledge without limits are embedded into the OER framework.
 
@@ -87,12 +76,7 @@ The dissolving of hierarchies around information and access to knowledge are key
 An example of open learning can be seen in the story of [George Mel](https://andariya.com/post/Aircrafts-and-Drones-can-lead-Innovation-for-a-better-South-Sudan),  the passionate self taught aeroplane engineer from South Sudan who realised his dream of learning to fly.  <br>
 On the tail of his first aircraft he has painted the South Sudanese flag, along with the words: "We have a future". BBC: [George Mel](https://www.bbc.com/news/magazine-31097612%20) 
 
-<figure class="text-center">
-  <img src="{{ '/assets/img/oer/03-george-mel-plane.jpg' | relative_url }}" class="img-fluid rounded" alt="Mading Akech, BBC New magazine">
-  <figcaption class="mt-2 text-muted">
-    Mading Akech, BBC New magazine
-  </figcaption>
-</figure>
+{% include image.html src="/assets/img/oer/03-george-mel-plane.jpg" caption="Mading Akech, BBC New magazine" %}
 
 Looking to the future, OER remind us that education does not only happen in formal classrooms or expensive universities. For many, especially in regions where access is limited by cost, geography, or connectivity, the real classroom is the community itself. 
 
@@ -100,9 +84,30 @@ Here, knowledge grows in conversations with elders, in the exchange of local pra
 
 This is why OER matter in the #ASKtraining context. They are not only about sharing knowledge, but about strengthening agency. They help individuals and communities claim the power to teach, learn, and create on their own terms. They invite us to think of education as collective resilience, as innovation rooted in culture, moving into a future where learning is a shared right for all humanity, and being able to learn new skills brings communities together and creates new perspectives to solve urgent problems. 
 
-<figure class="text-center">
-  <img src="{{ '/assets/img/oer/04-open-hardware-guide.jpg' | relative_url }}" class="img-fluid rounded" alt="Open Hardware Guide">
-  <figcaption class="mt-2 text-muted">
-    #ASKnet Open Hardware Guide
-  </figcaption>
-</figure>
+{% include image.html src="/assets/img/oer/04-open-hardware-guide.jpg" caption="#ASKnet Open Hardware Guide" %}
+
+## Resource Box
+
+Open Knowledge Foundation
+https://okfn.org/en/ 
+‘Open knowledge’ is any content, information or data that people are free to use, re-use and redistribute.
+
+‘The Tech We Want | Read This Before You Build’ https://blog.okfn.org/2025/09/23/our-new-field-guide-the-tech-we-want-read-this-before-you-build/ 
+
+Open Hardware Foundation 
+https://openhwfoundation.org/ 
+The OpenHW community brings together hardware and software designers to create open source core designs and related IP, tools, and software for commercial and academic use. 
+
+
+Tolocar Playbook
+https://tolocar.org/en/playbook/ 
+Supports both the emergency relief activities, and the development of a participatory innovation ecosystem, an example from Ukraine. 
+
+Open Data Handbook
+https://opendatahandbook.org/ 
+The "what, why & how" of open data! Guides, case studies and resources for government & civil society on the legal, social and technical aspects of open data.
+
+
+Arxiv
+https://arxiv.org/ 
+Free distribution service and an open-access archive for 2.4 million scholarly articles.  

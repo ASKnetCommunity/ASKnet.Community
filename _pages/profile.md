@@ -49,4 +49,4 @@ The benefits of joining the network include but not limited to:
 
 <a class="btn btn-sm btn-primary" href="{{ site.baseurl }}{% link assets/docs/ASKnet_Profile_Nov_2023.pdf %}" target="_blank">Download #ASKnet Profile</a>
 
-<a class="btn btn-sm btn-primary" href="{{ site.baseurl }}{% link assets/docs/ASKnet_Flyer_07_2023.pdf %}" target="_blank">Download #ASKnet Flyer</a>
+<a class="btn btn-sm btn-primary" href="{{ site.baseurl }}{% link assets/docs/ASKnet_Poster_Brochure_web.pdf %}" target="_blank">Download #ASKnet Flyer</a>

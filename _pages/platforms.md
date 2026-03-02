@@ -20,7 +20,7 @@ platforms:
 ---
 
 <div class="row p-5">
-  <h1> Explore our Network</h1>
+  <h1> Explore our Platforms</h1>
 </div>
 
 

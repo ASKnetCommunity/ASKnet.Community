@@ -39,54 +39,6 @@ en: &DEFAULT_EN
     section: hubs
     closebutton: "back to hub overview"
   
-  asktools:
-    title: "#ASKtools<br />a lot of (online-)tools"
-    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
-    section: oldasktools
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/28
-
-  resources:
-    title: "Resources"
-    text: "Our resource library is an open-access collection of the most useful open-source tools and how-to material covering a wide range of themes and challenges in the areas of open tech, media, and training. 
-    <br><br>
-    We curate and share open learning guides, toolkits, and community resources from our work so that others can adopt and deploy them in their own communities to promote local innovation and peer-to-peer knowledge exchange."
-    section: resources
-  
-  tools:
-    title: "#ASKtools"
-    text: ""
-    section: asktools
-
-  lead:
-    title: "LEAD<br />Local Experts Action Directory"
-    text: "The #ASKnet Local Expert Action Directory (LEAD) is a growing and functioning tool to connect people who have specific expertise and skills in media, ICT, and a range of various technologies - be they device repair, software programming, or mechanical skills with potential clients. 
-    <br><br>
-    The directory makes it easier for organizations be they international donors and non-governmental agencies, local, national, and international governmental organizations, local companies, etc., - to contact and commission #ASKnet media and technology experts in the region. 
-    <br><br>
-    The LEAD directory allows professionals, and individuals with special skills in South Sudan and refugee-hosting regions to develop profiles, share their expertise, and promote themselves both locally and internationally. We require experts to add references/links to their work to allow partners and/or future clients to access the experts' previous work and portfolios in order to create confidence and credibility. 
-    <br><br>
-    Consider hiring an #ASKnet LEAD Expert for your local training or development project!"
-    section: lead
-  
-  projects-trainings:
-    title: "Projects and Trainings"
-    text: "The #ASKnet community aims to build a sustainable network of trainers and empowered individuals, to address specific challenges their communities are facing and transform cultural patterns that fuel conflict and inequality."
-    section: asktraining
-    submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/23
-    list:
-      - title: "2009"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-users #find more at https://fontawesome.com/icons
-        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
-      - title: "2010"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-users #find more at https://fontawesome.com/icons
-        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
-      - title: "2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-users #find more at https://fontawesome.com/icons
-        submit: https://github.com/ASKnetCommunity/ASKnet.Community/issues/22
-
   timeline:
     title: "Timeline"
     text: "Projects, trainings and activities"

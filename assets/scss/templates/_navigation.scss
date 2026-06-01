@@ -49,8 +49,11 @@
   .dropdown-item {
     color: rgba($white, 0.8);
     &:hover {
-      background-color: #ffffff00;
-      color: rgba($white, 0.65);
+      background-color: rgba($white, 0.1);
+    }
+    &:focus {
+      background-color: rgba($white, 0.2);
+      color: rgba($white, 0.9);
     }
   }
 }

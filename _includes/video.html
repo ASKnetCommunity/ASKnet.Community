@@ -1,0 +1,38 @@
+{% comment %}
+  Reusable YouTube video block.
+
+  Usage:
+    {% include video.html youtube_id="dQw4w9WgXcQ" title="My video" %}
+    {% include video.html youtube_id="dQw4w9WgXcQ" title="My video" style="facade" thumbnail="/assets/img/highlights/xyz.jpg" %}
+
+  Params:
+    youtube_id (required) The YouTube video ID (the part after watch?v= or
+               youtu.be/).
+    title      (optional) Used as the iframe title / accessible label, and
+               shown as a caption under a "facade" video.
+    style      "embed"  (default) an inline, responsive 16:9 player, loaded
+               straight from youtube-nocookie.com.
+               "facade" a static preview image with a play-button overlay
+               that links out to YouTube in a new tab — nothing is loaded
+               from YouTube (no iframe, no cookies) until the visitor
+               actually clicks through.
+    thumbnail  (facade only, optional) Path to a custom preview image.
+               Defaults to YouTube's own thumbnail for the video.
+{% endcomment %}
+{% assign yid = include.youtube_id %}
+{% if include.style == "facade" %}
+  {% if include.thumbnail %}
+    {% assign thumb = include.thumbnail | prepend: site.baseurl %}
+  {% else %}
+    {% assign thumb = "https://img.youtube.com/vi/" | append: yid | append: "/hqdefault.jpg" %}
+  {% endif %}
+  <a class="video-facade my-4" href="https://www.youtube.com/watch?v={{ yid }}" target="_blank" rel="noopener noreferrer" aria-label="{{ include.title | default: 'Watch video on YouTube' }}">
+    <img src="{{ thumb }}" alt="{{ include.title }}" class="img-fluid rounded">
+    <span class="video-facade-play"><i class="fas fa-play"></i></span>
+  </a>
+  {% if include.title %}<p class="text-center text-muted mt-n2 mb-4">{{ include.title }}</p>{% endif %}
+{% else %}
+  <div class="embed-responsive embed-responsive-16by9 rounded my-4">
+    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/{{ yid }}" title="{{ include.title | default: 'YouTube video' }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+{% endif %}

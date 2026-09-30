@@ -1,0 +1,39 @@
+/* Video facade (YouTube preview image with a play button; the real embed
+   only loads if/when the visitor clicks through to YouTube). */
+
+.video-facade {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 6px;
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  .video-facade-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 1.4rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+
+  &:hover .video-facade-play,
+  &:focus .video-facade-play {
+    background: rgba(0, 0, 0, 0.8);
+    transform: translate(-50%, -50%) scale(1.08);
+  }
+}

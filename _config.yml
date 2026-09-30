@@ -66,3 +66,6 @@ exclude:
   - LICENSE.text
   - README.md
   - SECURITY.md
+  - HIGHLIGHTS_CONTEXT.md
+  - website_feature_Highlights_tba
+  - vendor

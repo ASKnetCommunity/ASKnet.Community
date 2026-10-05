@@ -12,7 +12,7 @@ Although many East African countries have signed international agreements promot
 
 {% include image.html src="/assets/img/highlights/inclusiveness-of-media-in-east-africa-editing.jpg" alt="Participants editing a video project together on a computer" %}
 
-## Media advocacy and content creation – trainings 2024–2025
+## Media advocacy and content creation – Trainings 2024–2025
 
 The trainings on media advocacy and entrepreneurship for People With Disabilities (PWDs) were developed and realised by the #ASKnet member NEXUS and brought together participants from refugee settlements and the host community in the Adjumani district in Northern Uganda, representing different forms of disabilities. The activities aimed to equip participants with skills in media advocacy, content creation, entrepreneurship, and social media management while promoting inclusion and economic empowerment. Inclusive methods such as sign language interpretation, group discussions, practical exercises, and caretaker support ensured active participation. Participants showed strong enthusiasm and willingness to learn, while the presence of government representatives demonstrated commitment to disability inclusion.
 

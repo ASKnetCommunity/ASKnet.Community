@@ -52,7 +52,7 @@ defaults:
       path: ""
       type: highlights
     values:
-      layout: page
+      layout: highlight
   - scope:    # set standard layout for all posts in a collection
       path: ""
       type: stories

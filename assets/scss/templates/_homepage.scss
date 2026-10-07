@@ -104,17 +104,43 @@
 
   .caption {
     text-align: center;
-    background: $white;
+    position: relative;
     padding: 20px 20px;
     font-size: 1.1rem;
+    background:
+      linear-gradient(rgba($white, 0.65), $white),
+      linear-gradient(90deg, rgba($white, 0.8), rgba($white, 0) 30%, rgba($white, 0) 70%, rgba($white, 0.8));
+    overflow: hidden;
+    z-index: 1;
 
     p {
       margin-bottom: 0px;
       font-size: 1.1rem;
     }
   }
-
 }
+.caption-bg {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  background-image: var(--caption-bg);   /* background image (from the main image above) */
+  background-size: cover;
+  background-position: bottom;
+  transform: scaleY(-1); /* mirror vertically */
+  transform-origin: center;
+
+  filter: blur(10px) brightness(150%) saturate(80%); 
+}
+.caption-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
 
 
 .shuffle-wrapper .shuffle-item img, #grid-add-item {

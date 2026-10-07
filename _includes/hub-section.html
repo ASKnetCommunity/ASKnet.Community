@@ -19,9 +19,12 @@
             </div>
           </a>
         </div>
-        <div class="caption">
-          <h4>{{ hub.caption.title }}</h4>
-          <p class="text-muted">{{ hub.caption.subtitle }}</p>
+        <div class="caption-wrapper" style="--caption-bg: url('{{ site.baseurl }}/{{ hub.image }}')">
+          <div class="caption-bg"></div>
+          <div class="caption">
+            <h4>{{ hub.caption.title }}</h4>
+            <p class="text-muted">{{ hub.caption.subtitle }}</p>
+          </div>
         </div>
       </div>
       {% endfor %}

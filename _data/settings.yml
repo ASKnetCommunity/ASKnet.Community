@@ -26,8 +26,8 @@ menu:
       link: '/asknet-platforms'
     - name: '#ASKnet Tools'
       link: '/tools'
-    # - name: '#ASKnet Highlights'
-    #   link: '/highlights'
+    - name: '#ASKnet Highlights'
+      link: '/highlights'
     - name: '#ASKnet Member Stories'
       link: '/member-stories'
 - name: Contact

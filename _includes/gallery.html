@@ -1,0 +1,81 @@
+{% comment %}
+  Reusable image gallery as a Bootstrap carousel.
+
+  Reads all images from a folder automatically (sorted alphabetically by file
+  name) and renders them as a slider with arrows and indicators.
+
+  Usage:
+    {% include gallery.html folder="assets/img/highlights/member-poster-gallery" ratio="2/3" %}
+
+  parameters:
+    folder  (required) Path to the image folder, relative to the site root,
+            with or without leading/trailing slash.
+    ratio   (optional) CSS aspect-ratio value matching the images in this
+            gallery, e.g. "3/2" for landscape photos or "2/3" for portrait
+            posters. Defaults to "16/9". All images in one gallery call are
+            assumed to share the same ratio (crops to fit via object-fit:
+            cover if a particular image doesn't match exactly).
+    id      (optional) Custom DOM id for the carousel. Defaults to a value
+            derived from the folder name. Set this if you use several
+            galleries on the same page.
+
+  Notes:
+    - Only image files (.jpg .jpeg .png .gif .webp .svg) that are direct
+      children of the folder are used (sub-folders are ignored).
+{% endcomment %}
+{% comment %} Normalise the folder path: single leading and trailing slash. {% endcomment %}
+{% capture gallery_dir %}/{{ include.folder }}/{% endcapture %}
+{% assign gallery_dir = gallery_dir | replace: "//", "/" %}
+
+{% comment %}
+  Accumulate the path of every image whose parent directory equals
+  gallery_dir. We detect images by file extension (file.image is unreliable on
+  some Jekyll versions) and use only plain Liquid filters.
+{% endcomment %}
+{% assign paths_str = "" %}
+{% for file in site.static_files %}
+  {% assign ext = file.extname | downcase %}
+  {% if ext == ".jpg" or ext == ".jpeg" or ext == ".png" or ext == ".gif" or ext == ".webp" or ext == ".svg" %}
+    {% assign parent = file.path | remove: file.name %}
+    {% if parent == gallery_dir %}
+      {% assign paths_str = paths_str | append: file.path | append: ";;" %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% assign rows = paths_str | split: ";;" | sort %}
+{% assign ratio = include.ratio | default: "16/9" %}
+
+{% if rows.size > 0 %}
+  {% if include.id %}
+    {% assign carousel_id = include.id %}
+  {% else %}
+    {% assign id_base = include.folder | replace: "/", "-" | replace: ".", "-" | replace: " ", "-" | replace: "--", "-" %}
+    {% assign carousel_id = id_base | prepend: "gallery-" | replace: "gallery--", "gallery-" %}
+  {% endif %}
+  <div id="{{ carousel_id }}" class="carousel slide gallery-carousel" data-ride="carousel" data-interval="false">
+    {% if rows.size > 1 %}
+      <ol class="carousel-indicators">
+        {% for row in rows %}
+          <li data-target="#{{ carousel_id }}" data-slide-to="{{ forloop.index0 }}"{% if forloop.first %} class="active"{% endif %}></li>
+        {% endfor %}
+      </ol>
+    {% endif %}
+    <div class="carousel-inner">
+      {% for path in rows %}
+        <div class="carousel-item{% if forloop.first %} active{% endif %}">
+          <img src="{{ path | prepend: site.baseurl }}" class="d-block w-100" alt="Image {{ forloop.index }} of {{ rows.size }}" style="aspect-ratio: {{ ratio }};"{% unless forloop.first %} loading="lazy"{% endunless %}>
+        </div>
+      {% endfor %}
+    </div>
+    {% if rows.size > 1 %}
+      <a class="carousel-control-prev" href="#{{ carousel_id }}" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#{{ carousel_id }}" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    {% endif %}
+  </div>
+{% endif %}

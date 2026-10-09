@@ -2,7 +2,7 @@
 order: 70
 title: Inclusiveness of Media in East Africa
 subtitle: 'Within #ASKnet some initiatives addressed these issues by trainings, awareness measures and also planning for future projects with stakeholders from the region. Check out the video feature too!'
-thumbnail: assets/img/highlights/inclusiveness-of-media-in-east-africa-thumbnail.jpg
+thumbnail: assets/img/practice/inclusiveness-of-media-in-east-africa-thumbnail.jpg
 image:
 ---
 
@@ -10,13 +10,13 @@ image:
 
 Although many East African countries have signed international agreements promoting disability rights, implementation gaps remain due to limited technical knowledge, weak inclusion practices, and inadequate consultation with disability organizations. Media institutions and government bodies often lack awareness of accessibility standards and inclusive communication methods. Within #ASKnet some initiatives addressed these issues by trainings, awareness measures and also planning for future projects with stakeholders from the region.
 
-{% include image.html src="/assets/img/highlights/inclusiveness-of-media-in-east-africa-editing.jpg" alt="Participants editing a video project together on a computer" %}
+{% include image.html src="/assets/img/practice/inclusiveness-of-media-in-east-africa-editing.jpg" alt="Participants editing a video project together on a computer" %}
 
 ## Media advocacy and content creation – Trainings 2024–2025
 
 The trainings on media advocacy and entrepreneurship for People With Disabilities (PWDs) were developed and realised by the #ASKnet member NEXUS and brought together participants from refugee settlements and the host community in the Adjumani district in Northern Uganda, representing different forms of disabilities. The activities aimed to equip participants with skills in media advocacy, content creation, entrepreneurship, and social media management while promoting inclusion and economic empowerment. Inclusive methods such as sign language interpretation, group discussions, practical exercises, and caretaker support ensured active participation. Participants showed strong enthusiasm and willingness to learn, while the presence of government representatives demonstrated commitment to disability inclusion.
 
-{% include image.html src="/assets/img/highlights/inclusiveness-of-media-in-east-africa-training.jpg" alt="Group photo of training participants, including a participant in a wheelchair" %}
+{% include image.html src="/assets/img/practice/inclusiveness-of-media-in-east-africa-training.jpg" alt="Group photo of training participants, including a participant in a wheelchair" %}
 
 ## Participatory Stakeholder Consultative Workshop 2025
 
@@ -38,5 +38,5 @@ Please check the video feature "Voices through Technology" presenting also the w
 {% endcomment %}
 {% include video.html youtube_id="zccmWhQdZAo" title="Voices through Technology (PLATZHALTER — echtes Video fehlt noch)" style="facade" %}
 
-{% include image.html src="/assets/img/highlights/inclusiveness-of-media-in-east-africa-workshop.jpg" alt="Stakeholder consultative workshop discussion" %}
-{% include image.html src="/assets/img/highlights/inclusiveness-of-media-in-east-africa-presentation.jpg" alt="Presentation on disability inclusion in media at a training event" %}
+{% include image.html src="/assets/img/practice/inclusiveness-of-media-in-east-africa-workshop.jpg" alt="Stakeholder consultative workshop discussion" %}
+{% include image.html src="/assets/img/practice/inclusiveness-of-media-in-east-africa-presentation.jpg" alt="Presentation on disability inclusion in media at a training event" %}

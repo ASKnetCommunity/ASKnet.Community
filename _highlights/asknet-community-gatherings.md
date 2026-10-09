@@ -1,5 +1,5 @@
 ---
-order: 110
+order: 130
 title: '#ASKnet Community Gatherings'
 subtitle: Annual community gatherings to lay platforms for member interaction and with the stakeholders in the different communities, showcasing their work, building value and receiving feedback. Get an impression here!
 thumbnail: assets/img/highlights/asknet-community-gatherings-thumbnail.jpg

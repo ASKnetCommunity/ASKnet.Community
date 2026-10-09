@@ -1,5 +1,5 @@
 ---
-order: 240
+order: 170
 title: '#SchoolsIN'
 subtitle: CIC mentors technology clubs at schools within Rhino Camp, nurturing students' skills in innovation, robotics, IoT, and coding. Read here about "Learnify Innovation Club"!
 thumbnail: assets/img/highlights/schoolsin-thumbnail.jpg

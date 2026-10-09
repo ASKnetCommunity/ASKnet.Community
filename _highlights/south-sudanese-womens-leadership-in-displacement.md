@@ -1,5 +1,5 @@
 ---
-order: 310
+order: 100
 title: South Sudanese Women's Leadership in Displacement
 subtitle: Ma' Mara Sakit Village and CECI collaborated on fostering conversations with refugee women leaders on South Sudanese cultural promotion and preservation in displacement. Catch a glimpse of this work through this digital story!
 thumbnail: assets/img/highlights/south-sudanese-womens-leadership-in-displacement-thumbnail.jpg

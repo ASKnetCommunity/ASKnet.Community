@@ -1,5 +1,5 @@
 ---
-order: 60
+order: 70
 title: Inclusiveness of Media in East Africa
 subtitle: 'Within #ASKnet some initiatives addressed these issues by trainings, awareness measures and also planning for future projects with stakeholders from the region. Check out the video feature too!'
 thumbnail: assets/img/highlights/inclusiveness-of-media-in-east-africa-thumbnail.jpg

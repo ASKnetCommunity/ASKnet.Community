@@ -1,5 +1,5 @@
 ---
-order: 330
+order: 20
 title: '#ROSHOP - Responsive Open Source Modular Housing Prototype'
 subtitle: 'The first #ROSHOP Modular Building is a media- and digital culture-informed prototype created by refugees and home community members at the Pagirinya South Sudanese Refugee Settlement in northern Uganda. #ROSHOP addresses innovative and low-resource building strategies for contemporary community use.'
 thumbnail: assets/img/highlights/roshop-thumbnail.jpg

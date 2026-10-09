@@ -1,5 +1,5 @@
 ---
-order: 220
+order: 50
 title: '#KIFAYA Reloaded'
 subtitle: '#KIFAYA (Arabic for Enough!) is #music4peace project magnifying the voices of South Sudanese diaspora musicians. Bringing together known West Nile sound artists with refugee kids and youth. Get inspired by the artists here!'
 thumbnail: assets/img/highlights/kifaya-reloaded-thumbnail.jpg

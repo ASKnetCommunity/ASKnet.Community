@@ -1,5 +1,5 @@
 ---
-order: 100
+order: 120
 title: '#ASKnet Micro Festival 2025'
 subtitle: The event was dedicated to strategic knowledge exchange and community-driven actions. The festival's activities were centered around Artivism, Activism and Apprenticeship. Have look here!
 thumbnail: assets/img/highlights/asknet-microfest-2025-thumbnail.jpg

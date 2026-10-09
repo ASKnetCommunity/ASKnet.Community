@@ -1,5 +1,5 @@
 ---
-order: 10
+order: 180
 title: Voices of Resilience
 subtitle: The video feature produced by Kiryandongo Video Advocate (KVA) captures the live of persons with a disability (PWD) in Kiryandongo Refugee Settlement. Watch it here!
 thumbnail: assets/img/highlights/voices-of-resilience-thumbnail.jpg

@@ -26,17 +26,7 @@ Consultations with youth and women with disabilities revealed that digital gover
 
 Please check the video feature "Voices through Technology" presenting also the work of Oysters & Pearls Uganda here:
 
-{% comment %}
-  TODO: the video feature above is not yet on the #ASKnet YouTube channel —
-  only an internal Google Drive copy exists so far, and per team policy we
-  never embed/link Drive video directly (privacy). Someone else needs to
-  upload it to YouTube first (not done by us, tracked outside this repo).
-
-  Chosen style: "facade" (click-through preview image, see _includes/video.html).
-  Once a YouTube link exists, replace the PLACEHOLDER block below with:
-  {% include video.html youtube_id="<real id>" title="Voices through Technology" style="facade" %}
-{% endcomment %}
-{% include video.html youtube_id="zccmWhQdZAo" title="Voices through Technology (PLATZHALTER — echtes Video fehlt noch)" style="facade" %}
+{% include video.html youtube_id="YaMaUWTT9JE" title="Voices through Technology" style="facade" %}
 
 {% include image.html src="/assets/img/practice/inclusiveness-of-media-in-east-africa-workshop.jpg" alt="Stakeholder consultative workshop discussion" %}
 {% include image.html src="/assets/img/practice/inclusiveness-of-media-in-east-africa-presentation.jpg" alt="Presentation on disability inclusion in media at a training event" %}

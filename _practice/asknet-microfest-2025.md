@@ -12,18 +12,7 @@ The ASKnet Micro Festival 2025 in close collaboration with Oysters & Pearls Ugan
 
 Here we share some general impressions of the event:
 
-{% comment %}
-  TODO: "general impressions" video is not yet on the #ASKnet YouTube
-  channel - only an internal Google Drive copy exists so far, and per team
-  policy we never embed/link Drive video directly (privacy). Someone else
-  needs to upload it to YouTube first (not done by us, tracked outside
-  this repo).
-
-  Chosen style: "facade" (click-through preview image, see _includes/video.html).
-  Once a YouTube link exists, replace the PLACEHOLDER block below with:
-  {% include video.html youtube_id="<real id>" title="..." style="facade" %}
-{% endcomment %}
-{% include video.html youtube_id="zccmWhQdZAo" title="#ASKnet MicroFest 2025 - general impressions (PLATZHALTER — echtes Video fehlt noch)" style="facade" %}
+{% include video.html youtube_id="LVNyyFbZA7U" title="#ASKnet MicroFest 2025 - general impressions" style="facade" %}
 
 {% include image-row.html src1="/assets/img/practice/asknet-microfest-2025-panel.jpg" src2="/assets/img/practice/asknet-microfest-2025-audience.jpg" %}
 

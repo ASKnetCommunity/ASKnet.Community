@@ -32,9 +32,9 @@ collections:
     output: true
     output_ext: .html
     permalink: /hubs/:path/
-  highlights:
+  practice:
     output: true
-    permalink: /highlights/:title/
+    permalink: /practice/:title/
   stories:
     output: true
     permalink: /stories/:title/
@@ -50,9 +50,9 @@ collections:
 defaults:
   - scope:    # set standard layout for all posts in a collection
       path: ""
-      type: highlights
+      type: practice
     values:
-      layout: page
+      layout: practice
   - scope:    # set standard layout for all posts in a collection
       path: ""
       type: stories
@@ -66,3 +66,6 @@ exclude:
   - LICENSE.text
   - README.md
   - SECURITY.md
+  - HIGHLIGHTS_CONTEXT.md
+  - website_feature_Highlights_tba
+  - vendor

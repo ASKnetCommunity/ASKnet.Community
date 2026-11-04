@@ -1,7 +1,16 @@
+{% comment %}
+  src      (required) image path.
+  caption  (optional) shown both as the visible caption under the image AND
+           as the alt text (unless overridden by `alt`, see below).
+  alt      (optional) alt text only, with no visible caption — use this when
+           the image should be described for accessibility but shouldn't get
+           a printed caption. Ignored (caption wins) if both are given.
+{% endcomment %}
 {% assign caption = include.caption | strip %}
+{% assign alt = caption | default: include.alt %}
 {% assign src = include.src | prepend: site.baseurl %}
 <figure class="text-center">
-  <img src="{{ src }}" alt="{{ caption }}" class="img-fluid rounded">
+  <img src="{{ src }}" alt="{{ alt }}" class="img-fluid rounded">
   {% if caption and caption != "" %}
     <figcaption class="mt-2 text-muted">{{ caption }}</figcaption>
   {% endif %}

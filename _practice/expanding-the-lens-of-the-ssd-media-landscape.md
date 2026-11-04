@@ -1,5 +1,5 @@
 ---
-order: 60
+order: 5
 title: Expanding the Lens of the SSD Media Landscape
 subtitle: True oversight for media development stretches beyond reporting; it is about creatively designing the future. The editor Marina Modi invites you not just to analyze challenges, but to celebrate an expanding sector. Read the PDF version here!
 thumbnail: assets/img/practice/expanding-the-lens-of-the-ssd-media-landscape-thumbnail.jpg

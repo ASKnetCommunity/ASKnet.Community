@@ -19,8 +19,8 @@ platforms:
     text: 'A collaborative platform connecting #ASKnet’s campaigns, OERs and stories to enhance visibility, coordination, and creativity. Network members use #ASKaggregator to share, amplify, and promote their community social media campaigns in real time. Work together to create change by sharing, tweeting, and posting your stories. Participate online to amplify impact, coordinate action, suggest new campaigns, and spark engagement across borders.'
 ---
 
-<div class="row p-5">
-  <h1> Explore our Network</h1>
+<div class="row py-5">
+  <h1> Explore our Platforms!</h1>
 </div>
 
 

@@ -158,6 +158,12 @@
 
 
 
-$('.navbar-nav>li>a').on('click', function(){     // this causes the navbar to collapse when a link is clicked (in mobile view), this is necessary for page-internal (e.g. #about) links
-    $('.navbar-collapse').collapse('hide');
+// $('.navbar-nav>li>a').on('click', function(){     // this causes the navbar to collapse when a link is clicked (in mobile view), this is necessary for page-internal (e.g. #about) links
+//     $('.navbar-collapse').collapse('hide');       // - now solved via data-collapse, but this doesnt work for the dropdown
+// });
+
+$(document).ready(function() { // this causes the navbar to collapse when a link IN THE DROPDOWN is clicked (in mobile view), this is necessary for page-internal (e.g. #about) links
+  $('.dropdown-item').on('click', function(e) {
+    $('.navbar-collapse.show').collapse('hide');
+  });
 });

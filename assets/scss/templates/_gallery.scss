@@ -1,0 +1,27 @@
+/* Image gallery (Bootstrap carousel) */
+
+.gallery-carousel {
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  overflow: hidden;
+
+  .carousel-item img {
+    /* Fallback only — gallery.html sets this inline per-gallery via its `ratio` param. */
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  /* Make the arrow controls visible on light images. */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 8%;
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 50%;
+      padding: 1rem;
+      background-size: 50% 50%;
+    }
+  }
+}

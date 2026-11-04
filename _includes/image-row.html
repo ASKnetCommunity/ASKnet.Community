@@ -1,0 +1,20 @@
+{% comment %}
+  Two images side by side (Bootstrap row), instead of stacked full-width.
+  Each image is rendered through image.html, so caption/alt behave exactly
+  the same as a single image.html call.
+
+  Usage:
+    {% include image-row.html src1="/assets/img/..." src2="/assets/img/..." %}
+
+  Optional per-image params (same meaning as image.html's own params):
+    caption1 / caption2
+    alt1 / alt2
+{% endcomment %}
+<div class="row">
+  <div class="col-6">
+    {% include image.html src=include.src1 caption=include.caption1 alt=include.alt1 %}
+  </div>
+  <div class="col-6">
+    {% include image.html src=include.src2 caption=include.caption2 alt=include.alt2 %}
+  </div>
+</div>

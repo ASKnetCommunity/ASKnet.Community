@@ -1,5 +1,6 @@
 *.gem
 .bundle
+vendor/
 .sass-cache
 .jekyll-cache
 _site
@@ -8,3 +9,5 @@ unused
 bootstrap-reference.html
 */.directory
 .directory
+HIGHLIGHTS_CONTEXT.md
+website_feature_Highlights_tba/

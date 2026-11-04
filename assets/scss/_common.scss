@@ -339,7 +339,7 @@ textarea.form-control{
 }
 
 .page-content {
-  max-width:1000px;
+  max-width:1140px;
   margin: 45px auto;
   padding: 15px;
   min-height: 55vh;
@@ -347,9 +347,6 @@ textarea.form-control{
 
 .page-layout { //set background for body tag only on "layout: page" (like imprint etc.)
   background: url(../../assets/img/tile-light-ochre2.jpg);
-  h2 { //set margin for h2 headings back to bootstrap standard (on front page the h2 margin needs to be bigger)
-    margin-bottom: .5rem;
-  }
 }
 
 /* /page */

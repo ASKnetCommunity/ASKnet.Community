@@ -2,9 +2,9 @@
 layout: hub
 
 title: Koneta Hub
-subtitle: A youth-led organization that is focused on providing community-led solutions to the socio-economic issues affecting our society
+subtitle: Koneta Hub is a youth-led and centered organization in South Sudan focused on leveraging technology and digital skills education to empower the youth. We aim to spark and support innovative ideas and transformation in our nation through the power of innovation to the Sustainable Development Goals (SGDs).
 image: assets/img/hubs/10-koneta-hub-asknet-full.jpeg
-keyphrase: Seeks to impact the lives of people in South Sudan
+keyphrase: "**Mission:** Seeks to impact the lives of people in South Sudan \n \n**Vision:** To spark and support innovative ideas and transformation in our nation."
 location: Juba, South Sudan
 logo-file-name: 10-koneta-hub-logo.png
 social-media:
@@ -20,8 +20,6 @@ caption:
   thumbnail: assets/img/hubs/10-koneta-hub-asknet-thumbnail.jpeg
 ---
 
-KONETA was founded with the aim of responding to the increasingly poor health, poor hygiene and sanitation, unsafe water, and Education challenges affecting many grassroots populations of South Sudan. KONETA is dedicated to supporting vulnerable communities (women, youth, and children being the immediate victims of any natural or man-made shock). We aim at achieving efficient, effective, and sustainable service provision, and to enable women and girls to have a healthy community at all levels. Seeks to impact the lives of people in South Sudan.
+KONETA was founded to address the urgent challenges of poor health, inadequate hygiene and sanitation, unsafe water, and limited access to education affecting grassroots communities across South Sudan. Dedicated to supporting vulnerable groups (especially women, youth, and children), KONETA works to ensure efficient, effective, and sustainable service delivery that fosters healthier, more resilient communities. The organization engages across key sectors including health, education, food security, protection, and WASH, with a strong understanding of both local contexts and operational needs.
 
-We engage in diverse sectors, including health, education, food security, protection and WASH with an understanding of the context of implementation as well organizational day-to-day requirements.
-
-![Koneta]({{ site.baseurl }}/assets/img/hubs/10-koneta-hub-asknet-1.jpeg)
+{% include image.html src="/assets/img/hubs/10-koneta-hub-asknet-1.jpeg" %}

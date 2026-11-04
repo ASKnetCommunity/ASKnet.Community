@@ -15,13 +15,16 @@
           <img src="{{ site.baseurl }}/{{ hub.image }}" alt="hub-alt" class="img-fluid w-100 d-block" />
           <a class="hover-overlay" href="{{ site.baseurl }}{{ hub.url }}">
             <div class="hover-content">
-              <i class=" fas fa-plus fa-3x"></i>
+              {% comment %} <i class=" fas fa-plus fa-3x"></i> {% endcomment %}
             </div>
           </a>
         </div>
-        <div class="caption">
-          <h4>{{ hub.caption.title }}</h4>
-          <p class="text-muted">{{ hub.caption.subtitle }}</p>
+        <div class="caption-wrapper" style="--caption-bg: url('{{ site.baseurl }}/{{ hub.image }}')">
+          <div class="caption-bg"></div>
+          <div class="caption">
+            <h4>{{ hub.caption.title }}</h4>
+            <p class="text-muted">{{ hub.caption.subtitle }}</p>
+          </div>
         </div>
       </div>
       {% endfor %}

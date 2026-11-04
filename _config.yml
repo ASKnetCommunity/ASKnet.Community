@@ -32,14 +32,32 @@ collections:
     output: true
     output_ext: .html
     permalink: /hubs/:path/
-  resources:
+  practice:
+    output: true
+    permalink: /practice/:title/
+  stories:
+    output: true
+    permalink: /stories/:title/
+  resources:   # remove??
     output: true
     output_ext: .html
     permalink: /resources/:path/
-  tools:
+  tools:   # remove??
     output: true
     output_ext: .html
     permalink: /tools/:path/
+
+defaults:
+  - scope:    # set standard layout for all posts in a collection
+      path: ""
+      type: practice
+    values:
+      layout: practice
+  - scope:    # set standard layout for all posts in a collection
+      path: ""
+      type: stories
+    values:
+      layout: story
 
 # Exclude from processing.
 exclude:
@@ -48,3 +66,6 @@ exclude:
   - LICENSE.text
   - README.md
   - SECURITY.md
+  - HIGHLIGHTS_CONTEXT.md
+  - website_feature_Highlights_tba
+  - vendor
